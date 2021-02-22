@@ -6548,7 +6548,11 @@ public final class R {
     public static final int under=0x7f0700a4;
     public static final int under2=0x7f0700a5;
     public static final int user=0x7f0700a6;
-    public static final int work=0x7f0700a7;
+    public static final int w1=0x7f0700a7;
+    public static final int w2=0x7f0700a8;
+    public static final int w3=0x7f0700a9;
+    public static final int w4=0x7f0700aa;
+    public static final int work=0x7f0700ab;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

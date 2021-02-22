@@ -11889,7 +11889,19 @@ namespace Project.Droid
 			public const int user = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int work = 2131165351;
+			public const int w1 = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int w2 = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int w3 = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int w4 = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int work = 2131165355;
 			
 			static Drawable()
 			{

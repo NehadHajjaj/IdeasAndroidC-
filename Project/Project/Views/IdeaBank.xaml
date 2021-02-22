@@ -9,43 +9,56 @@
             <StackLayout  Orientation="Vertical"  BackgroundColor="White">
 
                 <StackLayout
-             
+            
                 Spacing="270"
-                HeightRequest="150"
+                HeightRequest="200"
+                 
                 Orientation="Horizontal">
 
                     <Grid  
-               WidthRequest="40"
+            
                     Margin="25,17,0,0"
              >
                         <Image Source= "back.png" 
-                     Aspect="AspectFit" 
+                              
+                     Aspect="AspectFit"
                            
                           ></Image>
 
                     </Grid>
-                    <Grid Margin="0,16,0,0" 
+                    <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
                     >
 
-                        <Image Source= "image.png" Aspect="AspectFit"/>
+                        <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
 
                     </Grid>
                 </StackLayout>
                 <Grid  HorizontalOptions="Center"
-                     HeightRequest="60"
+                     HeightRequest="100"
                       WidthRequest="320"
-                   Margin="0,0,0,20"
+                 Margin="0"
+                        
                   >
-                    <Label Text="Consultants" FontSize="25"  HorizontalOptions="Center"
+                    <Label  Text="Idea Bank" FontSize="25"  HorizontalOptions="Center"
                    FontAttributes="Bold" />
                 </Grid>
-                <StackLayout Orientation="Vertical" Spacing="5">
+                <StackLayout
+                 
+                    Orientation="Vertical" Spacing="20" Padding="0,0,0,30">
                     
 
                         <Grid
-                    HeightRequest="60"
+                    HeightRequest="120"
                   HorizontalOptions="Center"
-                      WidthRequest="160" Padding="0,20,0,0"
+                      WidthRequest="350"
+                           
                   >
                             <Button BorderRadius="5"
                        HeightRequest="5"
@@ -57,14 +70,14 @@
                BackgroundColor="#89AC8E"
                          
                       
-                        Text="Engineering" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                        Text="Engineering Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
                         </Grid>
                         <Grid 
-                    HeightRequest="60"
+                       HeightRequest="120"
                   HorizontalOptions="Center"
-                      WidthRequest="160" Padding="0,20,0,0"
+                      WidthRequest="350" 
                   >
                             <Button BorderRadius="5"
                        
@@ -73,21 +86,21 @@
                 x:Name="ShopIDSubmit2"
                         TextColor="Black"
                     BorderColor="#D9D9D9"
-                BackgroundColor="#89AC8E"
+                BackgroundColor="#C4DBC7"
                          
                       
-                        Text="Technological" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                        Text="Technological Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
                         </Grid>
 
 
 
-                   
 
-                        <Grid HeightRequest="60"
+
+                <Grid        HeightRequest="120"
                   HorizontalOptions="Center"
-                      WidthRequest="160" Padding="0,20,0,0"
+                      WidthRequest="350"
                   >
                             <Button BorderRadius="5"
                        
@@ -96,16 +109,16 @@
                 x:Name="ShopIDSubmit3"
                         TextColor="Black"
                     BorderColor="#D9D9D9"
-               BackgroundColor="#C4DBC7"
+                BackgroundColor="#89AC8E"
                          
                       
-                        Text="Medical" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                        Text="Medical Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
                         </Grid>
-                        <Grid  HeightRequest="60"
+                <Grid      HeightRequest="120"
                   HorizontalOptions="Center"
-                      WidthRequest="160" Padding="0,20,0,0"
+                      WidthRequest="350" 
                   >
                             <Button BorderRadius="5"
                        
@@ -117,18 +130,18 @@
                 BackgroundColor="#C4DBC7"
                          
                       
-                        Text="Houseware" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                        Text="Houseware Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
                         </Grid>
 
 
 
-                    
 
-                        <Grid  HeightRequest="60"
+
+                <Grid       HeightRequest="120"
                   HorizontalOptions="Center"
-                      WidthRequest="160" Padding="0,20,0,0"
+                      WidthRequest="350" 
                   >
                             <Button BorderRadius="5"
                        
@@ -140,13 +153,13 @@
                BackgroundColor="#89AC8E"
                          
                       
-                        Text="Enviromental" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                        Text="Enviromental Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
                         </Grid>
-                        <Grid  HeightRequest="60"
+                <Grid        HeightRequest="120"
                   HorizontalOptions="Center"
-                      WidthRequest="160" Padding="0,20,0,0"
+                      WidthRequest="350"
                   >
                             <Button BorderRadius="5"
                        
@@ -155,21 +168,21 @@
                 x:Name="ShopIDSubmit6"
                         TextColor="Black"
                     BorderColor="#D9D9D9"
-                BackgroundColor="#89AC8E"
+               BackgroundColor="#C4DBC7"
                          
                       
-                        Text="Transporlation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                        Text="Transporlation Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
                         </Grid>
 
 
 
-                 
 
-                        <Grid  HeightRequest="60"
+
+                <Grid      HeightRequest="120"
                   HorizontalOptions="Center"
-                      WidthRequest="160" Padding="0,20,0,0"
+                      WidthRequest="350" 
                   >
                             <Button BorderRadius="5"
                        
@@ -178,16 +191,16 @@
                 x:Name="ShopIDSubmit7"
                         TextColor="Black"
                     BorderColor="#D9D9D9"
-               BackgroundColor="#C4DBC7"
+           BackgroundColor="#89AC8E"
                          
                       
-                        Text="Machinelearning" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                        Text="Machinelearning Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
                         </Grid>
-                        <Grid  HeightRequest="60"
+                <Grid       HeightRequest="120"
                   HorizontalOptions="Center"
-                      WidthRequest="160" Padding="0,20,0,0"
+                      WidthRequest="350"
                   >
                             <Button BorderRadius="5"
                        
@@ -199,16 +212,36 @@
                 BackgroundColor="#C4DBC7"
                          
                       
-                        Text="InforSecurity" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                        Text="Information Security Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
                         </Grid>
 
 
+                <Grid        HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350" 
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit99"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#89AC8E"
+                         
+                      
+                        Text=" Cloud Computing inventions" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
 
-            
+                </Grid>
 
-                </StackLayout>
+               
+
+
+
+            </StackLayout>
 
             </StackLayout>
 
