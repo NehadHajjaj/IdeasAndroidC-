@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          x:Class="Project.Views.WorkShops"
+   
+             xmlns:Controls="clr-namespace:Project.Helper">
+
+        <ContentPage.Content>
+            <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+                <StackLayout
+              
+                Spacing="270"
+                HeightRequest="90"
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                    <Grid  
+             
+                    Margin="25,17,0,0"
+             >
+                        <Image Source= "back.png" 
+                     Aspect="AspectFit" 
+                           
+                          ></Image>
+
+                    </Grid>
+                    <Grid Margin="0,16,0,0" 
+                    >
+
+                        <Image Source= "image.png" 
+                           WidthRequest="100"
+                           Aspect="AspectFill" />
+
+                    </Grid>
+                </StackLayout>
+                <Grid  HorizontalOptions="Center"
+                     HeightRequest="60"
+                      WidthRequest="320"
+            
+                      
+                  >
+                <Label Text="Workshops" FontSize="25"  HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+                </Grid>
+                <StackLayout
+                      Margin="0,0,0,150"
+                 Orientation="Vertical" Spacing="30">
+                    <StackLayout Orientation="Horizontal"
+                        HorizontalOptions="Center"
+                         Spacing="60
+                         " Padding="0" >
+                        <StackLayout Orientation="Vertical"
+                        HorizontalOptions="Center"
+                         Spacing="10
+                         " Padding="0" >
+                            <Grid
+                    HeightRequest="90"
+                  HorizontalOptions="Center"
+                      WidthRequest="100" Padding="0,20,0,0"
+                  >
+                                <Image 
+                          
+                 Aspect="AspectFill"
+                   
+                            Source="w1.png"/>
+
+                            </Grid>
+                        <Label Text="Workshop1" FontSize="15"  HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical"
+                        HorizontalOptions="Center"
+                         Spacing="10
+                         " Padding="0" >
+                            <Grid
+                    HeightRequest="90"
+                  HorizontalOptions="Center"
+                      WidthRequest="100" Padding="0,20,0,0"
+                  >
+                                <Image 
+                          
+                 Aspect="AspectFill"
+                   
+                            Source="w2.png"/>
+
+                            </Grid>
+                        <Label Text="Workshop2" FontSize="15"  HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+                        </StackLayout>
+
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal"
+                        HorizontalOptions="Center"
+                         Spacing="60
+                         " Padding="0" >
+
+                        <StackLayout Orientation="Vertical"
+                        HorizontalOptions="Center"
+                         Spacing="10
+                         " Padding="0" >
+                            <Grid
+                    HeightRequest="90"
+                  HorizontalOptions="Center"
+                      WidthRequest="100" Padding="0,20,0,0"
+                  >
+                                <Image 
+                          
+                 Aspect="AspectFill"
+                   
+                            Source="w3.png"/>
+
+                            </Grid>
+                        <Label Text="Workshop3" FontSize="15"  HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical"
+                        HorizontalOptions="Center"
+                         Spacing="10
+                         " Padding="0" >
+                            <Grid
+                    HeightRequest="90"
+                  HorizontalOptions="Center"
+                      WidthRequest="100" Padding="0,20,0,0"
+                  >
+                                <Image 
+                          
+                 Aspect="AspectFill"
+                   
+                            Source="w4.png"/>
+
+                            </Grid>
+                        <Label Text="Workshop4" FontSize="15"  HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+                        </StackLayout>
+
+
+
+                    </StackLayout>
+
+
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </ContentPage.Content>
+    </ContentPage>
