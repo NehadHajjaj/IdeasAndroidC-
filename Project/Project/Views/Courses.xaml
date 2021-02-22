@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+         x:Class="Project.Views.Courses"
+   
+             xmlns:Controls="clr-namespace:Project.Helper">
+
+        <ContentPage.Content>
+            <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+                <StackLayout
+             
+                Spacing="270"
+                HeightRequest="150"
+                Orientation="Horizontal">
+
+                    <Grid  
+               WidthRequest="40"
+                    Margin="25,17,0,0"
+             >
+                        <Image Source= "back.png" 
+                     Aspect="AspectFit" 
+                           
+                          ></Image>
+
+                    </Grid>
+                    <Grid Margin="0,16,0,0" 
+                    >
+
+                        <Image Source= "image.png" Aspect="AspectFit"/>
+
+                    </Grid>
+                </StackLayout>
+                <Grid  HorizontalOptions="Center"
+                     HeightRequest="60"
+                      WidthRequest="320"
+                   Margin="0,0,0,20"
+                  >
+                <Label Text="Coursess" FontSize="25"  HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+                </Grid>
+                <StackLayout Orientation="Vertical" Spacing="5">
+                    <StackLayout Orientation="Horizontal"
+                        HorizontalOptions="Center"
+                         Spacing="30
+                         " Padding="0" >
+
+                        <Grid
+                    HeightRequest="60"
+                  HorizontalOptions="Center"
+                      WidthRequest="160" Padding="0,20,0,0"
+                  >
+                        <Image Source="c1.png"/>
+
+                    </Grid>
+                        <Grid 
+                    HeightRequest="60"
+                  HorizontalOptions="Center"
+                      WidthRequest="160" Padding="0,20,0,0"
+                  >
+                        <Image Source="c2.png"/>
+                    </Grid>
+
+
+
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal"
+                        HorizontalOptions="Center"
+                         Spacing="30
+                         " Padding="0" >
+
+                        <Grid HeightRequest="60"
+                  HorizontalOptions="Center"
+                      WidthRequest="160" Padding="0,20,0,0"
+                  >
+                        <Image Source="c3.png"/>
+                    </Grid>
+                        <Grid  HeightRequest="60"
+                  HorizontalOptions="Center"
+                      WidthRequest="160" Padding="0,20,0,0"
+                  >
+                        <Image Source="c4.png"/>
+
+                    </Grid>
+
+
+
+                    </StackLayout>
+
+                   
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </ContentPage.Content>
+    </ContentPage>

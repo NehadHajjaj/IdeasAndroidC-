@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.AddInvetaion"
+   
+             xmlns:Controls="clr-namespace:Project.Helper"
+             xmlns:local="clr-namespace:Project.ViewModel">
+    <ContentPage.BindingContext>
+        <local:AddIdeaViewModel>
+</local:AddIdeaViewModel>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+             
+                Spacing="270"
+                HeightRequest="150"
+                Orientation="Horizontal">
+
+                <Grid  
+               WidthRequest="40"
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                     Aspect="AspectFit" 
+                           
+                          ></Image>
+
+                </Grid>
+                <Grid Margin="0,16,0,0" 
+                    >
+
+                    <Image Source= "image.png" Aspect="AspectFit"/>
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="60"
+                      WidthRequest="320"
+                   Margin="0,0,0,20"
+                  >
+                <Label Text="Inventions" FontSize="25"  HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+            </Grid>
+
+
+
+
+
+
+            <StackLayout Orientation="Vertical" 
+                      
+                        Spacing="5"
+                        >
+                <StackLayout>
+                    <Label Text="name of invention"
+                          
+                           FontSize="15"    Margin="45,0,0,0"/>
+                    <Grid 
+                      
+                  HorizontalOptions="Center"
+                     HeightRequest="80"
+                      WidthRequest="320"
+                  >
+
+                        <Controls:XEditor  
+                               
+                             FontSize="17"  
+                             Text="{Binding Title }"
+                           BackgroundColor="#89AC8E"
+                          x:Name="nameEntry1"
+                           
+                            
+                             PlaceholderColor="#000000"
+                             TextColor="Black"  
+                             FontAttributes="Bold"/>
+
+
+
+                </Grid>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Scientific classification:"  FontSize="15" Margin="45,0,0,0"/>
+                    <Grid 
+                      HorizontalOptions="Center"
+                     HeightRequest="80"
+                      WidthRequest="320"
+                      
+                  >
+
+
+                        <Picker 
+                        Title="scientific classification"
+                             FontSize="13"  
+                             HeightRequest="50"  
+                     BackgroundColor="#89AC8E"
+                             TextColor="Black"  
+                             FontAttributes="Bold"
+                ItemDisplayBinding="{Binding Des}"
+                    x:Name="classifyEntry"
+               SelectedItem="{Binding  SelectedDrop1}" 
+                        ItemsSource="{Binding idealist}"/>
+
+
+
+                    </Grid>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Idea Type:"  FontSize="15" Margin="45,0,0,0"/>
+                    <Grid
+                        HorizontalOptions="Center"
+                     HeightRequest="80"
+                      WidthRequest="320"
+                  >
+
+                        <Picker 
+                        Title="select a type"
+                             FontSize="13"  
+                             HeightRequest="50"  
+                     BackgroundColor="#89AC8E"
+                             TextColor="Black"  
+                             FontAttributes="Bold"
+                ItemDisplayBinding="{Binding type}"
+                    x:Name="typeEntry"
+                   SelectedItem="{Binding  SelectedDrop2}" 
+                    ItemsSource="{Binding idealtype}"/>
+
+                    </Grid>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="state invention:"  FontSize="15" Margin="45,0,0,0"/>
+                    <Grid 
+                      HorizontalOptions="Center"
+                     HeightRequest="80"
+                      WidthRequest="320"  
+                  >
+
+
+                        <Picker 
+                        Title="select a state"
+                             FontSize="13"  
+                             HeightRequest="50"  
+                     BackgroundColor="#89AC8E"
+                             TextColor="Black"  
+                             FontAttributes="Bold"
+                ItemDisplayBinding="{Binding state}"
+                    x:Name="statEntry"
+                   SelectedItem="{Binding  SelectedDrop3}" 
+                    ItemsSource="{Binding idealstate}"/>
+
+
+
+
+
+                    </Grid>
+                </StackLayout>
+
+
+                <StackLayout>
+
+                    <Label Text="Talk about your invention"  FontSize="15" Margin="45,0,0,0"/>
+                    <Grid 
+                      HorizontalOptions="Center"
+                     HeightRequest="250"
+                      WidthRequest="320"  
+                  >
+                        <Frame
+	                      Padding="5"
+	                         CornerRadius="8"
+	                               HasShadow="True"
+	                        OutlineColor="#2196F3">
+                            <Editor BackgroundColor="Transparent" TextColor="Black" />
+                        </Frame>
+                        <Controls:XEditor 
+                            Text="{Binding Description }"
+                           BackgroundColor="#89AC8E"
+                      
+                       
+                       
+                     ></Controls:XEditor>
+
+
+                    </Grid>
+
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal"
+                        HorizontalOptions="Center"
+                         Spacing="20
+                         " Padding="0" Margin="0,0,0,40">
+
+                    <Grid HeightRequest="100"
+                  HorizontalOptions="Center"
+                      WidthRequest="100" Padding="0,20,0,0"
+                  >
+                        <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit1"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#CDCDCD"
+                         Command="{Binding Submit}"
+                      
+                        Text="Submit" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                        </Button>
+
+                    </Grid>
+                    <Grid HeightRequest="100"
+                  HorizontalOptions="Center"
+                      WidthRequest="100" Padding="0,20,0,0"
+                  >
+                        <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit2"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+                BackgroundColor="#CDCDCD"
+                         
+                      Command="{Binding Reset}"
+                        Text="Reset" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                        </Button>
+
+                    </Grid>
+
+
+
+                </StackLayout>
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

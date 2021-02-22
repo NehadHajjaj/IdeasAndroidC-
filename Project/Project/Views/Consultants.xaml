@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          x:Class="Project.Views.Consultants"
+   
+             xmlns:Controls="clr-namespace:Project.Helper">
+
+        <ContentPage.Content>
+            <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+                <StackLayout
+             
+                Spacing="270"
+                HeightRequest="150"
+                Orientation="Horizontal">
+
+                    <Grid  
+               WidthRequest="40"
+                    Margin="25,17,0,0"
+             >
+                        <Image Source= "back.png" 
+                     Aspect="AspectFit" 
+                           
+                          ></Image>
+
+                    </Grid>
+                    <Grid Margin="0,16,0,0" 
+                    >
+
+                        <Image Source= "image.png" Aspect="AspectFit"/>
+
+                    </Grid>
+                </StackLayout>
+                <Grid  HorizontalOptions="Center"
+                     HeightRequest="60"
+                      WidthRequest="320"
+                   Margin="0,0,0,20"
+                  >
+                <Label Text="Consultants" FontSize="25"  HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+                </Grid>
+<StackLayout Orientation="Vertical" Spacing="5">
+            <StackLayout Orientation="Horizontal"
+                        HorizontalOptions="Center"
+                         Spacing="30
+                         " Padding="0" >
+
+                <Grid
+                    HeightRequest="60"
+                  HorizontalOptions="Center"
+                      WidthRequest="160" Padding="0,20,0,0"
+                  >
+                    <Button BorderRadius="5"
+                       HeightRequest="5"
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit1"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#89AC8E"
+                         
+                      
+                        Text="Engineering" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+                <Grid 
+                    HeightRequest="60"
+                  HorizontalOptions="Center"
+                      WidthRequest="160" Padding="0,20,0,0"
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit2"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+                BackgroundColor="#89AC8E"
+                         
+                      
+                        Text="Technological" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+
+
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                        HorizontalOptions="Center"
+                         Spacing="30
+                         " Padding="0" >
+
+                    <Grid HeightRequest="60"
+                  HorizontalOptions="Center"
+                      WidthRequest="160" Padding="0,20,0,0"
+                  >
+                            <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit3"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#C4DBC7"
+                         
+                      
+                        Text="Medical" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                            </Button>
+
+                        </Grid>
+                    <Grid  HeightRequest="60"
+                  HorizontalOptions="Center"
+                      WidthRequest="160" Padding="0,20,0,0"
+                  >
+                            <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit4"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+                BackgroundColor="#C4DBC7"
+                         
+                      
+                        Text="Houseware" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                            </Button>
+
+                        </Grid>
+
+
+
+                    </StackLayout>
+
+            <StackLayout Orientation="Horizontal"
+                        HorizontalOptions="Center"
+                         Spacing="30
+                         " Padding="0">
+
+                    <Grid  HeightRequest="60"
+                  HorizontalOptions="Center"
+                      WidthRequest="160" Padding="0,20,0,0"
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit5"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#89AC8E"
+                         
+                      
+                        Text="Enviromental" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+                    <Grid  HeightRequest="60"
+                  HorizontalOptions="Center"
+                      WidthRequest="160" Padding="0,20,0,0"
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit6"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+                BackgroundColor="#89AC8E"
+                         
+                      
+                        Text="Transporlation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+
+
+
+            </StackLayout>
+
+
+
+
+            <StackLayout Orientation="Horizontal"
+                        HorizontalOptions="Center"
+                         Spacing="30
+                         " Padding="0" Margin="0,0,0,40">
+
+                    <Grid  HeightRequest="60"
+                  HorizontalOptions="Center"
+                      WidthRequest="160" Padding="0,20,0,0"
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit7"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#C4DBC7"
+                         
+                      
+                        Text="Machinelearning" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+                    <Grid  HeightRequest="60"
+                  HorizontalOptions="Center"
+                      WidthRequest="160" Padding="0,20,0,0"
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit8"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+                BackgroundColor="#C4DBC7"
+                         
+                      
+                        Text="InforSecurity" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+
+
+
+            </StackLayout>
+
+            </StackLayout>
+
+        </StackLayout>
+
+        </ContentPage.Content>
+    </ContentPage>

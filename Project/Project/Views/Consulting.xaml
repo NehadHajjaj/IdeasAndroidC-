@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+           x:Class="Project.Views.Consulting"
+   
+             xmlns:Controls="clr-namespace:Project.Helper">
+
+        <ContentPage.Content>
+            <StackLayout  Orientation="Vertical" 
+                          BackgroundColor="White">
+
+                <StackLayout
+             
+                Spacing="270"
+                HeightRequest="150"
+                Orientation="Horizontal">
+
+                    <Grid  
+               WidthRequest="40"
+                    Margin="25,17,0,0"
+             >
+                        <Image Source= "back.png" 
+                     Aspect="AspectFit" 
+                           
+                          ></Image>
+
+                    </Grid>
+                    <Grid Margin="0,16,0,0" 
+                    >
+
+                        <Image Source= "image.png" Aspect="AspectFit"/>
+
+                    </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="60"
+                      WidthRequest="320"
+                   Margin="0" Padding="0"
+                  >
+                <Label Text="Consulting" FontSize="25"  HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+            </Grid>
+
+            <StackLayout Orientation="Vertical"
+                        HorizontalOptions="Center"
+                         Spacing="25
+                         " Padding="0" Margin="0">
+
+                        <Grid HeightRequest="125"
+                  HorizontalOptions="Center"
+                      WidthRequest="230" Padding="0,20,0,0"
+                  >
+                            <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit1"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#89AC8E"
+                         
+                      
+                        Text="General discussions" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                            </Button>
+
+                        </Grid>
+                <Grid HeightRequest="125"
+                  HorizontalOptions="Center"
+                      WidthRequest="230" Padding="0,20,0,0"
+                  >
+                            <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit2"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+                BackgroundColor="#C4DBC7"
+                         
+                      
+                        Text="Consultants" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                            </Button>
+
+                        </Grid>
+
+
+
+                    </StackLayout>
+
+
+            
+
+            </StackLayout>
+
+        </ContentPage.Content>
+    </ContentPage>
