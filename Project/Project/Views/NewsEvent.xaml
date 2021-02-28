@@ -6,38 +6,11 @@
         <ContentPage.Content>
             <StackLayout  Orientation="Vertical"  BackgroundColor="White">
 
-                <StackLayout
-             
-                Spacing="260"
-                HeightRequest="150"
-                Orientation="Horizontal" Margin="0" Padding="0">
-
-                    <Grid  
-             
-                    Margin="25,17,0,0"
-             >
-                        <Image Source= "back.png" 
-                                   WidthRequest="50"
-                     Aspect="AspectFit" 
-                           
-                          ></Image>
-
-                    </Grid>
-                    <Grid Margin="0,20,0,0" 
-                    >
-
-                        <Image Source= "image.png" 
-                      
-                             WidthRequest="150"
-                          
-                           Aspect="AspectFill" />
-
-                    </Grid>
-                </StackLayout>
+              
                 <Grid  HorizontalOptions="Center"
                      HeightRequest="60"
                       WidthRequest="320"
-            
+                  Margin="0,50,0,0"
                       
                   >
                 <Label Text="News&amp;Events"  FontSize="25"  HorizontalOptions="Center"

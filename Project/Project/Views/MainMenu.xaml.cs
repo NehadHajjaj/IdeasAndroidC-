@@ -1,18 +1,20 @@
-﻿using Project.Views;
+﻿using Project.Models;
+using Project.Views;
 using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
-using XFMenu.Models;
 
-namespace XFMenu.Pages
+
+namespace Project.Views
 {
   
-    public partial class MainMenu : MasterDetailPage
+    public partial class MainMenu : MasterDetailPage 
     {
         public List<MainMenuItem> MainMenuItems { get; set; }
 
         public MainMenu()
         {
+           
             // Set the binding context to this code behind.
             BindingContext = this;
 
@@ -34,7 +36,7 @@ namespace XFMenu.Pages
 
             // Set the default page, this is the "home" page.
             Detail = new NavigationPage(new Home()) { BarBackgroundColor = Color.FromHex("C4DBC7") };
-           
+
             InitializeComponent();
         }
 
@@ -46,44 +48,39 @@ namespace XFMenu.Pages
     		{
     			if (item.Title.Equals("User Profile"))
     			{
-    				Detail =
-                        new NavigationPage((new Profile()))
-                        {
-                            BarBackgroundColor = Color.White,
-                        }; 
+                    Detail =
+                        new NavigationPage((new Profile()));
+                        
                    
     			}
     			else if (item.Title.Equals("Courses"))
     			{
-    				Detail =  new NavigationPage(new Courses())
-                    {
-                        BarBackgroundColor = Color.White,
-                    };
+                    Detail = new NavigationPage(new Courses());
+                   
                  
     			}
                 else if (item.Title.Equals("Workshops"))
                 {
-                    Detail = new NavigationPage(new WorkShops())
-                    {
-                        BarBackgroundColor = Color.White,
-                    };
+                    Detail = new NavigationPage(new WorkShops());
+                  
 
                 }
                 else if (item.Title.Equals("New&Event"))
                 {
-                    Detail = new NavigationPage(new NewsEvent())
-                    {
-                        BarBackgroundColor = Color.White,
-                    };
+                    Detail = new NavigationPage(new NewsEvent());
+                   
 
                 }
                 else if (item.Title.Equals("Consulting"))
                 {
-                    Detail = new NavigationPage(new Consulting())
-                    {
-                        BarBackgroundColor = Color.White,
+                    Detail = new NavigationPage(new Consulting());
                    
-                    };
+
+                }
+                else if (item.Title.Equals("Log Out"))
+                {
+                    Detail = new NavigationPage(new Home());
+
 
                 }
 

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace XFMenu.Models
+namespace Project.Models
 {
     public class MainMenuItem
     {

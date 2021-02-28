@@ -80,6 +80,7 @@ namespace Project.Services
 			content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 
 			var response = await client.PostAsync(Constants.BaseApiAddress + "api/Account/ChangeEmail", content);
+		
 		}
 		public async Task ChangePassAsync(NPass npass, string accessToken)
 		{

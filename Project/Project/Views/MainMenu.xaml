@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-                  x:Class="XFMenu.Pages.MainMenu">
+                  x:Class="Project.Views.MainMenu">
 
     <MasterDetailPage.Master>
         <ContentPage Title="Menu"
-                 >
+             >
 
             <StackLayout Orientation="Vertical">
-
+               
                 <!-- 
              This StackLayout you can use for other
              data that you want to have in your menu drawer
@@ -29,7 +29,7 @@
                           SeparatorVisibility="None" 
                           HasUnevenRows="true" 
                        
-                  
+
                   RowHeight="60"
                   BackgroundColor="white"
                  >
@@ -37,7 +37,6 @@
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-
                                 <!-- Main design for our menu items -->
                                 <StackLayout VerticalOptions="FillAndExpand"
                              Orientation="Horizontal"

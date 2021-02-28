@@ -16,17 +16,28 @@
         <StackLayout 
         
             BackgroundColor="White" Padding="0" Margin="0">
-            
 
-         
-           
+
+            <StackLayout
+               
+               WidthRequest="200"
+                HeightRequest="100"
+                HorizontalOptions="CenterAndExpand"
+                Orientation="Horizontal" Padding="0" Margin="0,40,0,0">
+                <Image
+                    Aspect="AspectFit"
+                    HeightRequest="100"
+                    Source="image.png" Margin="60,0,0,0"></Image>
+
+            </StackLayout>
+
 
             <StackLayout Orientation="Vertical" 
                            
                          HeightRequest="150"
                          
                         WidthRequest="100"
-                         Spacing="3" Margin="0,150,0,0" Padding="0" 
+                         Spacing="3" Margin="0,0,0,0" Padding="0" 
                         >
                 <Label Text="Do you have an invetaion?" FontSize="Title"  HorizontalOptions="Center"
         />
@@ -80,7 +91,7 @@
                         WidthRequest="50"
                         HeightRequest="50"
                         BorderWidth="1"
-                            
+                       
                 x:Name="IdeaBank"
                             Clicked="IdeaBank_Clicked"
                         TextColor="Black"

@@ -22,9 +22,6 @@
     <Compile Update="Views\Eng8.xaml.cs">
       <DependentUpon>Eng8.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\subb.xaml.cs">
-      <DependentUpon>subb.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -80,9 +77,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Profile.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\subb.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\WorkShops.xaml">

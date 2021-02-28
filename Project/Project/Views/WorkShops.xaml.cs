@@ -15,6 +15,7 @@ namespace Project.Views
         public WorkShops()
         {
             InitializeComponent();
+
         }
     }
 }

@@ -8,20 +8,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Project.Views.subb.xaml", "Views/subb.xaml", typeof(global::Project.Views.subb))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Project.Views.MainMenu.xaml", "Views/MainMenu.xaml", typeof(global::Project.Views.MainMenu))]
 
 namespace Project.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\subb.xaml")]
-    public partial class subb : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\MainMenu.xaml")]
+    public partial class MainMenu : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.ListView MenuListView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(subb));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainMenu));
             MenuListView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "MenuListView");
         }
     }

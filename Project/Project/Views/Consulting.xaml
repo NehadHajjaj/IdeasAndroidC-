@@ -9,33 +9,11 @@
             <StackLayout  Orientation="Vertical" 
                           BackgroundColor="White">
 
-                <StackLayout
-             
-                Spacing="270"
-                HeightRequest="150"
-                Orientation="Horizontal">
-
-                    <Grid  
-               WidthRequest="40"
-                    Margin="25,17,0,0"
-             >
-                        <Image Source= "back.png" 
-                     Aspect="AspectFit" 
-                           
-                          ></Image>
-
-                    </Grid>
-                    <Grid Margin="0,16,0,0" 
-                    >
-
-                        <Image Source= "image.png" Aspect="AspectFit"/>
-
-                    </Grid>
-            </StackLayout>
+            
             <Grid  HorizontalOptions="Center"
                      HeightRequest="60"
                       WidthRequest="320"
-                   Margin="0" Padding="0"
+                      Margin="0,100,0,0"
                   >
                 <Label Text="Consulting" FontSize="25"  HorizontalOptions="Center"
                    FontAttributes="Bold" />

@@ -56,13 +56,11 @@ C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng1.xaml.g.cs
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\EngineeringInventions.xaml.g.cs
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng2.xaml.g.cs
-C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Pages\MainMenu.xaml.g.cs
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng3.xaml.g.cs
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng4.xaml.g.cs
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng5.xaml.g.cs
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng6.xaml.g.cs
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng7.xaml.g.cs
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng9.xaml.g.cs
-C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\subb.xaml.g.cs
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng8.xaml.g.cs
-C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Project.csprojAssemblyReference.cache
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\MainMenu.xaml.g.cs
