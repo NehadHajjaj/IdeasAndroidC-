@@ -2,6 +2,7 @@
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XFMenu.Pages;
 
 namespace Project
 {
@@ -10,7 +11,7 @@ namespace Project
         public App()
         {
             InitializeComponent();
-            MainPage = new Form();
+            MainPage = new MainMenu();
         }
 
         protected override void OnStart()

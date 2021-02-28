@@ -29,7 +29,6 @@ C:\Users\Noor\Documents\ProjectFE\Project\Project\bin\Debug\netstandard2.0\Proje
 C:\Users\Noor\Documents\ProjectFE\Project\Project\bin\Debug\netstandard2.0\Project.dll
 C:\Users\Noor\Documents\ProjectFE\Project\Project\bin\Debug\netstandard2.0\ref\Project.dll
 C:\Users\Noor\Documents\ProjectFE\Project\Project\bin\Debug\netstandard2.0\Project.pdb
-C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Project.csprojAssemblyReference.cache
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\AddInvetaion.xaml.g.cs
@@ -52,3 +51,18 @@ C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\XamlC
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Project.dll
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\ref\Project.dll
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Project.pdb
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Profile.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\NewsEvent.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng1.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\EngineeringInventions.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng2.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Pages\MainMenu.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng3.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng4.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng5.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng6.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng7.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng9.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\subb.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\Eng8.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Project.csprojAssemblyReference.cache

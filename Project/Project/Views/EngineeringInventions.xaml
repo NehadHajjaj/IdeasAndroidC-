@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.EngineeringInventions">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="200"
+                 
+                Orientation="Horizontal">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          ></Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="100"
+                      WidthRequest="320"
+                 Margin="0"
+                        
+                  >
+                <Label  Text="Engineering inventions:" FontSize="25"  HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+            </Grid>
+            <StackLayout
+                 
+                    Orientation="Vertical" Spacing="20" Padding="0,0,0,30">
+
+
+                <Grid
+                    HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                           
+                  >
+                    <Button BorderRadius="5"
+                       HeightRequest="5"
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit1"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#89AC8E"
+                         Clicked="ShopIDSubmit1_Clicked"
+                      
+                        Text="Create a car radar to see obstacles behind corners and on side streets" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+                <Grid 
+                       HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350" 
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit2"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+                BackgroundColor="#C4DBC7"
+                         Clicked="ShopIDSubmit2_Clicked"
+                      
+                        Text="Delivery robots " FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+
+
+
+
+
+                <Grid        HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit3"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+                BackgroundColor="#89AC8E"
+                         
+                      Clicked="ShopIDSubmit3_Clicked"
+                        Text="Amphibious aircraft " FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+                <Grid      HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350" 
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit4"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+                BackgroundColor="#C4DBC7"
+                         
+                      Clicked="ShopIDSubmit4_Clicked"
+                        Text="Protecting air passengers from Corona infection " FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+
+
+
+
+
+                <Grid       HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350" 
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            Clicked="ShopIDSubmit5_Clicked"
+                x:Name="ShopIDSubmit5"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#89AC8E"
+                         
+                      
+                        Text="Library Management System " FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+                <Grid        HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            Clicked="ShopIDSubmit6_Clicked"
+                x:Name="ShopIDSubmit6"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#C4DBC7"
+                         
+                      
+                        Text=" ATM System based on Fingerprint " FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+
+
+
+
+
+                <Grid      HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350" 
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                          Clicked="ShopIDSubmit7_Clicked"  
+                x:Name="ShopIDSubmit7"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+           BackgroundColor="#89AC8E"
+                         
+                      
+                        Text="Smart Elevator" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+                <Grid       HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                          Clicked="ShopIDSubmit8_Clicked"  
+                x:Name="ShopIDSubmit8"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+                BackgroundColor="#C4DBC7"
+                         
+                      
+                        Text=" Hour Glass LED Traffic Lights " FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+
+
+                <Grid        HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350" 
+                  >
+                    <Button BorderRadius="5"
+                       Clicked="ShopIDSubmit99_Clicked_1"
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit99"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#89AC8E"
+                         
+                      
+                        Text="A heat/cold charging device" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

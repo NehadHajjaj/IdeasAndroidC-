@@ -23,5 +23,10 @@ namespace Project.Views
             Navigation.PushModalAsync(new AddInvetaion());
 
         }
+
+        private void IdeaBank_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new IdeaBank());
+        }
     }
 }

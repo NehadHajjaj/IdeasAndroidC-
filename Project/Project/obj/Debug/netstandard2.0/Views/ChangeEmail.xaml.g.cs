@@ -20,7 +20,7 @@ namespace Project.Views {
         private global::Project.Helper.XEditor nameEntry;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Project.Helper.XEditor txtpassword;
+        private global::Project.Helper.XEditor confirm;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Button ShopIDSubmit1;
@@ -32,7 +32,7 @@ namespace Project.Views {
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ChangeEmail));
             nameEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Project.Helper.XEditor>(this, "nameEntry");
-            txtpassword = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Project.Helper.XEditor>(this, "txtpassword");
+            confirm = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Project.Helper.XEditor>(this, "confirm");
             ShopIDSubmit1 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "ShopIDSubmit1");
             ShopIDSubmit2 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "ShopIDSubmit2");
         }

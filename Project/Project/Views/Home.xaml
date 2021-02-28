@@ -18,21 +18,7 @@
             BackgroundColor="White" Padding="0" Margin="0">
             
 
-            <StackLayout
-                Orientation="Horizontal">
-                <Grid 
-                     WidthRequest="180" 
-             
-                    Margin="270,5,0,0">
-                    
-                    <Image Source= "image.png"
-                
-       Aspect="AspectFit">
-
-                    </Image>
-                </Grid>
-
-            </StackLayout>
+         
            
 
             <StackLayout Orientation="Vertical" 
@@ -40,7 +26,7 @@
                          HeightRequest="150"
                          
                         WidthRequest="100"
-                         Spacing="3" Margin="0" Padding="0" 
+                         Spacing="3" Margin="0,150,0,0" Padding="0" 
                         >
                 <Label Text="Do you have an invetaion?" FontSize="Title"  HorizontalOptions="Center"
         />
@@ -95,7 +81,8 @@
                         HeightRequest="50"
                         BorderWidth="1"
                             
-                x:Name="ShopIDSubmit2"
+                x:Name="IdeaBank"
+                            Clicked="IdeaBank_Clicked"
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                 BackgroundColor="#C4DBC7"          

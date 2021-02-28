@@ -16,5 +16,10 @@ namespace Project.Views
         {
             InitializeComponent();
         }
+
+        private void ShopIDSubmit1_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new EngineeringInventions());
+        }
     }
 }

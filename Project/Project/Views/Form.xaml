@@ -16,7 +16,7 @@
     
           
                 Orientation="Horizontal" Margin="0,10,0,0"  >
-                
+
                 <Label Text="Application form" FontSize="20"  VerticalOptions="Center"
                    FontAttributes="Bold" Margin="130,50,0,0" Padding="0" />
 
@@ -33,20 +33,20 @@
                              Aspect="AspectFill"/>
 
                 </Grid>
-                
+
             </StackLayout>
             <StackLayout
                 HorizontalOptions="Center"
                      HeightRequest="50"
                       WidthRequest="350"
                 >
-           
-            
-             
-              
+
+
+
+
                 <Label Text="Please fill this form to be a member in our club " FontSize="15"  HorizontalOptions="Center"
                    FontAttributes="Bold" Padding="0" />
-          
+
 
             </StackLayout>
 
@@ -121,13 +121,13 @@
                   HorizontalOptions="Center" Margin="50,0,0,0"
                    
                   >
-                       
+
                         <RadioButton
                               IsChecked="{Binding female}"
                             FontSize="13"
                         Content="Female ">
 
-                    </RadioButton>
+                        </RadioButton>
                     </Grid>
                     <Grid 
                       
@@ -138,8 +138,8 @@
                             IsChecked="{Binding male}"
                         Content="Male">
 
-                    </RadioButton>
-                        </Grid>
+                        </RadioButton>
+                    </Grid>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Spacing="25">
                     <Label Text="Date of Birth:" 
@@ -164,11 +164,11 @@
             MaximumDate="12/31/2018"
            Date="{Binding SelectedDate}"/>
 
-                            
+
                         </Frame>
 
                     </Grid>
-                  
+
                 </StackLayout>
 
 
@@ -319,14 +319,14 @@
                            FontSize="15"
                           
                               />
-                   
+
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" >
-                   
+
                     <CheckBox 
                          Margin="50,3,0,0"
                         IsChecked="{Binding term}" />
-                   
+
                     <Grid 
                       
                   HorizontalOptions="Center"
@@ -365,7 +365,7 @@
                         </Button>
 
                     </Grid>
-                   
+
 
 
 

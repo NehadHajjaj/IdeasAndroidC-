@@ -30,6 +30,7 @@ foreground;obj\Debug\100\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\100\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\lp\46\jl\res\layout\bottomtablayout.xml
 item;C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\lp\46\jl\res\values\styles.xml
+item;obj\Debug\100\res\values\styles.xml
 LinearLayout;C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\lp\46\jl\res\layout\bottomtablayout.xml
 paths;C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\lp\45\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\lp\46\jl\res\values\attrs.xml

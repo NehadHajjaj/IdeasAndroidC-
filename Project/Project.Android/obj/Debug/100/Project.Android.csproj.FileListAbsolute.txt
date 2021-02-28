@@ -1222,3 +1222,11 @@ C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\stamp\_C
 C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\stamp\_GenerateJavaStubs.stamp
 C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\res\drawable\like.png
+C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\res\drawable\prof.png
+C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\res\drawable\lock.png
+C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\res\drawable\hamburger_menu.png
+C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\res\drawable\icon.png
+C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\res\drawable\menu_inbox.png
+C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\res\drawable\menu_stock.png
+C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\res\drawable\menu.png

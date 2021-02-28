@@ -168,7 +168,7 @@
                  
                             <RadioButton   
                       GroupName="Remember"   
-                            IsChecked="False"   
+                              IsChecked="{Binding IsStudent}" 
                          />
 
                         <Label Text="Student"  FontSize="15" Margin="0,0,80,0" Padding="0,3,0,0" 

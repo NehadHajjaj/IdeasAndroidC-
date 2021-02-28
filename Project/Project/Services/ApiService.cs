@@ -14,7 +14,7 @@ namespace Project.Services
 {
 	public class ApiService
 	{
-		public async Task<bool> RegisterUserAsync(String username, String email, String password, String confirmpassword)
+		public async Task<bool> RegisterUserAsync(String username, String email, String password, String confirmpassword , bool isstudent)
 		{
 		
 				//var client = new HttpClient();
@@ -25,7 +25,8 @@ namespace Project.Services
 				Email = email,
 				Username = username,
 				Password = password,
-				ConfirmPassword = confirmpassword
+				ConfirmPassword = confirmpassword,
+				IsStudent = isstudent
 
 			};
 
@@ -69,7 +70,31 @@ namespace Project.Services
 
 			var response = await client.PostAsync(Constants.BaseApiAddress + "api/Account/PostInfo", content);
 		}
-		
+		public async Task ChangeEmailAsync(NEmail nemail, string accessToken)
+		{
+			var client = new HttpClient();
+			client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+			var json = JsonConvert.SerializeObject(nemail);
+			HttpContent content = new StringContent(json);
+			content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+			var response = await client.PostAsync(Constants.BaseApiAddress + "api/Account/ChangeEmail", content);
+		}
+		public async Task ChangePassAsync(NPass npass, string accessToken)
+		{
+			var client = new HttpClient();
+			client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+			var json = JsonConvert.SerializeObject(npass);
+			HttpContent content = new StringContent(json);
+			content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+			var response = await client.PostAsync(Constants.BaseApiAddress + "api/Account/ChangePassword", content);
+		}
+
+
+
 
 
 

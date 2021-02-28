@@ -77,7 +77,8 @@ namespace Project.ViewModel
 						AcademicQualification= AcademicQualification
 
 					};
-					await _apiService.PostUserAsync(userinfo, Settings.AccessToken);
+				Mobile = Settings.Mobile;
+				await _apiService.PostUserAsync(userinfo, Settings.AccessToken);
 					await Application.Current.MainPage.Navigation.PushModalAsync(new Home());
 				}
 			}

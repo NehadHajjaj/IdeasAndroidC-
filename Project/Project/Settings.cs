@@ -28,6 +28,11 @@ namespace Project
 			get => AppSettings.GetValueOrDefault("Password", "");
 			set => AppSettings.AddOrUpdateValue("Password", value);
 		}
+		public static string Mobile
+		{
+			get => AppSettings.GetValueOrDefault("Mobile", "");
+			set => AppSettings.AddOrUpdateValue("Mobile", value);
+		}
 		public static string AccessToken
 		{
 			get => AppSettings.GetValueOrDefault("AccessToken", "");

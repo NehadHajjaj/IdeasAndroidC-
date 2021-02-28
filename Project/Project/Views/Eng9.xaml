@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.Eng9">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+               
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          ></Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="50"
+                      WidthRequest="350"
+                   
+                 Margin="0,0,0,10" Padding="0,0,10,0"
+                        
+                  >
+                <Label  Text="A heat/cold charging device" FontSize="25"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="0" />
+            </Grid>
+            <StackLayout
+                 Padding="15,0,0,0"
+                    Orientation="Vertical" Spacing="0" 
+               Margin="0,0,0,0">
+                <Label Text="Epiphany One Puck uses a heat
+ disparity concept to transform heat
+energy to electrical energy. The red 
+side of the puck should be used for
+hot beverage and the blue one for 
+your cold drink. Place it on the 
+platform and 30 seconds later you 
+can charge your phone and enjoy" FontSize="20"/>
+
+
+
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Label Text="your drink, of course"  FontSize="20"/>
+                    <Image Source="like.png"
+                       WidthRequest="30"></Image>
+                </StackLayout>
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

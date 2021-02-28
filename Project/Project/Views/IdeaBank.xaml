@@ -68,7 +68,7 @@
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                BackgroundColor="#89AC8E"
-                         
+                         Clicked="ShopIDSubmit1_Clicked"
                       
                         Text="Engineering Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>

@@ -17,6 +17,8 @@ namespace Project.Models
         public string Username { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
+        public bool IsStudent { get; set; }
+        public bool Student { get; set; }
         public ICommand RegisterCommand { get; set; }
         public RegisterViewModel (){
             RegisterCommand = new Command<string>((arg) => OpenPage(arg));}
@@ -28,7 +30,9 @@ namespace Project.Models
            
             } 
             else {
-                var isRegistered = await _apiService.RegisterUserAsync(Username ,Email, Password, ConfirmPassword);
+                if (IsStudent) { Student = true; }
+                else { Student = false; }
+                var isRegistered = await _apiService.RegisterUserAsync(Username ,Email, Password, ConfirmPassword, Student);
                 Settings.Email = Email;
                  Settings.Username = Username;
                  Settings.Password = Password;

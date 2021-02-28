@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+           x:Class="Project.Views.NewsEvent">
+
+        <ContentPage.Content>
+            <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+                <StackLayout
+             
+                Spacing="260"
+                HeightRequest="150"
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                    <Grid  
+             
+                    Margin="25,17,0,0"
+             >
+                        <Image Source= "back.png" 
+                                   WidthRequest="50"
+                     Aspect="AspectFit" 
+                           
+                          ></Image>
+
+                    </Grid>
+                    <Grid Margin="0,20,0,0" 
+                    >
+
+                        <Image Source= "image.png" 
+                      
+                             WidthRequest="150"
+                          
+                           Aspect="AspectFill" />
+
+                    </Grid>
+                </StackLayout>
+                <Grid  HorizontalOptions="Center"
+                     HeightRequest="60"
+                      WidthRequest="320"
+            
+                      
+                  >
+                <Label Text="News&amp;Events"  FontSize="25"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0,10,0,0" />
+                </Grid>
+            <StackLayout Orientation="Vertical" 
+                           
+                         HeightRequest="550"
+                       
+                         Spacing="30" Margin="0,30,0,0" Padding="0" 
+                        >
+                <Grid HeightRequest="80"
+                  HorizontalOptions="Center"
+                      WidthRequest="320"
+                      
+                  >
+
+                    <Label
+                            FontSize="17"  
+                             HeightRequest="50"  
+                              BackgroundColor="#89AC8E"
+                           x:Name="new1"
+                             TextColor="Black"  
+                             FontAttributes="Bold"/>
+
+
+
+                </Grid>
+                <Grid HeightRequest="80"
+                  HorizontalOptions="Center"
+                      WidthRequest="320"
+                      
+                  >
+
+                    <Label
+                            FontSize="17"  
+                             HeightRequest="50"  
+                              BackgroundColor="#C4DBC7"
+                             x:Name="event1"
+                             TextColor="Black"  
+                             FontAttributes="Bold"/>
+
+
+
+                </Grid>
+                <Grid HeightRequest="80"
+                  HorizontalOptions="Center"
+                      WidthRequest="320"
+                      
+                  >
+
+                    <Label
+                            FontSize="17"  
+                             HeightRequest="50"  
+                              BackgroundColor="#89AC8E"
+                              x:Name="new2"
+                             TextColor="Black"  
+                             FontAttributes="Bold"/>
+
+
+
+                </Grid>
+                <Grid HeightRequest="80"
+                  HorizontalOptions="Center"
+                      WidthRequest="320"
+                      
+                  >
+
+                    <Label
+                            FontSize="17"  
+                             HeightRequest="50"  
+                              BackgroundColor="#C4DBC7"
+                             x:Name="event2"
+                             TextColor="Black"  
+                             FontAttributes="Bold"/>
+
+
+
+                </Grid>
+                
+
+
+
+
+
+
+
+
+
+            </StackLayout>
+
+            </StackLayout>
+
+        </ContentPage.Content>
+    </ContentPage>

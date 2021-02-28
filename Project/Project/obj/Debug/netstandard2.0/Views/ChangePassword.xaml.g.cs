@@ -17,10 +17,10 @@ namespace Project.Views {
     public partial class ChangePassword : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Project.ForEntry.CustomEntry nameEntry;
+        private global::Project.Helper.XEditor nameEntry;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Project.ForEntry.CustomEntry txtpassword;
+        private global::Project.Helper.XEditor txtpassword;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Button ShopIDSubmit1;
@@ -31,8 +31,8 @@ namespace Project.Views {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ChangePassword));
-            nameEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Project.ForEntry.CustomEntry>(this, "nameEntry");
-            txtpassword = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Project.ForEntry.CustomEntry>(this, "txtpassword");
+            nameEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Project.Helper.XEditor>(this, "nameEntry");
+            txtpassword = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Project.Helper.XEditor>(this, "txtpassword");
             ShopIDSubmit1 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "ShopIDSubmit1");
             ShopIDSubmit2 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "ShopIDSubmit2");
         }

@@ -4,13 +4,16 @@
             x:Class="Project.Views.ChangeEmail"
 
                xmlns:Controls="clr-namespace:Project.Helper"
+                 xmlns:Models="clr-namespace:Project.ViewModel"
              Visual="Material"
            
              
             >
+    <ContentPage.BindingContext>
+        <Models:ChangeEmailViewModel/>
+    </ContentPage.BindingContext>
 
-
-        <ContentPage.Content>
+    <ContentPage.Content>
             <StackLayout   BackgroundColor="White" Padding="0,0,0,150">
 
                 <StackLayout
@@ -67,7 +70,7 @@
                     BackgroundColor="#89AC8E"
                     x:Name="nameEntry"
                              Placeholder="your Email"
-                             Text="{Binding Username}"
+                             Text="{Binding OldEmail}"
                              PlaceholderColor="#000000"
                              TextColor="Black"  
                              FontAttributes="Bold"/>
@@ -88,7 +91,7 @@
                     BackgroundColor="#89AC8E"
                     
                              Placeholder="New Email"
-                             Text="{Binding Email}"
+                             Text="{Binding NewEmail}"
                              PlaceholderColor="#000000"
                              TextColor="Black"  
                              FontAttributes="Bold"
@@ -114,8 +117,8 @@
                            MaxLength="50"
                              FontSize="17"  
                              HeightRequest="50" 
-                        x:Name="txtpassword"
-                    Text="{Binding Password}" 
+                        x:Name="confirm"
+                    Text="{Binding ConfirmEmail}" 
                        
                    
                       BackgroundColor="#89AC8E"
@@ -154,7 +157,7 @@
                     BorderColor="#D9D9D9"
                BackgroundColor="#CDCDCD"
                          
-                      
+                     Command="{Binding Save}"
                         Text="Save" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
@@ -173,7 +176,7 @@
                     BorderColor="#D9D9D9"
                 BackgroundColor="#CDCDCD"
                          
-                      
+                          Command="{Binding Reset}"
                         Text="Reset" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
