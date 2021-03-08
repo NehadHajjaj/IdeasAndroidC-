@@ -6,11 +6,50 @@
         <ContentPage.Content>
             <StackLayout  Orientation="Vertical"  BackgroundColor="White">
 
-              
-                <Grid  HorizontalOptions="Center"
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+                 
+                Orientation="Horizontal">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
                      HeightRequest="60"
                       WidthRequest="320"
-                  Margin="0,50,0,0"
+                  Margin="0,20,0,0"
                       
                   >
                 <Label Text="News&amp;Events"  FontSize="25"  HorizontalOptions="Center"
@@ -29,7 +68,8 @@
                   >
 
                     <Label
-                            FontSize="17"  
+                            Padding="12,12,0,0"
+                            FontSize="20"  
                              HeightRequest="50"  
                               BackgroundColor="#89AC8E"
                            x:Name="new1"
@@ -46,7 +86,8 @@
                   >
 
                     <Label
-                            FontSize="17"  
+                        Padding="12,12,0,0"
+                            FontSize="20"  
                              HeightRequest="50"  
                               BackgroundColor="#C4DBC7"
                              x:Name="event1"
@@ -63,7 +104,9 @@
                   >
 
                     <Label
-                            FontSize="17"  
+                         Padding="12,12,0,0"
+                            FontSize="20"  
+                             
                              HeightRequest="50"  
                               BackgroundColor="#89AC8E"
                               x:Name="new2"
@@ -80,7 +123,8 @@
                   >
 
                     <Label
-                            FontSize="17"  
+                        Padding="12,12,0,0"
+                            FontSize="20"   
                              HeightRequest="50"  
                               BackgroundColor="#C4DBC7"
                              x:Name="event2"

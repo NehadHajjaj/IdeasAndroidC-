@@ -16,7 +16,8 @@
                 <StackLayout BackgroundColor="#C4DBC7"
                      HeightRequest="150">
                     <Image Source="pic.png" Margin="0,20,0,0"></Image>
-                    <Label  Text="jksdf" FontSize="20" FontAttributes="Bold"
+                    
+                    <Label  x:Name="user" FontSize="20" FontAttributes="Bold"
                          HorizontalTextAlignment="Center"></Label>
                   
                 </StackLayout>

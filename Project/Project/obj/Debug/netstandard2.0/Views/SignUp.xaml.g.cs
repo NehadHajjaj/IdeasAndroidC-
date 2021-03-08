@@ -17,20 +17,32 @@ namespace Project.Views {
     public partial class SignUp : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Project.ForEntry.CustomEntry nameEntry;
+        private global::Xamarin.Forms.Label label13;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Project.ForEntry.CustomEntry txtpassword;
+        private global::Project.Helper.XEditor nameEntry;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Button ShopIDSubmit1;
+        private global::Project.Helper.XEditor txtpassword;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Label label15;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Label label16;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button label14;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SignUp));
-            nameEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Project.ForEntry.CustomEntry>(this, "nameEntry");
-            txtpassword = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Project.ForEntry.CustomEntry>(this, "txtpassword");
-            ShopIDSubmit1 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "ShopIDSubmit1");
+            label13 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "label13");
+            nameEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Project.Helper.XEditor>(this, "nameEntry");
+            txtpassword = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Project.Helper.XEditor>(this, "txtpassword");
+            label15 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "label15");
+            label16 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "label16");
+            label14 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "label14");
         }
     }
 }

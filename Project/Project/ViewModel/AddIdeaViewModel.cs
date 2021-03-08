@@ -1,4 +1,5 @@
-﻿using Project.Model;
+﻿using Project.Helper;
+using Project.Model;
 using Project.Services;
 using Project.Views;
 using System;
@@ -109,25 +110,47 @@ namespace Project.ViewModel
 
 		private async void OpenPage(string value)
 		{
-			if (string.IsNullOrWhiteSpace(Title) || string.IsNullOrWhiteSpace(Description) || IdeaType ==0 || IdeaState == 0 || ScientificClassification ==0)
+
+
+			if (string.IsNullOrWhiteSpace(Title) || string.IsNullOrWhiteSpace(Description) || IdeaType == 0 || IdeaState == 0 || ScientificClassification == 0)
 			{
 				await App.Current.MainPage.DisplayAlert("Error", "Please Fill the Fields", "Ok");
 
 			}
 			else
+			 if (Settings.AccessToken == "")
 			{
-				var idea = new Idea
+				await App.Current.MainPage.DisplayAlert("Error", "You arent Authorized", "Ok");
+				await Application.Current.MainPage.Navigation.PushModalAsync(new LoginPage());
+			}
+			else
+			{
 				{
-					Title = Title,
-					Description = Description,
-					IdeaType = IdeaType,
-					IdeaState = IdeaState,
-					ScientificClassification = ScientificClassification,
-					
-					
-				};
-				await _apiService.PostIdeaAsync(idea, Settings.AccessToken);
-				await Application.Current.MainPage.Navigation.PushModalAsync(new Home());
+					var idea = new Idea
+					{
+						Title = Title,
+						Description = Description,
+						IdeaType = IdeaType,
+						IdeaState = IdeaState,
+						ScientificClassification = ScientificClassification,
+
+
+					};
+					DependencyService.Get<IProgressInterface>().Show();
+					var isAutho = await _apiService.PostIdeaAsync(idea, Settings.AccessToken);
+					DependencyService.Get<IProgressInterface>().Hide();
+					if (isAutho)
+					{
+						await Application.Current.MainPage.Navigation.PushModalAsync(new MainMenu());
+					}
+					else
+					{
+						await App.Current.MainPage.DisplayAlert("Error", "You Arent Authorized, Pleas Login", "Ok");
+						await Application.Current.MainPage.Navigation.PushModalAsync(new LoginPage());
+
+					}
+
+				}
 			}
 		}
 

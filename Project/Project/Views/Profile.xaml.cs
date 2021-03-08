@@ -24,8 +24,10 @@ namespace Project.Views
 
            
         InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
             FetchData();
         }
+      
         private void changeEmail(object sender, EventArgs e)
         {
             Navigation.PushModalAsync(new ChangeEmail());
@@ -34,12 +36,20 @@ namespace Project.Views
         {
             Navigation.PushModalAsync(new ChangeEmail());
         }
+        private void mydiss(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new MyDiss());
+        }
+        private void myidea(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new MyIdea());
+        }
         void FetchData()
         {
             name.Text = "Name:" + Settings.Username;
             email.Text = "Email:" + Settings.Email;
 
-            mobile.Text = "PhoneNumber" + Settings.Mobile;
+            mobile.Text = "PhoneNumber " + Settings.Mobile;
             /// var client = new HttpClient();
             ///  client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Settings.AccessToken);
             //  var json = await client.GetStringAsync(Constants.BaseApiAddress + "api/ideas");
@@ -51,7 +61,7 @@ namespace Project.Views
         {
             try
             {
-                Navigation.PushModalAsync(new Home());
+                Navigation.PushModalAsync(new MainMenu());
             }
             catch (Exception ex)
             {

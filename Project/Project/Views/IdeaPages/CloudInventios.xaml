@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.IdeaPages.CloudInventios">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="80"
+              
+                Orientation="Horizontal" Margin="0,20,0,0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                         
+                    >
+
+                    <Image Source= "image.png"
+                             
+                              Aspect="AspectFill"
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="70"
+                      WidthRequest="320"
+                      Margin="20,50,0,0"
+                  >
+                <Label  Text="Cloud Computing Inventions:" FontSize="25"  HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+            </Grid>
+            <StackLayout
+                 
+                    Orientation="Vertical" Spacing="20" Padding="0,50,0,0" Margin="0">
+
+
+                <Grid
+                    HeightRequest="60"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                           
+                  >
+                    <Button BorderRadius="5"
+                       HeightRequest="5"
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit1"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#89AC8E"
+                        
+                     Clicked="ShopIDSubmit1_Clicked"
+                        Text="Cloud Based Attendance System" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+                <Grid 
+                       HeightRequest="60"
+                  HorizontalOptions="Center"
+                      WidthRequest="350" 
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit2"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+                BackgroundColor="#C4DBC7"
+                        
+                   Clicked="ShopIDSubmit2_Clicked"
+                        Text="Cloud Based Improved File Handling and Duplication Removal Using MD5" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+
+                <Grid
+                    HeightRequest="60"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                           
+                  >
+                    <Button BorderRadius="5"
+                       HeightRequest="5"
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit3"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#89AC8E"
+                        Clicked="ShopIDSubmit3_Clicked"
+                        Text="Air Powered Mini Wall Climbing Robot Project" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

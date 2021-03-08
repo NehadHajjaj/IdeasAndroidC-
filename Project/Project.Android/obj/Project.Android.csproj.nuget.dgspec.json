@@ -42,6 +42,10 @@
       "frameworks": {
         "monoandroid10.0": {
           "dependencies": {
+            "AndHUD": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
             "Microsoft.CSharp": {
               "target": "Package",
               "version": "[4.7.0, )"
@@ -49,6 +53,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "Plugin.CurrentActivity": {
+              "target": "Package",
+              "version": "[2.1.0.4, )"
+            },
+            "PluginsPopup": {
+              "target": "Package",
+              "version": "[1.1.6, )"
             },
             "Xam.Plugins.Settings": {
               "target": "Package",
@@ -119,6 +131,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "PluginsPopup": {
+              "target": "Package",
+              "version": "[1.1.6, )"
             },
             "Xam.Plugins.Settings": {
               "target": "Package",

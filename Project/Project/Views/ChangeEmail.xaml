@@ -27,8 +27,14 @@
                  WidthRequest="70" 
                        HeightRequest="50"
        Aspect="AspectFit" Margin="10,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
 
-                        </Image>
+                    </Image>
                     </Grid>
                     <Grid 
                      WidthRequest="180" 

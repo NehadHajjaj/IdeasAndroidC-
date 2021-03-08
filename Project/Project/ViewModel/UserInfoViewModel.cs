@@ -1,4 +1,5 @@
-﻿using Project.Model;
+﻿using Project.Helper;
+using Project.Model;
 using Project.Services;
 using Project.Views;
 using System;
@@ -77,9 +78,23 @@ namespace Project.ViewModel
 						AcademicQualification= AcademicQualification
 
 					};
-				Mobile = Settings.Mobile;
-				await _apiService.PostUserAsync(userinfo, Settings.AccessToken);
-					await Application.Current.MainPage.Navigation.PushModalAsync(new Home());
+				Settings.Mobile = Mobile; 
+				DependencyService.Get<IProgressInterface>().Show();
+				var isAutho = await _apiService.PostUserAsync(userinfo, Settings.AccessToken);
+
+				DependencyService.Get<IProgressInterface>().Hide();
+				
+				if (isAutho)
+				{
+					await Application.Current.MainPage.Navigation.PushModalAsync(new MainMenu());
+				}
+				else
+				{
+					await App.Current.MainPage.DisplayAlert("Error", "You Arent Authorized, Pleas Login", "Ok");
+					await Application.Current.MainPage.Navigation.PushModalAsync(new LoginPage());
+
+				}
+				
 				}
 			}
 

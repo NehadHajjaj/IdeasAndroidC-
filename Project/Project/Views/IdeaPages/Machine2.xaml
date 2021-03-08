@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.IdeaPages.Machine2">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+               
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="40"
+                      WidthRequest="350"
+                BackgroundColor="#C4DBC7"
+                 Margin="0" Padding="0,20,0,0"
+                   
+                        
+                  >
+                <Label  Text="Detection of Malicious Network activity " FontSize="19"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="0" />
+            </Grid>
+            <StackLayout
+                 Padding="15,0,0,0"
+                    Orientation="Vertical"  
+               Margin="0">
+                <Label Text="As internet activities have incremented a lot now a days.
+The possibility of illegal access of private data is also increased.
+The aim of this project is to filter the network
+activities and to decide which are illegal of them.
+The process is like spam filtering from emails.
+Tool : This project is based on Machine learning algorithms
+where we will make a classifier which will take some
+test network inputs and learn from them, the learning procedure will
+extract the features of specific inputs and stores them for detection
+of upcoming Inputs. We can use Matlab or Octave tool
+for this project because the algorithms used are difficult to implement
+in languages like c++ or Java, but we can use R language for some modules.
+Implementation: We can use perceptron algorithms for making the classifier.
+They come under the category of supervised learning.
+ For implementing the detector we will feed all
+types of malicious activities to the classifier
+one by one then all those characteristics which signifies
+the illegal activity will be stored in our classifier 
+then this detail can be compared with the neutral activities
+for differentiation between general and malicious access.
+ " FontSize="16"/>
+
+
+
+                <StackLayout Orientation="Horizontal" Spacing="0">
+
+                    <Label Text=""  FontSize="20"/>
+                    <Image Source="like.png"
+                       WidthRequest="30" Margin="320,0,0,0"></Image>
+                </StackLayout>
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

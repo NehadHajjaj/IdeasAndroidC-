@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.Faq">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="200"
+                 
+                Orientation="Horizontal">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                   
+
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="100"
+                      WidthRequest="320"
+                 Margin="0"
+                   
+                        
+                  >
+                <Label  Text="FAQ" FontSize="25"  HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+            </Grid>
+            <StackLayout
+                 
+                    Orientation="Vertical" Spacing="5" Padding="0,0,0,10">
+
+
+                <Grid
+                     HeightRequest="100"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                      BackgroundColor="#E3ECE5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                      
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label 
+        Grid.Row="0" Grid.Column="0" 
+                        HorizontalOptions="Center"
+        Text="What is Science Innovation club used for?"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                    <Label 
+        Grid.Row="1" Grid.Column="0" 
+        Text="- Protect your Idea and Invention."
+                         HorizontalOptions="Center"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                    <Label 
+        Grid.Row="2" Grid.Column="0" 
+        Text="- Helps you to develop your Idea."
+                         HorizontalOptions="Center"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                   
+
+
+                </Grid>
+                <Grid
+                     HeightRequest="80"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                      BackgroundColor="#E3ECE5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label 
+        Grid.Row="0" Grid.Column="0" 
+                        HorizontalOptions="Center"
+        Text="Is it free? "
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                    <Label 
+        Grid.Row="1" Grid.Column="0" 
+        Text="- Yes, it is free"
+                         HorizontalOptions="Center"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                  
+
+
+                </Grid>
+
+
+
+
+
+                <Grid
+                     HeightRequest="80"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                      BackgroundColor="#E3ECE5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                       
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label 
+        Grid.Row="0" Grid.Column="0" 
+                        HorizontalOptions="Center"
+        Text="Is is specifical for PNU student only? "
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                    <Label 
+        Grid.Row="1" Grid.Column="0" 
+        Text="- Yes, maybe in future well be for evryone."
+                         HorizontalOptions="Center"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                   
+
+
+
+                </Grid>
+                <Grid
+                     HeightRequest="80"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                      BackgroundColor="#E3ECE5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                      
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label 
+        Grid.Row="0" Grid.Column="0" 
+                        HorizontalOptions="Center"
+        Text="Is it IOS, Android Software or both? "
+
+
+
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                    <Label 
+        Grid.Row="1" Grid.Column="0" 
+        Text="- Both"
+                         HorizontalOptions="Center"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                   
+
+
+                </Grid>
+
+
+
+
+
+                <Grid
+                     HeightRequest="80"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                      BackgroundColor="#E3ECE5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                       
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label 
+        Grid.Row="0" Grid.Column="0" 
+                        HorizontalOptions="Center"
+        Text="How can I contact the adviser? "
+
+
+
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                    <Label 
+        Grid.Row="1" Grid.Column="0" 
+        Text="- From Consulting button ."
+                         HorizontalOptions="Center"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                   
+
+
+                </Grid>
+                <Grid
+                     HeightRequest="80"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                      BackgroundColor="#E3ECE5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label 
+        Grid.Row="0" Grid.Column="0" 
+                        HorizontalOptions="Center"
+        Text=" Where Can I share  my Idea ?"
+ 
+
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                    <Label 
+        Grid.Row="1" Grid.Column="0" 
+        Text="- There is a button in the home page says"
+                         HorizontalOptions="Center"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                    <Label 
+        Grid.Row="2" Grid.Column="0" 
+        Text="(Do you have an Invention)"
+                         HorizontalOptions="Center"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+
+
+
+                </Grid>
+
+
+
+
+
+                <Grid
+                     HeightRequest="80"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                      BackgroundColor="#E3ECE5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                       
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label 
+        Grid.Row="0" Grid.Column="0" 
+                        HorizontalOptions="Center"
+        Text="Can I contact the group members?"
+
+
+                      FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                    <Label 
+        Grid.Row="1" Grid.Column="0" 
+        Text="-Yes you can."
+                         HorizontalOptions="Center"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                   
+
+
+                </Grid>
+                <Grid
+                     HeightRequest="80"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                      BackgroundColor="#E3ECE5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label 
+        Grid.Row="0" Grid.Column="0" 
+                        HorizontalOptions="Center"
+        Text="How to Sign up? "
+
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                    <Label 
+        Grid.Row="1" Grid.Column="0" 
+        Text="Sign up - fill your information - Verification -fill
+"
+                         HorizontalOptions="Center"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                    <Label 
+        Grid.Row="2" Grid.Column="0" 
+        Text=" the Application form."
+                         HorizontalOptions="Center"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+
+
+
+                </Grid>
+
+
+               
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

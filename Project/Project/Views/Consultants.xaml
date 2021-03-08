@@ -21,7 +21,14 @@
                         <Image Source= "back.png" 
                      Aspect="AspectFit" 
                            
-                          ></Image>
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
 
                     </Grid>
                     <Grid Margin="0,16,0,0" 
@@ -58,7 +65,7 @@
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                BackgroundColor="#89AC8E"
-                         
+                         Clicked="ShopIDSubmit1_Clicked"
                       
                         Text="Engineering" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                     </Button>
@@ -78,7 +85,7 @@
                     BorderColor="#D9D9D9"
                 BackgroundColor="#89AC8E"
                          
-                      
+                      Clicked="ShopIDSubmit2_Clicked"
                         Text="Technological" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                     </Button>
 
@@ -99,7 +106,7 @@
                             <Button BorderRadius="5"
                        
                         BorderWidth="1"
-                            
+                            Clicked="ShopIDSubmit3_Clicked"
                 x:Name="ShopIDSubmit3"
                         TextColor="Black"
                     BorderColor="#D9D9D9"
@@ -117,7 +124,7 @@
                             <Button BorderRadius="5"
                        
                         BorderWidth="1"
-                            
+                            Clicked="ShopIDSubmit4_Clicked"
                 x:Name="ShopIDSubmit4"
                         TextColor="Black"
                     BorderColor="#D9D9D9"
@@ -143,7 +150,7 @@
                       WidthRequest="160" Padding="0,20,0,0"
                   >
                     <Button BorderRadius="5"
-                       
+                       Clicked="ShopIDSubmit5_Clicked"
                         BorderWidth="1"
                             
                 x:Name="ShopIDSubmit5"
@@ -161,7 +168,7 @@
                       WidthRequest="160" Padding="0,20,0,0"
                   >
                     <Button BorderRadius="5"
-                       
+                       Clicked="ShopIDSubmit6_Clicked"
                         BorderWidth="1"
                             
                 x:Name="ShopIDSubmit6"
@@ -200,7 +207,7 @@
                     BorderColor="#D9D9D9"
                BackgroundColor="#C4DBC7"
                          
-                      
+                      Clicked="ShopIDSubmit7_Clicked"
                         Text="Machinelearning" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                     </Button>
 
@@ -218,7 +225,7 @@
                     BorderColor="#D9D9D9"
                 BackgroundColor="#C4DBC7"
                          
-                      
+                      Clicked="ShopIDSubmit8_Clicked"
                         Text="InforSecurity" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                     </Button>
 

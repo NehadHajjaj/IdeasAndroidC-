@@ -1,4 +1,5 @@
-﻿using Project.Views;
+﻿using Project.Helper;
+using Project.Views;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,6 +15,10 @@ namespace Project
         public MainPage()
         {
             InitializeComponent();
+            label1.Text = AppResource.String1;
+            label2.Text = AppResource.String2;
+            label3.Text = AppResource.String3;
+          
         }
       public  void OnImageNameTapped(object sender, EventArgs args)
         {

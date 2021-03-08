@@ -1,4 +1,5 @@
 ﻿using Project.Views;
+using Project.Views.IdeaPages;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -11,7 +12,7 @@ namespace Project
         public App()
         {
             InitializeComponent();
-            MainPage = new MainMenu();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

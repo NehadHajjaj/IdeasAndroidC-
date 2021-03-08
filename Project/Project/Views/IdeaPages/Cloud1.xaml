@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.IdeaPages.Cloud1">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+               
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="70"
+                      WidthRequest="320"
+                
+                 Margin="0" Padding="0,0,50,0"
+                        
+                  >
+                <Label  Text="Cloud Based Attendance 
+System:" FontSize="25"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="0" />
+            </Grid>
+            <StackLayout
+                 Padding="15,0,0,0"
+                    Orientation="Vertical"  
+               Margin="0">
+                <Label Text="An attendance system allows to 
+add the attendance of the employee
+/student who is present onthat day.
+The user has to login and scan their 
+identity card to mark their attendance. 
+As the card has been scanned,the
+details like id number, date, 
+in-time, out-time are saved in the database.
+The database will be stored into the 
+azure cloud which will form a 
+dedicated connection between 
+application and cloud server via
+internet. With the in-time and out-time
+data stored in cloud, the 
+admin can calculate the working 
+hours of the employees.The 
+employees can view his personal
+details, attendance, in-time or out-time, 
+total working hours after he/she logs into
+the system.This data is retrieved from 
+the cloud database and can be accessed
+any time by the employee and the admin." FontSize="20"/>
+
+
+
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Label Text=""  FontSize="20"/>
+                    <Image Source="like.png"
+                       WidthRequest="30"></Image>
+                </StackLayout>
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

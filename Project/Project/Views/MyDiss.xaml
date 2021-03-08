@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:Controls="clr-namespace:Project.Helper"
+             x:Class="Project.Views.MyDiss">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="80"
+               
+                Orientation="Horizontal">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="100"
+                      WidthRequest="320"
+                 Margin="0"
+                   
+                        
+                  >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                  
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label 
+        Grid.Row="0" Grid.Column="0" 
+                        HorizontalOptions="Center"
+        Text="My discussion"
+                    FontSize="25" 
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+               
+
+            </Grid>
+            <StackLayout BackgroundColor="White">
+                <ListView x:Name="ListView1" RowHeight="60">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout  BackgroundColor="#C4DBC7" Orientation="Vertical" Padding="8,0,8,0">
+                                    <Grid
+                     HeightRequest="80"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                      BackgroundColor="#C4DBC7">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                          
+
+
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label 
+        Grid.Row="0" Grid.Column="0" 
+                        HorizontalOptions="Center"
+                   Text="{Binding DiscussionText}"  FontSize="14" 
+
+                    FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                                        
+
+
+
+                                    </Grid>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+
+
+     
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

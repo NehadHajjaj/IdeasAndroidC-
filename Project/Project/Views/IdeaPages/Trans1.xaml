@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.IdeaPages.Trans1">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+               
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          ></Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="40"
+                      WidthRequest="350"
+                BackgroundColor="#89AC8E"
+                 Margin="0" Padding="0,20,0,0"
+                   
+                        
+                  >
+                <Label  Text="The transparent truck " FontSize="19"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="0" />
+            </Grid>
+            <StackLayout
+                 Padding="15,20,0,0"
+                    Orientation="Vertical"  
+               Margin="0">
+                <Label Text="
+Every year, thousands of people get hurt or die in traffic accidents, in part because their visibility gets blocked by a lumbering vehicle. 
+This is especially true in Argentina, known for its winding, narrow roads.
+ There, however, Samsung and ad agency Leo Burnett have partnered on a creative solution: a system that relays video footage from the front of a truck to four screens on its back, giving drivers a clear view of what's ahead. During its initial test, the Safety Truck covered some 620 miles (1,000 km) over three days without incident. 
+Now Samsung is refining the technology and working with Argentine officials to roll it out more broadly. 
+We believe this will change the history of road safety, says Sang Jik Lee, president of Samsung Electronics Argentina. 
+ " FontSize="19"/>
+
+
+
+                <StackLayout Orientation="Horizontal" Spacing="0">
+
+                    <Label Text=""  FontSize="20"/>
+                    <Image Source="like.png"
+                       WidthRequest="30" Margin="320,0,0,0"></Image>
+                </StackLayout>
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

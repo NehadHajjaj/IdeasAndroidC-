@@ -8,12 +8,52 @@
         <ContentPage.Content>
             <StackLayout  Orientation="Vertical" 
                           BackgroundColor="White">
-
+            <StackLayout
             
+                Spacing="270"
+                HeightRequest="90"
+                 
+                Orientation="Horizontal">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+
+
             <Grid  HorizontalOptions="Center"
                      HeightRequest="60"
+             
                       WidthRequest="320"
-                      Margin="0,100,0,0"
+                      Margin="0,50,0,0"
                   >
                 <Label Text="Consulting" FontSize="25"  HorizontalOptions="Center"
                    FontAttributes="Bold" />
@@ -37,7 +77,7 @@
                     BorderColor="#D9D9D9"
                BackgroundColor="#89AC8E"
                          
-                      
+                      Clicked="ShopIDSubmit1_Clicked"
                         Text="General discussions" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
@@ -54,7 +94,7 @@
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                 BackgroundColor="#C4DBC7"
-                         
+                         Clicked="ShopIDSubmit2_Clicked"
                       
                         Text="Consultants" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>

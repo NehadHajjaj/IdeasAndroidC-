@@ -7,12 +7,53 @@
 
         <ContentPage.Content>
             <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+           
+                       
+                        <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+                 
+                Orientation="Horizontal">
 
-               
-                <Grid  HorizontalOptions="Center"
+                            <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                                <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                            </Grid>
+                            <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                                <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                            </Grid>
+                        </StackLayout>
+
+                        <Grid  HorizontalOptions="Center"
                      HeightRequest="60"
                       WidthRequest="320" 
-             Margin="0,100,0,0"
+                             
+             Margin="0,40,0,0"
                       
                   >
                 <Label Text="Courses" FontSize="25"  HorizontalOptions="Center"
@@ -37,11 +78,11 @@
                         <Image 
                           
                  Aspect="AspectFill"
-                   
-                            Source="c1.png"/>
+                   x:Name="pic1"
+                           />
                    
                     </Grid>
-                    <Label Text="Course1" FontSize="15"  HorizontalOptions="Center"
+                    <Label x:Name="course1" FontSize="15"  HorizontalOptions="Center"
                    FontAttributes="Bold" />
                     </StackLayout>
                     <StackLayout Orientation="Vertical"
@@ -57,10 +98,10 @@
                           
                  Aspect="AspectFill"
                    
-                            Source="c2.png"/>
+                           x:Name="pic2"/>
 
                         </Grid>
-                        <Label Text="Course2" FontSize="15"  HorizontalOptions="Center"
+                        <Label  x:Name="course2" FontSize="15"  HorizontalOptions="Center"
                    FontAttributes="Bold" />
                     </StackLayout>
 
@@ -83,10 +124,10 @@
                           
                  Aspect="AspectFill"
                    
-                            Source="c3.png"/>
+                            x:Name="pic3"/>
 
                         </Grid>
-                        <Label Text="Course3" FontSize="15"  HorizontalOptions="Center"
+                        <Label x:Name="course3" FontSize="15"  HorizontalOptions="Center"
                    FontAttributes="Bold" />
                     </StackLayout>
                     <StackLayout Orientation="Vertical"
@@ -102,10 +143,10 @@
                           
                  Aspect="AspectFill"
                    
-                            Source="c4.png"/>
+                            x:Name="pic4"/>
 
                         </Grid>
-                        <Label Text="Course4" FontSize="15"  HorizontalOptions="Center"
+                        <Label x:Name="course4" FontSize="15"  HorizontalOptions="Center"
                    FontAttributes="Bold" />
                     </StackLayout>
 

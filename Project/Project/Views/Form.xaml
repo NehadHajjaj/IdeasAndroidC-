@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Project.Views.Form"
-   
+      xmlns:Resource="clr-namespace:Project.Helper"  
              xmlns:Controls="clr-namespace:Project.Helper"
              xmlns:Models="clr-namespace:Project.ViewModel">
     <ContentPage.BindingContext>
@@ -17,7 +17,8 @@
           
                 Orientation="Horizontal" Margin="0,10,0,0"  >
 
-                <Label Text="Application form" FontSize="20"  VerticalOptions="Center"
+                <Label  Text="{x:Static Resource:AppResource.String17}"
+                    x:Name="label17" FontSize="20"  VerticalOptions="Center"
                    FontAttributes="Bold" Margin="130,50,0,0" Padding="0" />
 
                 <Grid 
@@ -44,7 +45,8 @@
 
 
 
-                <Label Text="Please fill this form to be a member in our club " FontSize="15"  HorizontalOptions="Center"
+                <Label  Text="{x:Static Resource:AppResource.String18}"
+                    x:Name="label18"  FontSize="15"  HorizontalOptions="Center"
                    FontAttributes="Bold" Padding="0" />
 
 
@@ -59,7 +61,8 @@
                         Spacing="10"
                         >
                 <StackLayout Orientation="Horizontal" Spacing="25">
-                    <Label Text="First Name: " 
+                    <Label  Text="{x:Static Resource:AppResource.String28}"
+                    x:Name="label28"
                            VerticalOptions="Center"
                            FontSize="13"
                            Margin="30,0,0,0"
@@ -85,7 +88,8 @@
                     </Grid>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Spacing="25">
-                    <Label Text="Last Name: " 
+                    <Label  Text="{x:Static Resource:AppResource.String29}"
+                    x:Name="label29"
                            VerticalOptions="Center"
                            FontSize="13"
                            Margin="30,0,0,0"
@@ -111,7 +115,8 @@
                     </Grid>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Spacing="25">
-                    <Label Text=" Gender " 
+                    <Label  Text="{x:Static Resource:AppResource.String19}"
+                    x:Name="label19"
                            VerticalOptions="Center"
                            FontSize="13"
                            Margin="30,0,0,0"
@@ -125,7 +130,8 @@
                         <RadioButton
                               IsChecked="{Binding female}"
                             FontSize="13"
-                        Content="Female ">
+                        Content="{x:Static Resource:AppResource.String30}"
+                    x:Name="label30">
 
                         </RadioButton>
                     </Grid>
@@ -136,13 +142,15 @@
                   >
                         <RadioButton
                             IsChecked="{Binding male}"
-                        Content="Male">
+                        Content ="{x:Static Resource:AppResource.String31}"
+                    x:Name="label31">
 
                         </RadioButton>
                     </Grid>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Spacing="25">
-                    <Label Text="Date of Birth:" 
+                    <Label  Text="{x:Static Resource:AppResource.String20}"
+                    x:Name="label20"
                            VerticalOptions="Center"
                            FontSize="13"
                            Margin="30,0,0,0"
@@ -173,7 +181,8 @@
 
 
                 <StackLayout Orientation="Horizontal" Spacing="25">
-                    <Label Text="Nationality:    " 
+                    <Label  Text="{x:Static Resource:AppResource.String21}"
+                    x:Name="label21"
                            VerticalOptions="Center"
                            FontSize="13"
                            Margin="30,0,0,0"
@@ -199,7 +208,8 @@
                     </Grid>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Spacing="10">
-                    <Label Text="Country of birth:" 
+                    <Label  Text="{x:Static Resource:AppResource.String22}"
+                    x:Name="label22"
                            VerticalOptions="Center"
                            FontSize="13"
                            Margin="28,0,0,0"
@@ -226,7 +236,8 @@
                     </Grid>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Spacing="10">
-                    <Label Text="Mobile Number: " 
+                    <Label  Text="{x:Static Resource:AppResource.String23}"
+                    x:Name="label23"
                            VerticalOptions="Center"
                            FontSize="13"
                            Margin="30,0,0,0"
@@ -252,31 +263,7 @@
 
                     </Grid>
                 </StackLayout>
-                <StackLayout Orientation="Horizontal" Spacing="11">
-                    <Label Text="Prefered Email: " 
-                           VerticalOptions="Center"
-                           FontSize="13"
-                           Margin="30,0,0,0"
-                              />
-                    <Grid 
-                      
-                  HorizontalOptions="Center"
-                     HeightRequest="70"
-                      WidthRequest="250"
-                  >
-
-
-                        <Frame Padding="10,-10,-10,-10" OutlineColor="#C8C8C8" CornerRadius="3"
-	                        HasShadow="True">
-
-
-                            <Controls:XEditor  
-                               MaxLength="50"
-                                BackgroundColor="Transparent" TextColor="Black" />
-                        </Frame>
-
-                    </Grid>
-                </StackLayout>
+              
                 <StackLayout Orientation="Horizontal" Spacing="30">
                     <StackLayout 
                       
@@ -286,7 +273,8 @@
                   >
                         <Label
                        
-                        Text="Academic or professional Qualification" 
+                        Text="{x:Static Resource:AppResource.String24}"
+                    x:Name="label24"
                            VerticalOptions="Center"
                            FontSize="13"
                            Margin="28,0,0,0"
@@ -314,7 +302,8 @@
                     </Grid>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Margin="0,20,0,0" Padding="70,0,0,0" >
-                    <Label Text="Acceptance of the club policies are required  " 
+                    <Label  Text="{x:Static Resource:AppResource.String25}"
+                    x:Name="label25"
                            VerticalOptions="Center"
                            FontSize="15"
                           
@@ -333,7 +322,8 @@
                     
                   >
 
-                        <Label Text="I read and agree the terms and conditions" 
+                        <Label  Text="{x:Static Resource:AppResource.String26}"
+                    x:Name="label26"
                            VerticalOptions="Center"
                            FontSize="13"
                            
@@ -355,13 +345,14 @@
                        
                         BorderWidth="1"
                             
-                x:Name="ShopIDSubmit1"
+               
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                BackgroundColor="#CDCDCD"
                          Command="{Binding Submit}"
                       
-                        Text="Submit" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                      Text="{x:Static Resource:AppResource.String27}"
+                    x:Name="label27" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                         </Button>
 
                     </Grid>

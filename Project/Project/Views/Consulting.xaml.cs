@@ -15,6 +15,29 @@ namespace Project.Views
         public Consulting()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
+        public void OnImageNameTapped(object sender, EventArgs args)
+        {
+            try
+            {
+                Navigation.PushModalAsync(new MainMenu());
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        private void ShopIDSubmit1_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new Gdiss());
+        }
+
+        private void ShopIDSubmit2_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new Consultants());
+        }
+       
     }
 }

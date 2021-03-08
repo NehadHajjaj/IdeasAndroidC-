@@ -16,5 +16,16 @@ namespace Project.Views
         {
             InitializeComponent();
         }
+        public void OnImageNameTapped(object sender, EventArgs args)
+        {
+            try
+            {
+                Navigation.PushModalAsync(new Profile());
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

@@ -3,7 +3,7 @@
 	class Constants
 	{
 		
-		public static string BaseApiAddress => "https://ideaswebapi20210212125410new.azurewebsites.net/";
+		public static string BaseApiAddress => "https://ideaswebapi20210301224426newnew.azurewebsites.net/";
 
 
 	}

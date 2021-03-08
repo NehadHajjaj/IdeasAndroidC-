@@ -3,9 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:custom="clr-namespace:Project.ForEntry"
              x:Class="Project.MainPage"
+              xmlns:Resource="clr-namespace:Project.Helper"  
              BackgroundColor="White">
 
-    <StackLayout  Padding="3" BackgroundColor="White">
+    <StackLayout Padding="3" BackgroundColor="White">
         <StackLayout Orientation="Vertical" >
             <Grid HeightRequest="400"
                   HorizontalOptions="Center"
@@ -18,14 +19,16 @@
        HorizontalOptions="Center" Margin="0,0,0,70"
                        />
                 <Label 
-                    Text=" We welcome dreamers and open doors for them
-"
+                     Text="{x:Static Resource:AppResource.String1}"
+                    x:Name="label1"  
+
                        FontSize="17"  HorizontalOptions="Center"
                     MaxLines="2"
                        Margin="0,250,0,0" FontAttributes="Bold" />
                 <Label 
-                    Text=" - Mohammed bin Salman.
-"
+                    Text="{x:Static Resource:AppResource.String2}"
+                    x:Name="label2"  
+HorizontalOptions="Center"
                        FontSize="17" 
                     MaxLines="2"
                        Margin="0,270,0,0" Padding="5,0,0,0" FontAttributes="Bold" />
@@ -37,33 +40,17 @@
                   HorizontalOptions="Center"
                       WidthRequest="350"
                  
-                          
+                         Padding="0,10,0,0" 
                   
                   >
 
-  <Label Text="Our goal is to help students write their invention
- and preserve their rights by registering those 
-ideas and projects in their names as inventors " 
-         FontSize="16"
+                <Label  Text="{x:Static Resource:AppResource.String3}"
+         FontSize="19"
          HorizontalOptions="Center"
+                       x:Name="label3"  
                Margin="0" FontAttributes="Bold" ></Label>
-                
-                <Label Text="with the addition of some constructive idea"
-         FontSize="16"
-         HorizontalOptions="Center"
-               Margin="0,57,0,0" FontAttributes="Bold" Padding="0,0,10,0" ></Label>
-                        
-                <Label Text="that will be shared by faculty members, "
-         FontSize="16"
-         HorizontalOptions="Center"
-               Margin="0,75,0,0" FontAttributes="Bold" Padding="0,0,20,0" ></Label>
-                <Label Text="advisors, and experts to make this idea" FontSize="16"
-         HorizontalOptions="Center"
-               Margin="0,93,0,0" FontAttributes="Bold" Padding="0,0,13,0" ></Label>
 
-                <Label Text="successful and implementable.." FontSize="16"
-         HorizontalOptions="Center"
-               Margin="0,113,0,0" FontAttributes="Bold" ></Label>
+                
 
             </Grid>
         </StackLayout>

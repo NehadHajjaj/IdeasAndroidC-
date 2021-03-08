@@ -23,7 +23,15 @@
                               
                      Aspect="AspectFit"
                            
-                          ></Image>
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                   
 
                     </Grid>
                     <Grid 
@@ -88,7 +96,7 @@
                     BorderColor="#D9D9D9"
                 BackgroundColor="#C4DBC7"
                          
-                      
+                      Clicked="ShopIDSubmit2_Clicked"
                         Text="Technological Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
@@ -111,7 +119,7 @@
                     BorderColor="#D9D9D9"
                 BackgroundColor="#89AC8E"
                          
-                      
+                      Clicked="ShopIDSubmit3_Clicked"
                         Text="Medical Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
@@ -128,7 +136,7 @@
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                 BackgroundColor="#C4DBC7"
-                         
+                       
                       
                         Text="Houseware Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
@@ -152,7 +160,7 @@
                     BorderColor="#D9D9D9"
                BackgroundColor="#89AC8E"
                          
-                      
+                     
                         Text="Enviromental Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
@@ -169,7 +177,7 @@
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                BackgroundColor="#C4DBC7"
-                         
+                   Clicked="ShopIDSubmit6_Clicked"
                       
                         Text="Transporlation Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
@@ -193,7 +201,7 @@
                     BorderColor="#D9D9D9"
            BackgroundColor="#89AC8E"
                          
-                      
+                    Clicked="ShopIDSubmit7_Clicked"
                         Text="Machinelearning Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
@@ -211,7 +219,7 @@
                     BorderColor="#D9D9D9"
                 BackgroundColor="#C4DBC7"
                          
-                      
+                      Clicked="ShopIDSubmit8_Clicked"
                         Text="Information Security Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
@@ -225,7 +233,7 @@
                     <Button BorderRadius="5"
                        
                         BorderWidth="1"
-                            
+                            Clicked="ShopIDSubmit99_Clicked"
                 x:Name="ShopIDSubmit99"
                         TextColor="Black"
                     BorderColor="#D9D9D9"

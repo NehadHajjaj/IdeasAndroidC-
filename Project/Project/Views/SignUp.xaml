@@ -3,11 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
            
              x:Class="Project.Views.SignUp"
-            
+              xmlns:Resource="clr-namespace:Project.Helper"  
                 xmlns:custom="clr-namespace:Project.ForEntry"
             
-    xmlns:Models ="clr-namespace:Project.Models"
-           
+    xmlns:Models ="clr-namespace:Project.Models" xmlns:Controls="clr-namespace:Project.Helper"
              Visual="Material"
            
              
@@ -35,7 +34,10 @@
                         
                     </Image>
                 </Grid>
-            <Label Text="Create Account" FontSize="Title"  HorizontalOptions="Center"
+            <Label 
+                Text="{x:Static Resource:AppResource.String13}"
+                    x:Name="label13"  
+                FontSize="Title"  HorizontalOptions="Center"
                        Margin="0,0,0,30" />
 
 
@@ -55,10 +57,8 @@
                       
                   >
 
-                    <custom:CustomEntry  
-                             CornerRadius="5"  
-                             IsCurvedCornersEnabled="True"  
-                             BorderColor="#EFEFEF"     
+                    <Controls:XEditor 
+                              
                              FontSize="17"  
                              HeightRequest="50"  
                     BackgroundColor="#EFEFEF"
@@ -72,27 +72,27 @@
 
 
                 </Grid>
-                <Grid HeightRequest="60"
+                <Grid HeightRequest="50"
                   HorizontalOptions="Center"
                       WidthRequest="320"
                       
                   >
 
-                    <custom:CustomEntry  
-                             CornerRadius="5"  
-                             IsCurvedCornersEnabled="True"  
-                             BorderColor="#EFEFEF"     
-                             FontSize="17"  
+                    
+
+                        <Controls:XEditor  
+                               MaxLength="50"
                              HeightRequest="50"  
                     BackgroundColor="#EFEFEF"
                     
                              Placeholder="Email or Phone number.."
                              Text="{Binding Email}"
                              PlaceholderColor="#A1A1A1"
-                             TextColor="Black"  
+                           
                              FontAttributes="Bold"
-                            
-                />
+                               TextColor="Black"  />
+                
+                   
 
 
 
@@ -102,29 +102,28 @@
                 <StackLayout 
                        Orientation="Horizontal"
                     Padding="45,0,0,0">
-                    <Grid HeightRequest="60"
+                    <Grid HeightRequest="50"
                   HorizontalOptions="Center"
                       WidthRequest="320"
+                          
                    
                   >
-                        <custom:CustomEntry  
-                              CornerRadius="5"  
-                             IsCurvedCornersEnabled="True"  
-                                BorderColor="#EFEFEF"    
+                        <Controls:XEditor 
+                            
                              FontSize="17"  
                              HeightRequest="50" 
                         x:Name="txtpassword"
                     Text="{Binding Password}" 
-                         IsPassword="True"
+                      
                    
                       BackgroundColor="#EFEFEF"
                              Placeholder="Password"  
                              PlaceholderColor="#A1A1A1"
                              TextColor="Black"  
                              FontAttributes="Bold"  
-                             WidthRequest="100">
+                             WidthRequest="100"
                           
-                        </custom:CustomEntry>
+                        />
 
 
                     </Grid>
@@ -136,24 +135,20 @@
                       WidthRequest="320"
                       
                   >
-
-                    <custom:CustomEntry  
-                             CornerRadius="5"  
-                             IsCurvedCornersEnabled="True"  
-                             BorderColor="#EFEFEF"     
+                    <Controls:XEditor  
+                                
                              FontSize="17"  
                              HeightRequest="50"  
                     BackgroundColor="#EFEFEF"
-                     IsPassword="True"
+                    
                              Placeholder="ConfirmPassword"
                             Text="{Binding ConfirmPassword}"
                              PlaceholderColor="#A1A1A1"
                              TextColor="Black"  
-                             FontAttributes="Bold">
-                      
-                           
-                    </custom:CustomEntry>
-                  
+                             FontAttributes="Bold"/>
+
+
+
 
                 </Grid>
 
@@ -171,7 +166,8 @@
                               IsChecked="{Binding IsStudent}" 
                          />
 
-                        <Label Text="Student"  FontSize="15" Margin="0,0,80,0" Padding="0,3,0,0" 
+                        <Label  Text="{x:Static Resource:AppResource.String15}"
+                    x:Name="label15"   FontSize="15" Margin="0,0,80,0" Padding="0,3,0,0" 
                       />
                         
 
@@ -179,7 +175,8 @@
                           GroupName="Remember"   
                             IsChecked="False"   
                       />
-                        <Label Text="Adviser" 
+                        <Label   Text="{x:Static Resource:AppResource.String16}"
+                    x:Name="label16"  
                                FontSize="15"
                                 Padding="0" Margin="0,1,0,0"
                      />
@@ -193,14 +190,15 @@
                         HeightRequest="50"
                         BorderWidth="1"
                             
-                x:Name="ShopIDSubmit1"
+               
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                 BackgroundColor="White"
                          
                         Command="{Binding RegisterCommand}"
                                  CommandParameter="Sign Up"
-                        Text="SignUP" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                        Text="{x:Static Resource:AppResource.String14}"
+                    x:Name="label14"  FontFamily="Regular" FontAttributes="Bold" Padding="0">
                         </Button>
 
                     </Grid>

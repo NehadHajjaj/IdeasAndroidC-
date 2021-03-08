@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "PqQLEPSZ+SiUS9BcVt/nwa8/lCNFa+NxbuSzvruCKYeMRSGNsIGc2hnOGpXHMHkUm8rJiRZCd/wF04JCe4/wYQ==",
+  "dgSpecHash": "LTl5XQ7zogVUHd37aAA9HvYb8tmbiBZPVitYwVxGbK2b2qwBz7ZLz544a2ctMtRMJyPTY90U2SGKwHdHBlm9Zg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Noor\\Documents\\ProjectFE\\Project\\Project.Android\\Project.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Noor\\.nuget\\packages\\andhud\\1.4.2\\andhud.1.4.2.nupkg.sha512",
     "C:\\Users\\Noor\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Noor\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Noor\\.nuget\\packages\\plugin.currentactivity\\2.1.0.4\\plugin.currentactivity.2.1.0.4.nupkg.sha512",
+    "C:\\Users\\Noor\\.nuget\\packages\\pluginspopup\\1.1.6\\pluginspopup.1.1.6.nupkg.sha512",
     "C:\\Users\\Noor\\.nuget\\packages\\xam.plugins.settings\\3.1.1\\xam.plugins.settings.3.1.1.nupkg.sha512",
     "C:\\Users\\Noor\\.nuget\\packages\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Users\\Noor\\.nuget\\packages\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",

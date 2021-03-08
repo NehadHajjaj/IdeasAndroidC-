@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.Tech7">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+               
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          ></Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="40"
+                      WidthRequest="370"
+                BackgroundColor="#89AC8E"
+                 Margin="0,30,0,0" Padding="0,13,0,0"
+                   
+                        
+                  >
+                <Label  Text="Electronic Cash Counter Project" FontSize="18"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="5,0,0,0" />
+            </Grid>
+            <StackLayout
+                 Padding="20,40,0,0"
+                    Orientation="Vertical" 
+               Spacing="40"
+               Margin="0">
+                <Label Text="In the banking sector, an electronic cash counter project is implemented to use in the account division so that it provides a better interface to complete banking transactions. This system provides a superior outlook to the user interfaces so that all the transactions in the banking sector can be implemented such as account creation, deposits, issues of checkbooks, withdraws, account transfers. By using this project, several factors can be implemented related to the banking sector so that it can provide a satisfactory service to the customers. 
+" FontSize="16"/>
+
+
+
+                <StackLayout Orientation="Horizontal" Spacing="0">
+
+                    <Label Text=""  FontSize="20"/>
+                    <Image Source="like.png"
+                       WidthRequest="30" Margin="320,0,0,0"></Image>
+                </StackLayout>
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

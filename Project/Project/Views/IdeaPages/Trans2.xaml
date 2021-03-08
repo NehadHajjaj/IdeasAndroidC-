@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.IdeaPages.Trans2">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+               
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          ></Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="40"
+                      WidthRequest="350"
+                BackgroundColor="#C4DBC7"
+                 Margin="0" Padding="0,20,0,0"
+                   
+                        
+                  >
+                <Label  Text="Bus Pass Android Project " FontSize="19"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="0" />
+            </Grid>
+            <StackLayout
+                 Padding="15,20,0,0"
+                    Orientation="Vertical"  
+               Margin="0">
+                <Label Text="A bus pass project is an android application system that helps passengers to get their bus pass related information in an android phone. Using the system users can apply for bus pass renewal option or cancellation option and make payment online. This excludes the need for going to bus station for utilizing pass services. Also, the app provides a brief description of all the routes along with bus numbers. It also shows appropriate schemes for various routes for quarterly, monthly, and yearly passes. Admin can view user's details and all the transactions being made online. Thus, the system is user-friendly and flexible to be used. " FontSize="20"/>
+
+
+
+                <StackLayout Orientation="Horizontal" Spacing="0">
+
+                    <Label Text=""  FontSize="20"/>
+                    <Image Source="like.png"
+                       WidthRequest="30" Margin="320,0,0,0"></Image>
+                </StackLayout>
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

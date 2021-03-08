@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.Resources">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+                 
+                Orientation="Horizontal">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="50"
+                      WidthRequest="320"
+                 
+                 Margin="0,30,0,0" Padding="0"
+                   
+                        
+                  >
+                <Label  Text="Resources" FontSize="30"  HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+            </Grid>
+            <StackLayout
+                 
+                    Orientation="Vertical" Spacing="50" Margin="0,0,0,0 " Padding="0,20,0,0">
+
+
+
+
+
+
+
+
+                <StackLayout Orientation="Vertical" Spacing="50">
+                  
+                    <Label 
+       
+                     Padding="20,0,0,0"  
+        Text="Title"
+                        FontSize="20"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+                    
+        />
+                    <Image 
+                        Margin="0,0,250,0"
+                        HeightRequest="100"
+                        WidthRequest="50"
+                        Source="player.png"></Image>
+
+                </StackLayout>
+
+
+
+                <StackLayout Orientation="Vertical" Spacing="30">
+                   
+                    <Label 
+       
+                       
+            Text="Article"
+                        FontSize="20"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black" Padding="20,0,0,0"
+                    
+        />
+                    <Image 
+                        Margin="0,0,250,0"
+                        HeightRequest="100"
+                        WidthRequest="50"
+                        Source="article.png"></Image>
+
+
+
+                </StackLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:Controls="clr-namespace:Project.Helper" xmlns:Models="clr-namespace:Project.ViewModel"
+             x:Class="Project.Views.ConsDiss">
+
+    <ContentPage.BindingContext>
+        <Models:ConsDissViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+       
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="80"
+               
+                Orientation="Horizontal">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                  
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="100"
+                      WidthRequest="320"
+                 Margin="0"
+                   
+                        
+                  >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label 
+        Grid.Row="0" Grid.Column="0" 
+                        HorizontalOptions="Center"
+        Text="Private discussion"
+                    FontSize="25" 
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                <Label 
+        Grid.Row="1" Grid.Column="0" 
+        Text="(with Consultant)"
+                         HorizontalOptions="Center"
+                    FontSize="25" 
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+
+            </Grid>
+            <StackLayout
+                 
+                    Orientation="Vertical" Spacing="15" Padding="0,0,0,10">
+
+
+                <Grid
+                     HeightRequest="80"
+                  HorizontalOptions="Center"
+                      WidthRequest="300
+"
+                      BackgroundColor="#89AC8E">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label 
+        Grid.Row="0" Grid.Column="0" 
+                  Padding="10,10,0,0"    
+        Text="Dr."
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+                    <Label 
+        Grid.Row="1" Grid.Column="0" 
+        Text="Contact me by email "
+                         Padding="10,0,0,0"    
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+
+
+
+                </Grid>
+              
+
+
+
+           
+
+
+
+
+
+                <Label 
+       Padding="0,30,0,0"
+                        HorizontalOptions="Center"
+        Text="your discussion"
+
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black"
+        />
+
+                <Grid
+                     HeightRequest="180"
+                  HorizontalOptions="Center"
+                      WidthRequest="300"
+                       BackgroundColor="Aquamarine"
+                     >
+
+
+
+
+                    <Controls:XEditor
+                        
+                       
+                            Text="{Binding DiscussionText }"
+                           BackgroundColor="#89AC8E"
+                      
+                       
+                       
+                     ></Controls:XEditor>
+
+
+
+                </Grid>
+
+
+                <Button
+                     
+                         BorderRadius="5"
+                        WidthRequest="100"
+                        HeightRequest="40"
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit2"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+                BackgroundColor="#CDCDCD"
+        Command="{Binding Send}"
+        Text="send"
+
+                         HorizontalOptions="Center"
+                        FontFamily="Regular" FontAttributes="Bold"
+                         
+        />
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

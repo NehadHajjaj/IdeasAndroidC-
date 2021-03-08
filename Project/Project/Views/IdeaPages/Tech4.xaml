@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.Tech4">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+               
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          ></Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="60"
+                      WidthRequest="370"
+                BackgroundColor="#89AC8E"
+                 Margin="0,10,0,0" Padding="0,20,0,0"
+                   
+                        
+                  >
+                <Label  Text="Creating smart wallpaper that can increase the speed of Wi-Fi inside the home " FontSize="18"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="13,0,0,0" />
+            </Grid>
+            <StackLayout
+                 Padding="15,20,0,0"
+                    Orientation="Vertical" 
+               
+               Margin="0">
+                <Label Text="An innovative way to create a surface that can reflect wireless signals, make them focused and amplified, including wireless Internet waves (Wi-Fi) and smart phone waves, which allows for the possibility of making the most of the Internet and connects a large number of devices and sensors using traditional Wi-Fi networks.
+It can be installed on the walls of homes, companies and all other interior places, just like wallpaper, and it does not require wires or electrical current of any kind, but rather relies on hundreds of sensors that cover the square pieces of that surface, which can capture and reflect the traveling waves in the place. With the increase in the concentration of those waves inside the place lined with that smart surface very greatly, which leads to an increase in the speed of the wireless Internet to about ten times the official speed.
+" FontSize="18"/>
+
+
+
+                <StackLayout Orientation="Horizontal" Spacing="0">
+
+                    <Label Text=""  FontSize="20"/>
+                    <Image Source="like.png"
+                       WidthRequest="30" Margin="320,0,0,0"></Image>
+                </StackLayout>
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

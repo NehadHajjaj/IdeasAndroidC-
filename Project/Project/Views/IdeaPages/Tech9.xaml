@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.Tech9">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+               
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          ></Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="50"
+                      WidthRequest="370"
+                BackgroundColor="#89AC8E"
+                 Margin="0" Padding="0,0,0,0"
+                   
+                        
+                  >
+                <Label  Text="Mobile Application for Real-Time Sign Language 3D-animator for Arabic Language" FontSize="17"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="20,0,0,0" />
+            </Grid>
+            <StackLayout
+                 Padding="16,20,0,0"
+                    Orientation="Vertical"  
+               Margin="0">
+                <Label Text="Sign language is visual, and non-verbal language depends on hand gestures and facial expressions.
+Many people think there is only one sign language among the world, but in fact, it varies between countries, and sometime between different regions in one country. Due to this reason, it's hard to learn, even though it is necessary to communicate between/with the deaf/mute (hearing and speaking impaired).
+Due to limited existence of mobile application for the Arabic sign language specifically for children. We create an application to ease the communication between the deaf/mute children, and to facilitate the Arabic language learning process.
+Achievements: 14 HITAF application provides a platform to bridge the communication gap between the deaf/mute children and hearing children by creating interactive environment in a real-time language-translation system.
+It translates the Arabic text and speech into sign language through a 3D-illustrative avatar. The system improve reading and writing skills in the Arabic language for deaf/mute children. Moreover, it improves the linguistic outcomes for the deaf/mute children and help deaf/mute children to relate the word with its relevant sign. HITAF use audio processing and text Processing for reading an input and extracting features, and computer graphics for creating a 3D animator. 
+" FontSize="15"/>
+
+
+
+                <StackLayout Orientation="Horizontal" Spacing="0">
+
+                    <Label Text=""  FontSize="20"/>
+                    <Image Source="like.png"
+                       WidthRequest="30" Margin="320,0,0,0"></Image>
+                </StackLayout>
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

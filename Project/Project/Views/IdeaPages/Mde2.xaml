@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.IdeaPages.Mde2">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+               
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="70"
+                      WidthRequest="370"
+                BackgroundColor="#C4DBC7"
+                 Margin="0,30,0,0" Padding="0,13,0,0"
+                   
+                        
+                  >
+                <Label  Text="Wireless sensors to facilitate the sterilization process of masks and increase their effectiveness" FontSize="18"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="5,0,0,0" />
+            </Grid>
+            <StackLayout
+                 Padding="20,40,0,0"
+                    Orientation="Vertical" 
+               Spacing="40"
+               Margin="0">
+                <Label Text="Sensors that do not require batteries in order to more closely monitor the sterilization process of medical personnel, N-95 masks, to ensure their availability in light of the current shortage of supply.
+Small wireless sensors allow instant monitoring of the ideal temperature and humidity application in the sterilizers, with sterilizing masks under a certain value of heat and humidity without damaging them in terms of shape and performance, as the imbalance of these ratios makes the muzzle unsafe.
+" FontSize="18"/>
+
+
+
+                <StackLayout Orientation="Horizontal" Spacing="0">
+
+                    <Label Text=""  FontSize="20"/>
+                    <Image Source="like.png"
+                       WidthRequest="30" Margin="320,0,0,0"></Image>
+                </StackLayout>
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

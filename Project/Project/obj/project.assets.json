@@ -44,6 +44,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "PluginsPopup/1.1.6": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.0.0.497661"
+        },
+        "compile": {
+          "lib/netstandard2.0/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Rg.Plugins.Popup.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -341,6 +353,39 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "PluginsPopup/1.1.6": {
+      "sha512": "cuiZ2XHi3cB6tmwr+bcjyq9EhiJIbgtfRCAniMGKF5vXbFieRLg0j8fWzjCkWZ2yeRG9UNHJ1gpNLBXIskD2gQ==",
+      "type": "package",
+      "path": "pluginspopup/1.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/Rg.Plugins.Popup.Droid.dll",
+        "lib/MonoAndroid/Rg.Plugins.Popup.Droid.pdb",
+        "lib/MonoAndroid/Rg.Plugins.Popup.dll",
+        "lib/MonoAndroid/Rg.Plugins.Popup.pdb",
+        "lib/MonoTouch/Rg.Plugins.Popup.IOS.dll",
+        "lib/MonoTouch/Rg.Plugins.Popup.IOS.pdb",
+        "lib/MonoTouch/Rg.Plugins.Popup.dll",
+        "lib/MonoTouch/Rg.Plugins.Popup.pdb",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.pdb",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.dll",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.pdb",
+        "lib/netstandard2.0/Rg.Plugins.Popup.dll",
+        "lib/netstandard2.0/Rg.Plugins.Popup.pdb",
+        "lib/tizen40/Rg.Plugins.Popup.Tizen.dll",
+        "lib/tizen40/Rg.Plugins.Popup.Tizen.pdb",
+        "lib/tizen40/Rg.Plugins.Popup.dll",
+        "lib/tizen40/Rg.Plugins.Popup.pdb",
+        "lib/uap10.0/Rg.Plugins.Popup.UWP.dll",
+        "lib/uap10.0/Rg.Plugins.Popup.UWP.pdb",
+        "lib/uap10.0/Rg.Plugins.Popup.dll",
+        "lib/uap10.0/Rg.Plugins.Popup.pdb",
+        "pluginspopup.1.1.6.nupkg.sha512",
+        "pluginspopup.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -731,6 +776,7 @@
       "Microsoft.CSharp >= 4.7.0",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
+      "PluginsPopup >= 1.1.6",
       "Xam.Plugins.Settings >= 3.1.1",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 5.0.0.2012"
@@ -793,6 +839,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.3, )"
+          },
+          "PluginsPopup": {
+            "target": "Package",
+            "version": "[1.1.6, )"
           },
           "Xam.Plugins.Settings": {
             "target": "Package",

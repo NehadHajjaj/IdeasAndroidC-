@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.IdeaPages.Machine3">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+               
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="60"
+                      WidthRequest="350"
+                BackgroundColor="#89AC8E"
+                 Margin="0" Padding="0,20,0,0"
+                   
+                        
+                  >
+                <Label  Text="Opinion mining for social networking platforms " FontSize="20"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="0" />
+            </Grid>
+            <StackLayout
+                 Padding="15,0,0,0"
+                    Orientation="Vertical"  
+               Margin="0">
+                <Label Text="This web application uses opinion mining methodology for improved decision making and enhancing customer experience. The application collects and analyzes the comments and feedback on different users on social networking platforms (Facebook, Instagram, Twitter, etc.) and categorizes them as positive and negative reviews.
+Similar to the sentiment analysis system, this application, too, has a database containing sentiment-based keywords with positivity or negativity weight. So, it analyzes the keywords mined from the user comments against the keywords stored in the database. Accordingly, the comments are ranked as good, bad, and worst reviews (based on their positive or negative weight).
+The Admin updates the database with new and relevant keywords. Users can log in to the application to view their status. They can also view the topics and comments posted by other users. By clicking on a particular topic or comment, users can provide their take on the matter.
+" FontSize="17"/>
+
+
+
+                <StackLayout Orientation="Horizontal" Spacing="0">
+
+                    <Label Text=""  FontSize="20"/>
+                    <Image Source="like.png"
+                       WidthRequest="30" Margin="320,0,0,0"></Image>
+                </StackLayout>
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

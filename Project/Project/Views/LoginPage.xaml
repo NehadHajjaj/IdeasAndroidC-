@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-            
+             xmlns:Resource="clr-namespace:Project.Helper" 
              xmlns:custom="clr-namespace:Project.ForEntry"
              x:Class="Project.Views.LoginPage"
-             xmlns:Models ="clr-namespace:Project.Models"
-           >
+             xmlns:Models ="clr-namespace:Project.Models" xmlns:Controls="clr-namespace:Project.Helper">
     <ContentPage.BindingContext>
         <Models:LoginViewModel/>
     </ContentPage.BindingContext>
     <StackLayout  Padding="3" BackgroundColor="White">
+      
         <StackLayout Orientation="Vertical" >
             <Grid HeightRequest="350"
                   HorizontalOptions="Center"
@@ -20,9 +20,12 @@
        Aspect="AspectFit"
        HorizontalOptions="Center" Margin="0,0,0,70"
                        />
-                <Label Text="Welcome to SlClub" FontSize="Title"  HorizontalOptions="Center"
+                <Label  Text="{x:Static Resource:AppResource.String4}"
+                          x:Name="label4"  
+                        FontSize="Title"  HorizontalOptions="Center"
+                         
                        Margin="0,180,0,0" />
-                <Label Text="Sign in" FontSize="Title" HorizontalOptions="Center"
+                <Label  Text="{x:Static Resource:AppResource.String5}"  x:Name="label5"   FontSize="Title" HorizontalOptions="Center"
                Margin="0,230,0,0"></Label>
             </Grid>
         </StackLayout>
@@ -32,53 +35,53 @@
                       WidthRequest="320"
                   >
 
-                <custom:CustomEntry  
-                             CornerRadius="5"  
-                             IsCurvedCornersEnabled="True"  
-                             BorderColor="#EFEFEF"     
+                <Controls:XEditor 
+                            
                              FontSize="17"  
                              HeightRequest="50"  
                     BackgroundColor="#EFEFEF"
-                    
-                             Placeholder="Email or Phone number.."
+                      x:Name="label11"  
+                             Placeholder="Email .."
                              Text="{Binding Username}"
                              PlaceholderColor="#A1A1A1"
                              TextColor="Black"  
-                             FontAttributes="Bold" >
+                             FontAttributes="Bold" />
 
-                   
-                </custom:CustomEntry>
-               
-               
+
+
+
+
 
             </Grid>
+            
             <Grid HeightRequest="60"
                   HorizontalOptions="Center"
                       WidthRequest="320"
                   >
-                <custom:CustomEntry  
-                              CornerRadius="5"  
-                             IsCurvedCornersEnabled="True"  
-                                BorderColor="#EFEFEF"    
+                <Controls:XEditor 
+                              
                              FontSize="17"  
                              HeightRequest="50" 
                     Text="{Binding Password}" 
-                    IsPassword="True"
+                
                       BackgroundColor="#EFEFEF"
-                             Placeholder="Password"  
+                             Placeholder="Password" 
+                      x:Name="label12"  
                              PlaceholderColor="#A1A1A1"
                              TextColor="Black"  
                              FontAttributes="Bold"  
-                             WidthRequest="100">
-              
-                </custom:CustomEntry>
+                             WidthRequest="100"/>
+
+
 
             </Grid>
 
             <StackLayout Orientation="Vertical"
                       Margin="0,0,0,0">
 
-                <Label  Text="Forgot password?" FontSize= "15"
+                <Label   Text="{x:Static Resource:AppResource.String6}"
+                           x:Name="label6"  
+                         FontSize= "15"
                HorizontalOptions="Center" TextDecorations="Underline"       />
 
 
@@ -96,19 +99,22 @@
                         HeightRequest="50"
                         BorderWidth="1"
                             
-                x:Name="ShopIDSubmit1"
+              
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                 BackgroundColor="White"
                              CommandParameter="Login"
                         Command="{Binding LoginCommand}"
-                        Text="SignIn" FontFamily="Regular" FontAttributes="Bold">
+                              x:Name="label7"  
+                        Text="{x:Static Resource:AppResource.String7}" FontFamily="Regular" FontAttributes="Bold">
                     </Button>
 
                 </Grid>
 
 
-                <Label Text="Create Account" FontSize= "20"
+                <Label 
+                      x:Name="label8"  
+                    Text="{x:Static Resource:AppResource.String8}" FontSize= "20"
                    HorizontalOptions="Center" FontAttributes="Bold" />
 
                 <Grid HeightRequest="50"
@@ -119,12 +125,13 @@
                         WidthRequest="50"
                         HeightRequest="50"
                         BorderWidth="1"
-                x:Name="ShopIDSubmit2"
+              
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                 BackgroundColor="White"
                              Clicked="Signup"
-                        Text="SignUp">
+                              x:Name="label9"  
+                       Text="{x:Static Resource:AppResource.String9}">
 
                     </Button>
 
@@ -139,12 +146,13 @@
                         WidthRequest="50"
                         HeightRequest="50"
                         BorderWidth="1"
-                x:Name="ShopIDSubmit3"
+              
                      Clicked="Guest"
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                 BackgroundColor="White"
-                        Text="Continue as guest">
+                              x:Name="label10"  
+                        Text="{x:Static Resource:AppResource.String10}">
 
                     </Button>
 

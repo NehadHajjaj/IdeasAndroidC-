@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              x:Class="Project.Views.IdeaPages.Cloud2">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="80"
+              
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="80"
+                               WidthRequest="100"
+                         
+                    >
+
+                    <Image Source= "image.png"
+                           Aspect="AspectFit"
+                             
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="95"
+                      WidthRequest="320"
+                
+                 Margin="0" Padding="0,0,50,0"
+                        
+                  >
+                <Label  Text="Cloud Based Improved File 
+Handling and Duplication 
+Removal Using MD5" FontSize="20"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="0" />
+            </Grid>
+            <StackLayout
+                 Padding="15,0,0,0"
+                    Orientation="Vertical"  
+               Margin="0">
+                <Label Text="Data duplication technology usually
+identifies redundant data quickly and 
+correctly by using file checksum
+technique. A checksum can determine
+whether there is redundant data. 
+However, there are the presences of 
+false positives. In order to avoid false
+positives, we need to compare a new 
+chunk with chunks of data that have been
+stored. In order to reduce the time to 
+exclude the false positives, current
+research uses extraction of file data 
+checksum. However, the target file stores
+multiple attributes such as user id, 
+filename, size, extension, checksum and 
+date-time table. Whenever user uploads a 
+particular file, the system then first
+calculates the checksum and that 
+checksum is cross verified with the 
+checksum data stored in database. If the
+file already exists, then it will update the 
+entry else it will make a new entry into the" FontSize="20"/>
+
+            
+
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Label Text=" database."  FontSize="20"/>
+                    <Image Source="like.png"
+                       WidthRequest="30" Margin="0,0,0,10"></Image>
+                </StackLayout>
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="Project.Views.IdeaPages.Info1">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+               
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="100"
+                      WidthRequest="320"
+                 
+                 Margin="0" Padding="0,0,50,0"
+                        
+                  >
+                <Label  Text=" Image encryption using
+ AES algorithm:" FontSize="25"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="0" />
+            </Grid>
+            <StackLayout
+                 Padding="15,0,0,0"
+                    Orientation="Vertical"  
+               Margin="0">
+                <Label Text="When it comes to communication and 
+imaging systems, you need to 
+incorporate the highest level of 
+security in place.Without a reliable
+ and secure system, there's a massive 
+threat to sensitive data.Cybercriminals
+ and hackers are always on the 
+lookout for hacking into confidential 
+data,which puts it at risk of being 
+violated. This project seeks to create a
+ sophisticated 
+image encryption system by using 
+the AES algorithm to prevent 
+intrusion attacks of
+imaging systems and misuse of digital 
+images. Since the system encrypts the
+images using the AES algorithm, 
+they can only be viewed by the 
+receiver and the sender. This
+encryption system is more secure 
+than DES or" FontSize="20"/>
+
+
+
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Label Text="triple DES systems."  FontSize="20"/>
+                    <Image Source="like.png"
+                       WidthRequest="30"></Image>
+                </StackLayout>
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

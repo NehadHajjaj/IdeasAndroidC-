@@ -1,4 +1,5 @@
-﻿using Project.Models;
+﻿using Project.Helper;
+using Project.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,11 @@ namespace Project.Views
             Device.SetFlags(new string[] { "RadioButton_Experimental" });
             InitializeComponent();
             this.BindingContext = new RegisterViewModel();
+            label13.Text = AppResource.String13;
+            label14.Text = AppResource.String14;
+            label15.Text = AppResource.String15;
+            label16.Text = AppResource.String16;
+           
         }
         public void UseDarkTheme_Tapped(object sender, EventArgs args)
         {

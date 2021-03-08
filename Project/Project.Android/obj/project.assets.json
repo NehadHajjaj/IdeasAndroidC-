@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v10.0": {
+      "AndHUD/1.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid81/AndHUD.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid81/AndHUD.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -21,6 +30,32 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.CurrentActivity/2.1.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
+        }
+      },
+      "PluginsPopup/1.1.6": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.0.0.497661"
+        },
+        "compile": {
+          "lib/MonoAndroid/Rg.Plugins.Popup.Droid.dll": {},
+          "lib/MonoAndroid/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/Rg.Plugins.Popup.Droid.dll": {},
+          "lib/MonoAndroid/Rg.Plugins.Popup.dll": {}
         }
       },
       "Xam.Plugins.Settings/3.1.1": {
@@ -1001,6 +1036,7 @@
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "12.0.3",
+          "PluginsPopup": "1.1.6",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "5.0.0.2012"
@@ -1015,6 +1051,18 @@
     }
   },
   "libraries": {
+    "AndHUD/1.4.2": {
+      "sha512": "talAByCb4/g2hXaFXuWFqb/bxvpUecX3V04WO1D3l11ghR0R2eNMi1GhP4u+36tOgKk738+78UxyugQNyPP7Vw==",
+      "type": "package",
+      "path": "andhud/1.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "andhud.1.4.2.nupkg.sha512",
+        "andhud.nuspec",
+        "lib/MonoAndroid81/AndHUD.dll"
+      ]
+    },
     "Microsoft.CSharp/4.7.0": {
       "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
@@ -1113,6 +1161,53 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "Plugin.CurrentActivity/2.1.0.4": {
+      "sha512": "m8xaXvXUzBSqP6xRe5PeIG347WxsG/VWrZta7MnPpSvNuPf0RLB/S49UCCQyBKSsfu053+apvYm14BC7GU6Zzg==",
+      "type": "package",
+      "path": "plugin.currentactivity/2.1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid44/Plugin.CurrentActivity.dll",
+        "lib/monoandroid44/Plugin.CurrentActivity.xml",
+        "plugin.currentactivity.2.1.0.4.nupkg.sha512",
+        "plugin.currentactivity.nuspec",
+        "readme.txt"
+      ]
+    },
+    "PluginsPopup/1.1.6": {
+      "sha512": "cuiZ2XHi3cB6tmwr+bcjyq9EhiJIbgtfRCAniMGKF5vXbFieRLg0j8fWzjCkWZ2yeRG9UNHJ1gpNLBXIskD2gQ==",
+      "type": "package",
+      "path": "pluginspopup/1.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/Rg.Plugins.Popup.Droid.dll",
+        "lib/MonoAndroid/Rg.Plugins.Popup.Droid.pdb",
+        "lib/MonoAndroid/Rg.Plugins.Popup.dll",
+        "lib/MonoAndroid/Rg.Plugins.Popup.pdb",
+        "lib/MonoTouch/Rg.Plugins.Popup.IOS.dll",
+        "lib/MonoTouch/Rg.Plugins.Popup.IOS.pdb",
+        "lib/MonoTouch/Rg.Plugins.Popup.dll",
+        "lib/MonoTouch/Rg.Plugins.Popup.pdb",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.pdb",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.dll",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.pdb",
+        "lib/netstandard2.0/Rg.Plugins.Popup.dll",
+        "lib/netstandard2.0/Rg.Plugins.Popup.pdb",
+        "lib/tizen40/Rg.Plugins.Popup.Tizen.dll",
+        "lib/tizen40/Rg.Plugins.Popup.Tizen.pdb",
+        "lib/tizen40/Rg.Plugins.Popup.dll",
+        "lib/tizen40/Rg.Plugins.Popup.pdb",
+        "lib/uap10.0/Rg.Plugins.Popup.UWP.dll",
+        "lib/uap10.0/Rg.Plugins.Popup.UWP.pdb",
+        "lib/uap10.0/Rg.Plugins.Popup.dll",
+        "lib/uap10.0/Rg.Plugins.Popup.pdb",
+        "pluginspopup.1.1.6.nupkg.sha512",
+        "pluginspopup.nuspec"
       ]
     },
     "Xam.Plugins.Settings/3.1.1": {
@@ -2284,8 +2379,11 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v10.0": [
+      "AndHUD >= 1.4.2",
       "Microsoft.CSharp >= 4.7.0",
       "Newtonsoft.Json >= 12.0.3",
+      "Plugin.CurrentActivity >= 2.1.0.4",
+      "PluginsPopup >= 1.1.6",
       "Project >= 1.0.0",
       "Xam.Plugins.Settings >= 3.1.1",
       "Xamarin.Essentials >= 1.5.3.2",
@@ -2334,6 +2432,10 @@
     "frameworks": {
       "monoandroid10.0": {
         "dependencies": {
+          "AndHUD": {
+            "target": "Package",
+            "version": "[1.4.2, )"
+          },
           "Microsoft.CSharp": {
             "target": "Package",
             "version": "[4.7.0, )"
@@ -2341,6 +2443,14 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.3, )"
+          },
+          "Plugin.CurrentActivity": {
+            "target": "Package",
+            "version": "[2.1.0.4, )"
+          },
+          "PluginsPopup": {
+            "target": "Package",
+            "version": "[1.1.6, )"
           },
           "Xam.Plugins.Settings": {
             "target": "Package",
