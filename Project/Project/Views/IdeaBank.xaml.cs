@@ -65,5 +65,15 @@ namespace Project.Views
         {
             Navigation.PushModalAsync(new CloudInventios());
         }
+
+        private void ShopIDSubmit4_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new HousewareInventions());
+        }
+
+        private void ShopIDSubmit5_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new EnvironmentalInventions());
+        }
     }
 }

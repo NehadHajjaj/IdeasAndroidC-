@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.IdeaPages.Inv1">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+               
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="60"
+                      WidthRequest="370"
+                BackgroundColor="#89AC8E"
+                 Margin="0,30,0,0" Padding="0,13,0,0"
+                   
+                        
+                  >
+                <Label 
+            Text="Buy bus and subway tickets with empty plastic bottles "
+                        FontSize="17"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="5,0,0,0" />
+            </Grid>
+            <StackLayout
+                 Padding="20,20,0,0"
+                    Orientation="Vertical" 
+               Spacing="100"
+               Margin="0">
+                <Label 
+                 Text= "The problem of plastic waste increases from year to year in all parts of the world, until the landfills are flooded and dumped in the water polluted seas and oceans. Faced with this worsening problem, governments and environmental care organizations have begun to develop solutions to address it.
+It has become possible for users of public transport in the Italian capital to use old plastic bottles to buy tickets for the metro and buses, as the passenger easily puts the plastic bottles in the vending machine that loads the price of the ticket on smartphones, through an electronic application."                      FontSize="17"/>
+
+
+
+                <StackLayout Orientation="Horizontal" Spacing="0">
+
+                    <Label Text=""  FontSize="20"/>
+                    <Image Source="like.png"
+                       WidthRequest="30" Margin="320,0,0,0"></Image>
+                </StackLayout>
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

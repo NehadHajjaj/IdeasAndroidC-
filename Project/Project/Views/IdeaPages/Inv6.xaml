@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.IdeaPages.Inv6">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+               
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="60"
+                      WidthRequest="370"
+                BackgroundColor="#C4DBC7"
+                 Margin="0,30,0,0" Padding="0,13,0,0"
+                   
+                        
+                  >
+                <Label 
+            Text="The Lowline Lab  "
+                        FontSize="17"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="5,0,0,0" />
+            </Grid>
+            <StackLayout
+                 Padding="20,20,0,0"
+                    Orientation="Vertical" 
+               Spacing="60"
+               Margin="0">
+                <Label 
+                 Text="It's not like any park you've ever seen before, says Dan Barasch of the Lowline, an abandoned trolley terminal in New York City's Lower East Side that he and architect James Ramsey are trying to turn into an acre of lush green space, replete with flowering plants and areas to relax in the sun. The key: a remote skylight dish system that captures sunlight from surrounding rooftops and funnels it underground via fiber optic cable; once there, it's beamed out via reflective dome, enabling plants to grow.
+ To prove the technology works, Barasch and Ramsey opened the Lowline Lab; it's a prototype version of the final park, which is still several approvals—and $70 million in funding—away from completion.
+"
+                       FontSize="17"/>
+
+
+
+                <StackLayout Orientation="Horizontal" Spacing="0">
+
+                    <Label Text=""  FontSize="20"/>
+                    <Image Source="like.png"
+                       WidthRequest="30" Margin="320,0,0,0"></Image>
+                </StackLayout>
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

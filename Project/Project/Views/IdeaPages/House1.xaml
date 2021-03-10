@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.IdeaPages.House1">
+    <ContentPage.Content>
+            <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+                <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+               
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                    <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                        <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+
+                    </Grid>
+                    <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                        <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                    </Grid>
+                </StackLayout>
+                <Grid  HorizontalOptions="Center"
+                     HeightRequest="60"
+                      WidthRequest="370"
+                BackgroundColor="#89AC8E"
+                 Margin="0,30,0,0" Padding="0,13,0,0"
+                   
+                        
+                  >
+                    <Label 
+            Text="Smart Bottle: It senses the nearest water source..and determines whether it is polluted or not "
+                        FontSize="17"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="5,0,0,0" />
+                </Grid>
+                <StackLayout
+                 Padding="20,20,0,0"
+                    Orientation="Vertical" 
+               Spacing="100"
+               Margin="0">
+                    <Label 
+                 Text="Passion for travel and frequent travel to new places, is the passion that travelers follow wherever their destination is, even if they require hours of walking without stopping, and despite the pleasure they find in the meantime, drinking water is the biggest obstacle, starting from fears of running out of quantity , And its validity.
+The bottle includes a sensor for the nearest water source in the surrounding area, determining whether it is contaminated or not, and the process begins by filling the container with water, so that it is possible to know whether or not it is capable of being treated inside by the internal filter."
+                       FontSize="17"/>
+
+
+
+                    <StackLayout Orientation="Horizontal" Spacing="0">
+
+                        <Label Text=""  FontSize="20"/>
+                        <Image Source="like.png"
+                       WidthRequest="30" Margin="320,0,0,0"></Image>
+                    </StackLayout>
+
+
+
+
+
+
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </ContentPage.Content>
+    </ContentPage>

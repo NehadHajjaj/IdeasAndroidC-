@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Views.IdeaPages.House6">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="100"
+               
+                Orientation="Horizontal" Margin="0" Padding="0">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="60"
+                      WidthRequest="370"
+                BackgroundColor="#C4DBC7"
+                 Margin="0,30,0,0" Padding="0,13,0,0"
+                   
+                        
+                  >
+                <Label 
+            Text="Smart food labels will reduce food wasite "
+                        FontSize="17"  HorizontalOptions="Center"
+                   FontAttributes="Bold" Margin="0" Padding="5,0,0,0" />
+            </Grid>
+            <StackLayout
+                 Padding="20,25,0,0"
+                    Orientation="Vertical" 
+             
+               Margin="0">
+                <Label 
+                 Text="Most foods have a handy label to tell you when it's expired. If your peanut butter has a best before date of last week, you'd throw it out, right? Well, maybe you don't need to. Expiration dates on food are best guesses, and they're often overly conservative to reduce the liability of grocery stores, not because the food has actually gone bad, according to FoodDive. This creates a ton of unnecessary food waste.
+In steps smart labels. These are much like the same labels that are currently on packaged food, but, well, smarter. Instead of just having a printed expiration date that's a guesstimate at the very best, these labels will actually detect the presence of disease or when something has spoiled. For example, a smart label that detects salmonella or other food-borne illnesses could be attached to the label of a package of meat, and it would change color if it detects anything dangerous. There are also time-based labels in the works.
+Best of all, these labels would make it easier to track down contaminated products at any point along the chain, and make it easier for consumers to know that their food is tainted and must be disposed of. Soon, mass recalls of everything produced from a specific region or on specific dates can be replaced by just checking the label on the food itself. If the label hasn't changed colors, it's safe to eat."
+                    
+                       FontSize="15"/>
+
+
+                <Image Source="like.png"
+                       WidthRequest="30" Margin="320,0,0,20"></Image>
+               
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

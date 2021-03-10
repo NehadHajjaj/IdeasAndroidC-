@@ -54,7 +54,7 @@
                    
                         
                   >
-                <Label  Text="Content" FontSize="30"  HorizontalOptions="Center"
+                <Label  Text="Contact " FontSize="30"  HorizontalOptions="Center"
                    FontAttributes="Bold" />
             </Grid>
             <StackLayout

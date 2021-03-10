@@ -110,3 +110,19 @@ C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Proje
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Project.csprojAssemblyReference.cache
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Project.Helper.AppResource.resources
 C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Project.Helper.AppResource.ar.resources
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\EnvironmentalInventions.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\House1.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\House2.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\House3.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\House4.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\House5.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\House6.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\House7.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\HousewareInventions .xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\Inv1.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\Inv2.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\Inv3.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\Inv4.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\Inv5.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\Inv6.xaml.g.cs
+C:\Users\Noor\Documents\ProjectFE\Project\Project\obj\Debug\netstandard2.0\Views\IdeaPages\Inv7.xaml.g.cs

@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              x:Class="Project.Views.IdeaPages.HousewareInventions">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+
+            <StackLayout
+            
+                Spacing="270"
+                HeightRequest="200"
+                 
+                Orientation="Horizontal">
+
+                <Grid  
+            
+                    Margin="25,17,0,0"
+             >
+                    <Image Source= "back.png" 
+                              
+                     Aspect="AspectFit"
+                           
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <Grid 
+                          HeightRequest="100"
+                               WidthRequest="100"
+                          Margin="0,17,0,0"
+                    >
+
+                    <Image Source= "image.png"
+                              HeightRequest="100"
+                               WidthRequest="100"
+                              
+                              />
+
+                </Grid>
+            </StackLayout>
+            <Grid  HorizontalOptions="Center"
+                     HeightRequest="100"
+                      WidthRequest="320"
+                 Margin="0"
+                        
+                  >
+                <Label  Text="Houseware inventions " FontSize="25"  HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+            </Grid>
+            <StackLayout
+                 
+                    Orientation="Vertical" Spacing="20" Padding="0,0,0,30">
+
+
+                <Grid
+                    HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                           
+                  >
+                    <Button BorderRadius="5"
+                       HeightRequest="5"
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit1"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#89AC8E"
+                         Clicked="ShopIDSubmit1_Clicked"
+                      
+                        Text="Smart Bottle: It senses the nearest water source..and determines whether it is polluted or not " FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+                <Grid 
+                       HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350" 
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit2"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+                BackgroundColor="#C4DBC7"
+                         Clicked="ShopIDSubmit2_Clicked"
+                      
+                        Text="A smart refrigerator that tracks users' diet and takes selfies of its contents " FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+
+
+
+
+
+                <Grid        HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit3"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+                BackgroundColor="#89AC8E"
+                         
+                      Clicked="ShopIDSubmit3_Clicked"
+                        Text="Connect home furniture to the Internet without the need for additional electronic devices " FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+                <Grid      HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350" 
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            
+                x:Name="ShopIDSubmit4"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+                BackgroundColor="#C4DBC7"
+                         
+                      Clicked="ShopIDSubmit4_Clicked"
+                        Text="A smart table that cooks food, cools drinks, and charges the phone " FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+
+
+
+
+
+                <Grid       HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350" 
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            Clicked="ShopIDSubmit5_Clicked"
+                x:Name="ShopIDSubmit5"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#89AC8E"
+                         
+                      
+                        Text="Baby bed sends a text message to the mother when her baby cries " FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+                <Grid        HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350"
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                            Clicked="ShopIDSubmit6_Clicked"
+                x:Name="ShopIDSubmit6"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+               BackgroundColor="#C4DBC7"
+                         
+                      
+                        Text=" Smart food labels will reduce food wasite " FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+
+
+
+
+
+                <Grid      HeightRequest="120"
+                  HorizontalOptions="Center"
+                      WidthRequest="350" 
+                  >
+                    <Button BorderRadius="5"
+                       
+                        BorderWidth="1"
+                          Clicked="ShopIDSubmit7_Clicked"  
+                x:Name="ShopIDSubmit7"
+                        TextColor="Black"
+                    BorderColor="#D9D9D9"
+           BackgroundColor="#89AC8E"
+                         
+                      
+                        Text="Power pasta  " FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    </Button>
+
+                </Grid>
+
+
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

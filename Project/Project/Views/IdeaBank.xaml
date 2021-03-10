@@ -137,7 +137,7 @@
                     BorderColor="#D9D9D9"
                 BackgroundColor="#C4DBC7"
                        
-                      
+                      Clicked="ShopIDSubmit4_Clicked"
                         Text="Houseware Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
@@ -159,7 +159,7 @@
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                BackgroundColor="#89AC8E"
-                         
+                         Clicked="ShopIDSubmit5_Clicked"
                      
                         Text="Enviromental Innovation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
