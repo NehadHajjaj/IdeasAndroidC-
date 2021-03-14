@@ -28,17 +28,17 @@ namespace Project.Models
 
 			if (string.IsNullOrWhiteSpace(Username) ||  string.IsNullOrWhiteSpace(Password) )
 			{
-				await App.Current.MainPage.DisplayAlert("Error", "Please Fill the Fields", "Ok");
+				await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.body, AppResource.ok);
 
 			}
 			else if (!passwordRegExp.IsMatch(Password))
 			{
-				await App.Current.MainPage.DisplayAlert("Error", "Password must contain at least one digit, one uppercase character and one special symbol ", "Ok");
+				await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.passv, AppResource.ok);
 			}
 
 			else if (!EmailRegex.IsMatch(Username))
 			{
-				await App.Current.MainPage.DisplayAlert("Error", "Please Enter a vaild Email ", "Ok");
+				await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.emv, AppResource.ok);
 			}
 
 			else {
@@ -49,7 +49,8 @@ namespace Project.Models
 
 				if (accessToken == null)
                 {
-					await App.Current.MainPage.DisplayAlert("Error", "This Account Doesnt exist Please Rgister ", "Ok");
+					await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.reg, AppResource.ok);
+				
 					await Application.Current.MainPage.Navigation.PushModalAsync(new SignUp());
 				}
 				else

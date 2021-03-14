@@ -7,7 +7,7 @@
 
             <StackLayout
                
-                Spacing="100"
+                Spacing="210"
                 HeightRequest="80" 
                 Orientation="Horizontal" Margin="0,20,0,0">
 
@@ -61,7 +61,7 @@
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                BackgroundColor="#89AC8E"
-                        
+                       
                      Clicked="ShopIDSubmit1_Clicked"
                         Text="Cloud Based Attendance System" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                     </Button>

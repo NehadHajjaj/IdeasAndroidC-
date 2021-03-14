@@ -34,5 +34,16 @@ namespace Project.Views
            btn2.Text = AppResource.btnres;
 
         }
+        public void OnImageNameTapped(object sender, EventArgs args)
+        {
+            try
+            {
+                Navigation.PushModalAsync(new Profile());
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

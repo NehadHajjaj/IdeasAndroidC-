@@ -52,7 +52,7 @@ namespace Project.ViewModel
 
 				if (string.IsNullOrWhiteSpace(FirstName) || string.IsNullOrWhiteSpace(LastName)  || string.IsNullOrWhiteSpace(Nationality) || string.IsNullOrWhiteSpace(BirthCountry) || string.IsNullOrWhiteSpace(Mobile) || string.IsNullOrWhiteSpace(AcademicQualification) || !term)
 			{
-					await App.Current.MainPage.DisplayAlert("Error", "Please Fill the Fields", "Ok");
+					await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.body, AppResource.ok);
 
 				}
 				else
@@ -90,7 +90,7 @@ namespace Project.ViewModel
 				}
 				else
 				{
-					await App.Current.MainPage.DisplayAlert("Error", "You Arent Authorized, Pleas Login", "Ok");
+					await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.nonuser, AppResource.ok);
 					await Application.Current.MainPage.Navigation.PushModalAsync(new LoginPage());
 
 				}

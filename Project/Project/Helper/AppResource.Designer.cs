@@ -142,6 +142,15 @@ namespace Project.Helper {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Please Fill the Fields.
+        /// </summary>
+        public static string body {
+            get {
+                return ResourceManager.GetString("body", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Reset.
         /// </summary>
         public static string btnres {
@@ -241,6 +250,15 @@ namespace Project.Helper {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to there isnt a course to show.
+        /// </summary>
+        public static string cn {
+            get {
+                return ResourceManager.GetString("cn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to General discussions.
         /// </summary>
         public static string con1 {
@@ -277,6 +295,33 @@ namespace Project.Helper {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Please write your discussion.
+        /// </summary>
+        public static string dissw {
+            get {
+                return ResourceManager.GetString("dissw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to there isnt a disscusion to show.
+        /// </summary>
+        public static string dn {
+            get {
+                return ResourceManager.GetString("dn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to sorry! try again this Account is Registerd.
+        /// </summary>
+        public static string e1 {
+            get {
+                return ResourceManager.GetString("e1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to your Email.
         /// </summary>
         public static string em1 {
@@ -309,6 +354,33 @@ namespace Project.Helper {
         public static string email {
             get {
                 return ResourceManager.GetString("email", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NewEmail and Confirm doesnt match.
+        /// </summary>
+        public static string emt {
+            get {
+                return ResourceManager.GetString("emt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please Enter a vaild Email.
+        /// </summary>
+        public static string emv {
+            get {
+                return ResourceManager.GetString("emv", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error.
+        /// </summary>
+        public static string er {
+            get {
+                return ResourceManager.GetString("er", resourceCulture);
             }
         }
         
@@ -592,7 +664,7 @@ namespace Project.Helper {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Do you have an invetaion?.
+        ///   Looks up a localized string similar to Do you have an invention?.
         /// </summary>
         public static string h1 {
             get {
@@ -642,6 +714,15 @@ namespace Project.Helper {
         public static string i2 {
             get {
                 return ResourceManager.GetString("i2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There isnt a idea to show.
+        /// </summary>
+        public static string id {
+            get {
+                return ResourceManager.GetString("id", resourceCulture);
             }
         }
         
@@ -925,6 +1006,15 @@ namespace Project.Helper {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to there isnt a News and event to show.
+        /// </summary>
+        public static string ne {
+            get {
+                return ResourceManager.GetString("ne", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to News1.
         /// </summary>
         public static string new1 {
@@ -952,6 +1042,24 @@ namespace Project.Helper {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to You Arent Authorized, Pleas Login.
+        /// </summary>
+        public static string nonuser {
+            get {
+                return ResourceManager.GetString("nonuser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ok.
+        /// </summary>
+        public static string ok {
+            get {
+                return ResourceManager.GetString("ok", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to your password.
         /// </summary>
         public static string pass1 {
@@ -975,6 +1083,24 @@ namespace Project.Helper {
         public static string pass3 {
             get {
                 return ResourceManager.GetString("pass3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NewPass and Confirm doesnt match.
+        /// </summary>
+        public static string passt {
+            get {
+                return ResourceManager.GetString("passt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password must contain at least one digit, one uppercase character and one special symbol.
+        /// </summary>
+        public static string passv {
+            get {
+                return ResourceManager.GetString("passv", resourceCulture);
             }
         }
         
@@ -1056,6 +1182,24 @@ namespace Project.Helper {
         public static string pro5 {
             get {
                 return ResourceManager.GetString("pro5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There is a Problem please try again.
+        /// </summary>
+        public static string problem {
+            get {
+                return ResourceManager.GetString("problem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This Account Doesnt exist Please Rgister.
+        /// </summary>
+        public static string reg {
+            get {
+                return ResourceManager.GetString("reg", resourceCulture);
             }
         }
         
@@ -1534,6 +1678,15 @@ namespace Project.Helper {
         public static string w4 {
             get {
                 return ResourceManager.GetString("w4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to there isnt a WorkShops to show.
+        /// </summary>
+        public static string wn {
+            get {
+                return ResourceManager.GetString("wn", resourceCulture);
             }
         }
     }

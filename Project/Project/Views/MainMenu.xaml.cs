@@ -49,17 +49,24 @@ namespace Project.Views
         }
         public async System.Threading.Tasks.Task logoutAsync()
         {
-          
-            var IsAutho = await _apiService.Logout(Settings.AccessToken);
-            if (IsAutho)
+            if (Settings.AccessToken == "")
             {
-                Settings.AccessToken = "";
-                Detail = new NavigationPage(new LoginPage());
+                await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.e1, AppResource.ok);
+                _ = Navigation.PushModalAsync(new LoginPage());
             }
             else
             {
-                await App.Current.MainPage.DisplayAlert("Error", "You Arent Authorized, Pleas Login", "Ok");
-                await Application.Current.MainPage.Navigation.PushModalAsync(new LoginPage());
+                var IsAutho = await _apiService.Logout(Settings.AccessToken);
+                if (IsAutho)
+                {
+                    Settings.AccessToken = "";
+                    Detail = new NavigationPage(new LoginPage());
+                }
+                else
+                {
+                    await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.nonuser, AppResource.ok);
+                    await Application.Current.MainPage.Navigation.PushModalAsync(new LoginPage());
+                }
             }
         }
         // When a MenuItem is selected.

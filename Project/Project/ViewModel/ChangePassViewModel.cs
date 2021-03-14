@@ -36,27 +36,27 @@ namespace Project.ViewModel
 
 		if (string.IsNullOrWhiteSpace(OldPass) || string.IsNullOrWhiteSpace(NewPass) || string.IsNullOrWhiteSpace(ConfirmPass))
 		{
-			await App.Current.MainPage.DisplayAlert("Error", "Please Fill the Fields", "Ok");
+				await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.body, AppResource.ok);
 
-		}
+			}
 			else if (!passwordRegExp.IsMatch(OldPass))
 			{
-				await App.Current.MainPage.DisplayAlert("Error", "Password must contain at least one digit, one uppercase character and one special symbol ", "Ok");
+				await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.passv, AppResource.ok);
 			}
 			else if (!passwordRegExp.IsMatch(NewPass))
 			{
-				await App.Current.MainPage.DisplayAlert("Error", "Password must contain at least one digit, one uppercase character and one special symbol ", "Ok");
+				await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.passv, AppResource.ok);
 			}
 			else if (NewPass != ConfirmPass)
 		{
-			await App.Current.MainPage.DisplayAlert("Error", "NewPass and Confirm doesnt match", "Ok");
+			await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.passt, AppResource.ok);
 		}
 		else
 		{
 
 				if (Settings.AccessToken == "")
 				{
-					await App.Current.MainPage.DisplayAlert("Error", "You arent Authorized", "Ok");
+					await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.nonuser, AppResource.ok);
 					await Application.Current.MainPage.Navigation.PushModalAsync(new LoginPage());
 				}
 				else { 
@@ -79,8 +79,8 @@ namespace Project.ViewModel
 				}
 				else
 				{
-					await App.Current.MainPage.DisplayAlert("Error", "There is a Problem please try again ", "Ok");
-					await Application.Current.MainPage.Navigation.PushModalAsync(new ChangePassword());
+						await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.problem, AppResource.ok);
+						await Application.Current.MainPage.Navigation.PushModalAsync(new ChangePassword());
 				}
 				}
 			}

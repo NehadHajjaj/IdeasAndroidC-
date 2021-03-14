@@ -41,14 +41,14 @@ namespace Project.ViewModel
 		{
 			if (string.IsNullOrWhiteSpace(DiscussionText))
 			{
-				await App.Current.MainPage.DisplayAlert("Error", "Please write your discussion", "Ok");
+				await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.dissw, AppResource.ok);
 
 			}
 			else
 			{
 				if (Settings.AccessToken == "")
 				{
-					await App.Current.MainPage.DisplayAlert("Error", "You arent Authorized", "Ok");
+					await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.nonuser, AppResource.ok);
 					await Application.Current.MainPage.Navigation.PushModalAsync(new LoginPage());
 				}
 				else
@@ -69,7 +69,7 @@ namespace Project.ViewModel
 					}
 					else
 					{
-						await App.Current.MainPage.DisplayAlert("Error", "You Arent Authorized, Pleas Login", "Ok");
+						await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.nonuser, AppResource.ok);
 						await Application.Current.MainPage.Navigation.PushModalAsync(new LoginPage());
 
 					}

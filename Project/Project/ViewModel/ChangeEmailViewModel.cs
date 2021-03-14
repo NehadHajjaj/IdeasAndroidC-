@@ -43,26 +43,27 @@ namespace Project.ViewModel
 
 			if (string.IsNullOrWhiteSpace(NewEmail) || string.IsNullOrWhiteSpace(OldEmail) || string.IsNullOrWhiteSpace(ConfirmEmail) )
 			{
-				await App.Current.MainPage.DisplayAlert("Error", "Please Fill the Fields", "Ok");
+				
+				await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.body, AppResource.ok);
 
 			}
 			else if (!EmailRegex.IsMatch(OldEmail))
 			{
-				await App.Current.MainPage.DisplayAlert("Error", "Please Enter a vaild Email ", "Ok");
+				await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.emv, AppResource.ok);
 			}
 			else if (!EmailRegex.IsMatch(NewEmail))
 			{
-				await App.Current.MainPage.DisplayAlert("Error", "Please Enter a vaild Email ", "Ok");
+				await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.emv, AppResource.ok);
 			}
 			else if (ConfirmEmail != NewEmail) {
-				await App.Current.MainPage.DisplayAlert("Error", "NewEmail and Confirm doesnt match", "Ok");
+				await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.emt, AppResource.ok);
 			}
 			
 			else
 			{
 				if (Settings.AccessToken == "")
 				{
-					await App.Current.MainPage.DisplayAlert("Error", "You arent Authorized", "Ok");
+					await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.nonuser, AppResource.ok);
 					await Application.Current.MainPage.Navigation.PushModalAsync(new LoginPage());
 				}
 				else
@@ -86,7 +87,7 @@ namespace Project.ViewModel
 					}
 					else
 					{
-						await App.Current.MainPage.DisplayAlert("Error", "There is a Problem please try again ", "Ok");
+						await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.problem, AppResource.ok);
 						await Application.Current.MainPage.Navigation.PushModalAsync(new ChangeEmail());
 					}
 				}

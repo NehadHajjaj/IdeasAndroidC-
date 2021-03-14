@@ -26,7 +26,14 @@
                     <Image Source= "back.png" 
                      Aspect="AspectFit" 
                            
-                          ></Image>
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
 
                 </Grid>
                 <Grid Margin="0,16,0,0" 

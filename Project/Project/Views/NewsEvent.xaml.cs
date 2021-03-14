@@ -47,7 +47,7 @@ namespace Project.Views
         {
             if (Settings.AccessToken == "")
             {
-                await App.Current.MainPage.DisplayAlert("Error", "You arent Authorized", "Ok");
+                await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.nonuser, AppResource.ok);
                 _ = Navigation.PushModalAsync(new LoginPage());
             }
             else
@@ -78,7 +78,7 @@ namespace Project.Views
 
                 else
                 {
-                    await App.Current.MainPage.DisplayAlert("Error", "there isnt a News and event to show", "Ok");
+                    await App.Current.MainPage.DisplayAlert(AppResource.er,AppResource.ne, AppResource.ok);
                     _ = Navigation.PushModalAsync(new LoginPage());
                 }
             }

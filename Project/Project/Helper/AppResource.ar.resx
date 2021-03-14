@@ -144,6 +144,9 @@
   <data name="adviser" xml:space="preserve">
     <value>الاستشاريين</value>
   </data>
+  <data name="body" xml:space="preserve">
+    <value>رجاء املأ الحقول</value>
+  </data>
   <data name="btnres" xml:space="preserve">
     <value>إعادة تعيين</value>
   </data>
@@ -177,6 +180,9 @@
   <data name="change2" xml:space="preserve">
     <value>إعدادات كلمة المرور</value>
   </data>
+  <data name="cn" xml:space="preserve">
+    <value>لا يوجد دورات يمكن عرضهم</value>
+  </data>
   <data name="con1" xml:space="preserve">
     <value>مناقشة عامة</value>
   </data>
@@ -189,6 +195,15 @@
   <data name="diss" xml:space="preserve">
     <value>اكتب مناقشتك هُنا</value>
   </data>
+  <data name="dissw" xml:space="preserve">
+    <value>رجاء قم بكتابة مناقشتك</value>
+  </data>
+  <data name="dn" xml:space="preserve">
+    <value>لايوجد مناقشات يمكن عرضهم</value>
+  </data>
+  <data name="e1" xml:space="preserve">
+    <value>عذرا الحساب الذي تحاول الوصول اليه موجود مسبقا</value>
+  </data>
   <data name="em1" xml:space="preserve">
     <value>بريدك الإلكتروني</value>
   </data>
@@ -200,6 +215,15 @@
   </data>
   <data name="email" xml:space="preserve">
     <value>البريد الالكتروني : </value>
+  </data>
+  <data name="emt" xml:space="preserve">
+    <value>الايميل الجديد وتاكيد الايميل لا يتطابق</value>
+  </data>
+  <data name="emv" xml:space="preserve">
+    <value>رجاء قم بادخال الايميل بشكل صحيح</value>
+  </data>
+  <data name="er" xml:space="preserve">
+    <value>خطأ</value>
   </data>
   <data name="eve1" xml:space="preserve">
     <value>حدث1</value>
@@ -342,6 +366,9 @@
   <data name="idea9" xml:space="preserve">
     <value>اختراعات الحوسبة السحابية</value>
   </data>
+  <data name="in" xml:space="preserve">
+    <value>لايوجد افكار يمكن عرضهم</value>
+  </data>
   <data name="inv" xml:space="preserve">
     <value>الافكار والاختراعات</value>
   </data>
@@ -405,6 +432,9 @@
   <data name="name" xml:space="preserve">
     <value>الاسم :</value>
   </data>
+  <data name="ne" xml:space="preserve">
+    <value>لا يوجد احداث او اخبار يمكن عرضهم</value>
+  </data>
   <data name="new1" xml:space="preserve">
     <value>جديد1</value>
   </data>
@@ -414,6 +444,12 @@
   <data name="news" xml:space="preserve">
     <value>الاخبار والاحداث</value>
   </data>
+  <data name="nonuser" xml:space="preserve">
+    <value>انت غير مسجل قم بتسجيل الدخول للتطبيق</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>حسنا</value>
+  </data>
   <data name="pass1" xml:space="preserve">
     <value>كلمة المرور الحالية</value>
   </data>
@@ -422,6 +458,12 @@
   </data>
   <data name="pass3" xml:space="preserve">
     <value>تأكيد كلمة المرور</value>
+  </data>
+  <data name="passt" xml:space="preserve">
+    <value>كلمة المرور وتاكيد كلمة المرور لا يتطابقان</value>
+  </data>
+  <data name="passv" xml:space="preserve">
+    <value>كلمة المرور يجب ان تحتوي على الاقل حرف خاص حرف كبير وحرف صغير</value>
   </data>
   <data name="pri" xml:space="preserve">
     <value>مناقشة خاصة</value>
@@ -449,6 +491,9 @@
   </data>
   <data name="pro5" xml:space="preserve">
     <value>تغير الرقم السري</value>
+  </data>
+  <data name="problem" xml:space="preserve">
+    <value>هنالك مشكلة ما حاول مرة اخرى</value>
   </data>
   <data name="res" xml:space="preserve">
     <value>المصادر</value>
@@ -605,5 +650,8 @@
   </data>
   <data name="w4" xml:space="preserve">
     <value>ورشةعمل 4</value>
+  </data>
+  <data name="wn" xml:space="preserve">
+    <value>لايوجد ورش عمل يمكن عرضهم</value>
   </data>
 </root>

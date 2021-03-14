@@ -30,21 +30,21 @@ namespace Project.Models
         {
             if ( string.IsNullOrWhiteSpace(Username) || string.IsNullOrWhiteSpace(Email) || string.IsNullOrWhiteSpace(Password) || string.IsNullOrWhiteSpace(ConfirmPassword))
             {
-                await App.Current.MainPage.DisplayAlert("Error", "Please Fill the Fields", "Ok");
-           
+                await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.body, AppResource.ok);
+
             }
             else if (!passwordRegExp.IsMatch(Password))
             {
-                await App.Current.MainPage.DisplayAlert("Error", "Password must contain at least one digit, one uppercase character and one special symbol ", "Ok");
+                await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.passv, AppResource.ok);
             }
            
             else if (!EmailRegex.IsMatch(Email))
             {
-                await App.Current.MainPage.DisplayAlert("Error", "Please Enter a vaild Email ", "Ok");
+                await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.emv, AppResource.ok);
             }
             else if (Password != ConfirmPassword)
             {
-                await App.Current.MainPage.DisplayAlert("Error", "ConfirmPassword doesnt match Password ", "Ok");
+                await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.passt, AppResource.ok);
             }
 
 
@@ -69,7 +69,7 @@ namespace Project.Models
                 }
                 else
                 {
-                    await App.Current.MainPage.DisplayAlert("sorry! try again this Account is Registerd", "", "Ok");
+                    await App.Current.MainPage.DisplayAlert(AppResource.e1, "", AppResource.ok);
 
                     await Application.Current.MainPage.Navigation.PushModalAsync(new SignUp());
 

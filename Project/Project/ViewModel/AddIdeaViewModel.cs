@@ -114,13 +114,13 @@ namespace Project.ViewModel
 
 			if (string.IsNullOrWhiteSpace(Title) || string.IsNullOrWhiteSpace(Description) || IdeaType == 0 || IdeaState == 0 || ScientificClassification == 0)
 			{
-				await App.Current.MainPage.DisplayAlert("Error", "Please Fill the Fields", "Ok");
+				await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.body, AppResource.ok);
 
 			}
 			else
 			 if (Settings.AccessToken == "")
 			{
-				await App.Current.MainPage.DisplayAlert("Error", "You arent Authorized", "Ok");
+				await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.nonuser, AppResource.ok);
 				await Application.Current.MainPage.Navigation.PushModalAsync(new LoginPage());
 			}
 			else
@@ -145,7 +145,7 @@ namespace Project.ViewModel
 					}
 					else
 					{
-						await App.Current.MainPage.DisplayAlert("Error", "You Arent Authorized, Pleas Login", "Ok");
+						await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.nonuser, AppResource.ok);
 						await Application.Current.MainPage.Navigation.PushModalAsync(new LoginPage());
 
 					}

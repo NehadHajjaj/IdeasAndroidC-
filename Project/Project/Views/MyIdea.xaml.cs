@@ -40,7 +40,7 @@ namespace Project.Views
         {
             if (Settings.AccessToken == "")
             {
-                await App.Current.MainPage.DisplayAlert("Error", "You arent Authorized", "Ok");
+                await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.nonuser, AppResource.ok);
                 _ = Navigation.PushModalAsync(new LoginPage());
             }
             else
@@ -57,7 +57,7 @@ namespace Project.Views
 
                 else
                 {
-                    await App.Current.MainPage.DisplayAlert("Error", "There isnt a idea to show", "Ok");
+                    await App.Current.MainPage.DisplayAlert(AppResource.er, AppResource.id, AppResource.ok);
                     _ = Navigation.PushModalAsync(new MainMenu());
 
                 }
