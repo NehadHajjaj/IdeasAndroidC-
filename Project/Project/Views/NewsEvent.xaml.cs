@@ -26,6 +26,7 @@ namespace Project.Views
         public NewsEvent()
         {
             InitializeComponent();
+            label.Text = AppResource.news;
             NavigationPage.SetHasNavigationBar(this, false);
             GetEventNews();
 
@@ -61,13 +62,17 @@ namespace Project.Views
                 {
                     Event eve = myData[0];
                     event1.Text = eve.Title;
+                    event1.Text = AppResource.eve1;
                     Event eve2 = myData[1];
                     event2.Text = eve2.Title;
+                    event2.Text = AppResource.eve2;
 
                     News news = myData2[0];
                     new1.Text = news.Title;
+                    new1.Text = AppResource.new1;
                     News news2 = myData2[1];
                     new2.Text = news2.Title;
+                    new2.Text = AppResource.new2;
 
                 }
 

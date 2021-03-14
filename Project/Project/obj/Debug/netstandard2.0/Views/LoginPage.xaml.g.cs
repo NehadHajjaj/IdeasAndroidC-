@@ -23,10 +23,10 @@ namespace Project.Views {
         private global::Xamarin.Forms.Label label5;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Project.Helper.XEditor label11;
+        private global::Project.Helper.XEditor p2;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Project.Helper.XEditor label12;
+        private global::Project.Helper.XEditor p3;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Label label6;
@@ -48,8 +48,8 @@ namespace Project.Views {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(LoginPage));
             label4 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "label4");
             label5 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "label5");
-            label11 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Project.Helper.XEditor>(this, "label11");
-            label12 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Project.Helper.XEditor>(this, "label12");
+            p2 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Project.Helper.XEditor>(this, "p2");
+            p3 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Project.Helper.XEditor>(this, "p3");
             label6 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "label6");
             label7 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "label7");
             label8 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "label8");

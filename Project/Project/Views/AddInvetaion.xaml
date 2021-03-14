@@ -2,14 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Project.Views.AddInvetaion"
-   
+     xmlns:Resource="clr-namespace:Project.Helper" 
              xmlns:Controls="clr-namespace:Project.Helper"
              xmlns:local="clr-namespace:Project.ViewModel">
     <ContentPage.BindingContext>
         <local:AddIdeaViewModel>
 </local:AddIdeaViewModel>
     </ContentPage.BindingContext>
-    
+
     <ContentPage.Content>
         <StackLayout  Orientation="Vertical"  BackgroundColor="White">
 
@@ -41,7 +41,8 @@
                       WidthRequest="320"
                    Margin="0,0,0,20"
                   >
-                <Label Text="Inventions" FontSize="25"  HorizontalOptions="Center"
+                <Label Text="{x:Static Resource:AppResource.inv}"
+                    x:Name="label" FontSize="25"  HorizontalOptions="Center"
                    FontAttributes="Bold" />
             </Grid>
 
@@ -55,9 +56,10 @@
                         Spacing="5"
                         >
                 <StackLayout>
-                    <Label Text="name of invention"
+                    <Label Text="{x:Static Resource:AppResource.inv1}"
+                    x:Name="label1"
                           
-                           FontSize="15"    Margin="45,0,0,0"/>
+                           FontSize="15"    Margin="45,0"/>
                     <Grid 
                       
                   HorizontalOptions="Center"
@@ -83,7 +85,8 @@
                 </Grid>
                 </StackLayout>
                 <StackLayout>
-                    <Label Text="Scientific classification:"  FontSize="15" Margin="45,0,0,0"/>
+                    <Label Text="{x:Static Resource:AppResource.inv2}"
+                    x:Name="label2" FontSize="15" Margin="45,0"/>
                     <Grid 
                       HorizontalOptions="Center"
                      HeightRequest="80"
@@ -93,14 +96,15 @@
 
 
                         <Picker 
-                        Title="scientific classification"
+                        Title="{x:Static Resource:AppResource.inv3}"
+                    x:Name="pick3"
                              FontSize="13"  
                              HeightRequest="50"  
                      BackgroundColor="#89AC8E"
                              TextColor="Black"  
                              FontAttributes="Bold"
                 ItemDisplayBinding="{Binding Des}"
-                    x:Name="classifyEntry"
+                   
                SelectedItem="{Binding  SelectedDrop1}" 
                         ItemsSource="{Binding idealist}"/>
 
@@ -109,7 +113,8 @@
                     </Grid>
                 </StackLayout>
                 <StackLayout>
-                    <Label Text="Idea Type:"  FontSize="15" Margin="45,0,0,0"/>
+                    <Label Text="{x:Static Resource:AppResource.inv4}"
+                    x:Name="label4"  FontSize="15" Margin="45,0"/>
                     <Grid
                         HorizontalOptions="Center"
                      HeightRequest="80"
@@ -117,21 +122,23 @@
                   >
 
                         <Picker 
-                        Title="select a type"
+                        Title="{x:Static Resource:AppResource.inv5}"
+                    x:Name="pick5"
                              FontSize="13"  
                              HeightRequest="50"  
                      BackgroundColor="#89AC8E"
                              TextColor="Black"  
                              FontAttributes="Bold"
                 ItemDisplayBinding="{Binding type}"
-                    x:Name="typeEntry"
+                 
                    SelectedItem="{Binding  SelectedDrop2}" 
                     ItemsSource="{Binding idealtype}"/>
 
                     </Grid>
                 </StackLayout>
                 <StackLayout>
-                    <Label Text="state invention:"  FontSize="15" Margin="45,0,0,0"/>
+                    <Label Text="{x:Static Resource:AppResource.inv6}"
+                    x:Name="label6"  FontSize="15" Margin="45,0"/>
                     <Grid 
                       HorizontalOptions="Center"
                      HeightRequest="80"
@@ -140,14 +147,15 @@
 
 
                         <Picker 
-                        Title="select a state"
+                        Title="{x:Static Resource:AppResource.inv7}"
+                    x:Name="pick7"
                              FontSize="13"  
                              HeightRequest="50"  
                      BackgroundColor="#89AC8E"
                              TextColor="Black"  
                              FontAttributes="Bold"
                 ItemDisplayBinding="{Binding state}"
-                    x:Name="statEntry"
+                 
                    SelectedItem="{Binding  SelectedDrop3}" 
                     ItemsSource="{Binding idealstate}"/>
 
@@ -161,7 +169,8 @@
 
                 <StackLayout>
 
-                    <Label Text="Talk about your invention"  FontSize="15" Margin="45,0,0,0"/>
+                    <Label Text="{x:Static Resource:AppResource.inv8}"
+                    x:Name="label8" FontSize="15" Margin="45,0"/>
                     <Grid 
                       HorizontalOptions="Center"
                      HeightRequest="250"
@@ -201,13 +210,14 @@
                        
                         BorderWidth="1"
                             
-                x:Name="ShopIDSubmit1"
+             
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                BackgroundColor="#CDCDCD"
                          Command="{Binding Submit}"
-                      
-                        Text="Submit" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    Text="{x:Static Resource:AppResource.btns}"
+                    x:Name="btn1" 
+                        FontFamily="Regular" FontAttributes="Bold" Padding="0">
                         </Button>
 
                     </Grid>
@@ -219,13 +229,14 @@
                        
                         BorderWidth="1"
                             
-                x:Name="ShopIDSubmit2"
+               
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                 BackgroundColor="#CDCDCD"
                          
                       Command="{Binding Reset}"
-                        Text="Reset" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                        Text="{x:Static Resource:AppResource.btnres}"
+                    x:Name="btn2" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                         </Button>
 
                     </Grid>

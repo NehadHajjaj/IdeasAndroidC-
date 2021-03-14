@@ -26,7 +26,10 @@ namespace Project.Views
             label14.Text = AppResource.String14;
             label15.Text = AppResource.String15;
             label16.Text = AppResource.String16;
-           
+            p1.Placeholder = AppResource.f1;
+            p2.Placeholder = AppResource.f2;
+            p3.Placeholder = AppResource.f3;
+            p4.Placeholder = AppResource.f4;
         }
         public void UseDarkTheme_Tapped(object sender, EventArgs args)
         {

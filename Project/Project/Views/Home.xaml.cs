@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Helper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,11 @@ namespace Project.Views
         public Home()
         {
             InitializeComponent();
-          
+            l1.Text = AppResource.h1;
+            l2.Text = AppResource.h2;
+            l3.Text = AppResource.h3;
+            l4.Text = AppResource.h4;
+
         }
         public void ADD(object sender, EventArgs args)
         {

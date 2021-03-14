@@ -62,8 +62,9 @@
                              FontSize="17"  
                              HeightRequest="50"  
                     BackgroundColor="#EFEFEF"
-                    x:Name="nameEntry"
-                             Placeholder="Name"
+                   
+                              Placeholder="{x:Static Resource:AppResource.f1}"
+                    x:Name="p1" 
                              Text="{Binding Username}"
                              PlaceholderColor="#A1A1A1"
                              TextColor="Black"  
@@ -85,7 +86,8 @@
                              HeightRequest="50"  
                     BackgroundColor="#EFEFEF"
                     
-                             Placeholder="Email or Phone number.."
+                             Placeholder="{x:Static Resource:AppResource.f2}"
+                    x:Name="p2" 
                              Text="{Binding Email}"
                              PlaceholderColor="#A1A1A1"
                            
@@ -112,12 +114,13 @@
                             
                              FontSize="17"  
                              HeightRequest="50" 
-                        x:Name="txtpassword"
+                    
                     Text="{Binding Password}" 
                       
                    
                       BackgroundColor="#EFEFEF"
-                             Placeholder="Password"  
+                               Placeholder="{x:Static Resource:AppResource.f3}"
+                    x:Name="p3" 
                              PlaceholderColor="#A1A1A1"
                              TextColor="Black"  
                              FontAttributes="Bold"  
@@ -140,8 +143,9 @@
                              FontSize="17"  
                              HeightRequest="50"  
                     BackgroundColor="#EFEFEF"
-                    
-                             Placeholder="ConfirmPassword"
+                     Placeholder="{x:Static Resource:AppResource.f4}"
+                    x:Name="p4"  
+                          
                             Text="{Binding ConfirmPassword}"
                              PlaceholderColor="#A1A1A1"
                              TextColor="Black"  

@@ -29,8 +29,10 @@ namespace Project.Views
             label8.Text = AppResource.String8;
             label9.Text = AppResource.String9;
             label10.Text = AppResource.String10;
-           // label11.Text = AppResource.String11;
-            //label12.Text = AppResource.String12;
+           
+            p2.Placeholder = AppResource.f2;
+            p3.Placeholder = AppResource.f3;
+        
         }
 
 

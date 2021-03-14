@@ -2,8 +2,8 @@
     <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
           x:Class="Project.Views.Consultants"
-   
-             xmlns:Controls="clr-namespace:Project.Helper">
+    xmlns:Resource="clr-namespace:Project.Helper"  
+           >
 
         <ContentPage.Content>
             <StackLayout  Orientation="Vertical"  BackgroundColor="White">
@@ -43,7 +43,8 @@
                       WidthRequest="320"
                    Margin="0,0,0,20"
                   >
-                <Label Text="Consultants" FontSize="25"  HorizontalOptions="Center"
+                <Label  Text="{x:Static Resource:AppResource.adviser}"
+                    x:Name="label" FontSize="25"  HorizontalOptions="Center"
                    FontAttributes="Bold" />
                 </Grid>
 <StackLayout Orientation="Vertical" Spacing="5">
@@ -61,13 +62,14 @@
                        HeightRequest="5"
                         BorderWidth="1"
                             
-                x:Name="ShopIDSubmit1"
+              
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                BackgroundColor="#89AC8E"
                          Clicked="ShopIDSubmit1_Clicked"
-                      
-                        Text="Engineering" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                       Text="{x:Static Resource:AppResource.ad1}"
+                    x:Name="label1"
+                        FontFamily="Regular" FontAttributes="Bold" Padding="0">
                     </Button>
 
                 </Grid>
@@ -80,13 +82,14 @@
                        
                         BorderWidth="1"
                             
-                x:Name="ShopIDSubmit2"
+             
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                 BackgroundColor="#89AC8E"
                          
                       Clicked="ShopIDSubmit2_Clicked"
-                        Text="Technological" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                      Text="{x:Static Resource:AppResource.ad2}"
+                    x:Name="label2" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                     </Button>
 
                 </Grid>
@@ -107,13 +110,14 @@
                        
                         BorderWidth="1"
                             Clicked="ShopIDSubmit3_Clicked"
-                x:Name="ShopIDSubmit3"
+               
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                BackgroundColor="#C4DBC7"
-                         
+                         Text="{x:Static Resource:AppResource.ad3}"
+                    x:Name="label3"
                       
-                        Text="Medical" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                       FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
                         </Grid>
@@ -125,13 +129,13 @@
                        
                         BorderWidth="1"
                             Clicked="ShopIDSubmit4_Clicked"
-                x:Name="ShopIDSubmit4"
+              
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                 BackgroundColor="#C4DBC7"
                          
-                      
-                        Text="Houseware" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                     Text="{x:Static Resource:AppResource.ad4}"
+                    x:Name="label4" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
                         </Grid>
@@ -153,13 +157,14 @@
                        Clicked="ShopIDSubmit5_Clicked"
                         BorderWidth="1"
                             
-                x:Name="ShopIDSubmit5"
+            
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                BackgroundColor="#89AC8E"
-                         
+                         Text="{x:Static Resource:AppResource.ad5}"
+                    x:Name="label5"
                       
-                        Text="Enviromental" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                         FontFamily="Regular" FontAttributes="Bold" Padding="0">
                     </Button>
 
                 </Grid>
@@ -171,13 +176,13 @@
                        Clicked="ShopIDSubmit6_Clicked"
                         BorderWidth="1"
                             
-                x:Name="ShopIDSubmit6"
+           
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                 BackgroundColor="#89AC8E"
                          
-                      
-                        Text="Transporlation" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                    Text="{x:Static Resource:AppResource.ad6}"
+                    x:Name="label6" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                     </Button>
 
                 </Grid>
@@ -202,13 +207,14 @@
                        
                         BorderWidth="1"
                             
-                x:Name="ShopIDSubmit7"
+              
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                BackgroundColor="#C4DBC7"
                          
                       Clicked="ShopIDSubmit7_Clicked"
-                        Text="Machinelearning" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                      Text="{x:Static Resource:AppResource.ad7}"
+                    x:Name="label7" FontFamily="Regular" FontAttributes="Bold" Padding="0">
                     </Button>
 
                 </Grid>
@@ -219,14 +225,14 @@
                     <Button BorderRadius="5"
                        
                         BorderWidth="1"
-                            
-                x:Name="ShopIDSubmit8"
+              
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                 BackgroundColor="#C4DBC7"
-                         
+                         Text="{x:Static Resource:AppResource.ad8}"
+                    x:Name="label8"
                       Clicked="ShopIDSubmit8_Clicked"
-                        Text="InforSecurity" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                       FontFamily="Regular" FontAttributes="Bold" Padding="0">
                     </Button>
 
                 </Grid>

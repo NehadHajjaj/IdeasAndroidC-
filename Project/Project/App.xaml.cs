@@ -12,7 +12,7 @@ namespace Project
         public App()
         {
             InitializeComponent();
-            MainPage = new IdeaBank();
+            MainPage = new MainMenu();
         }
 
         protected override void OnStart()

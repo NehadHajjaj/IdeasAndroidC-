@@ -17,6 +17,7 @@ namespace Project.Views
         {
            
             InitializeComponent();
+          
             label17.Text = AppResource.String17;
             label18.Text = AppResource.String18;
             label19.Text = AppResource.String19;

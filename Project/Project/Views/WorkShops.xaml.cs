@@ -19,6 +19,7 @@ namespace Project.Views
         public WorkShops()
         {
             InitializeComponent();
+            label.Text = AppResource.w;
             NavigationPage.SetHasNavigationBar(this, false);
             GetWorkshop();
         }
@@ -56,6 +57,11 @@ namespace Project.Views
                     work2.Text = wor2.Title;
                     work3.Text = wor3.Title;
                     work4.Text = wor4.Title;
+                    work1.Text = AppResource.w1;
+                    work2.Text = AppResource.w2;
+                    work3.Text = AppResource.w3;
+                    work4.Text = AppResource.w4;
+                    
 
                     pic1.Source = wor.ImagePath;
                     pic2.Source = wor2.ImagePath;

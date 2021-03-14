@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:Controls="clr-namespace:Project.Helper" xmlns:Models="clr-namespace:Project.ViewModel"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:Controls="clr-namespace:Project.Helper" 
+                xmlns:Resource="clr-namespace:Project.Helper"  
+             
+             xmlns:Models="clr-namespace:Project.ViewModel"
              x:Class="Project.Views.Gdiss">
     <ContentPage.BindingContext>
         <Models:GDissViewModel/>
@@ -68,14 +72,16 @@
                 <Label 
         Grid.Row="0" Grid.Column="0" 
                         HorizontalOptions="Center"
-        Text="General discussion"
+      Text="{x:Static Resource:AppResource.gen}"
+                    x:Name="label"
                     FontSize="25" 
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
         />
                 <Label 
         Grid.Row="1" Grid.Column="0" 
-        Text="(with club members)"
+       Text="{x:Static Resource:AppResource.gen1}"
+                    x:Name="label1"
                          HorizontalOptions="Center"
                     FontSize="25" 
                         FontFamily="Regular" FontAttributes="Bold"
@@ -106,13 +112,15 @@
                     <Label 
         Grid.Row="0" Grid.Column="0" 
                   Padding="10,10,0,0"    
-        Text="Reema"
+       Text="{x:Static Resource:AppResource.gen2}"
+                    x:Name="label2"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
         />
                     <Label 
         Grid.Row="1" Grid.Column="0" 
-        Text="any post you suggest"
+        Text="{x:Static Resource:AppResource.gen3}"
+                    x:Name="label3"
                          Padding="10,0,0,0"    
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
@@ -137,13 +145,15 @@
                     <Label 
         Grid.Row="0" Grid.Column="0" 
                    Padding="10,10,0,0"     
-        Text="Bodur "
+       Text="{x:Static Resource:AppResource.gen4}"
+                    x:Name="label4"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
         />
                     <Label 
         Grid.Row="1" Grid.Column="0" 
-        Text="join me to learn C#"
+        Text="{x:Static Resource:AppResource.gen5}"
+                    x:Name="label5"
                        Padding="10,0,0,0"  
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
@@ -160,7 +170,8 @@
                 <Label 
        
                         HorizontalOptions="Center"
-        Text="your discussion"
+    Text="{x:Static Resource:AppResource.diss}"
+                    x:Name="disslabel"
 
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
@@ -198,12 +209,13 @@
                         HeightRequest="40"
                         BorderWidth="1"
                             
-                x:Name="ShopIDSubmit2"
+               
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                 BackgroundColor="#CDCDCD"
         
-        Text="send"
+         Text="{x:Static Resource:AppResource.btnsend}"
+                    x:Name="btn"
                       Command="{Binding Send}"
 
                          HorizontalOptions="Center"

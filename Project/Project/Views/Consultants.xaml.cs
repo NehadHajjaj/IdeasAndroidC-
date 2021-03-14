@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Helper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,12 +17,22 @@ namespace Project.Views
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+            label.Text = AppResource.adviser;
+            label1.Text = AppResource.ad1;
+            label2.Text = AppResource.ad2;
+            label3.Text = AppResource.ad3;
+            label4.Text = AppResource.ad4;
+            label5.Text = AppResource.ad5;
+            label6.Text = AppResource.ad6;
+            label7.Text = AppResource.ad7;
+            label8.Text = AppResource.ad8;
+          
         }
         public void OnImageNameTapped(object sender, EventArgs args)
         {
             try
             {
-                Navigation.PushModalAsync(new MainMenu());
+                Navigation.PushModalAsync(new Consulting());
             }
             catch (Exception ex)
             {

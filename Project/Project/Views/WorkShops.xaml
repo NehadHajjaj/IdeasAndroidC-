@@ -2,8 +2,8 @@
     <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
           x:Class="Project.Views.WorkShops"
-   
-             xmlns:Controls="clr-namespace:Project.Helper">
+     xmlns:Resource="clr-namespace:Project.Helper"  
+          >
 
         <ContentPage.Content>
             <StackLayout  Orientation="Vertical"  BackgroundColor="White">
@@ -54,7 +54,8 @@
                 Margin="0,40,0,0"
                       
                   >
-                <Label Text="Workshops" FontSize="25"  HorizontalOptions="Center"
+                <Label Text="{x:Static Resource:AppResource.w}"
+                    x:Name="label" FontSize="25"  HorizontalOptions="Center"
                    FontAttributes="Bold" />
                 </Grid>
                 <StackLayout

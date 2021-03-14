@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:Resource="clr-namespace:Project.Helper" 
              x:Class="Project.Views.Resources">
     <ContentPage.Content>
-        <StackLayout  Orientation="Vertical"  BackgroundColor="White">
+        <StackLayout  
+      
+            Orientation="Vertical"  BackgroundColor="White">
 
 
             <StackLayout
@@ -53,12 +56,15 @@
                    
                         
                   >
-                <Label  Text="Resources" FontSize="30"  HorizontalOptions="Center"
+                <Label 
+                         Text="{x:Static Resource:AppResource.res}"
+                    x:Name="label" 
+                        FontSize="30"  HorizontalOptions="Center"
                    FontAttributes="Bold" />
             </Grid>
             <StackLayout
                  
-                    Orientation="Vertical" Spacing="50" Margin="0,0,0,0 " Padding="0,20,0,0">
+                    Orientation="Vertical" Spacing="80" Margin="0,0,0,0 " Padding="0,20,0,0">
 
 
 
@@ -67,42 +73,49 @@
 
 
 
-                <StackLayout Orientation="Vertical" Spacing="50">
+                <StackLayout
+                 HorizontalOptions="Center"
+                    Orientation="Vertical" Spacing="20">
                   
                     <Label 
        
-                     Padding="20,0,0,0"  
-        Text="Title"
+                      
+        Text="{x:Static Resource:AppResource.res1}"
+                    x:Name="label1" 
                         FontSize="20"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
                     
         />
                     <Image 
-                        Margin="0,0,250,0"
+                      
+                       
                         HeightRequest="100"
-                        WidthRequest="50"
+                        WidthRequest="100"
                         Source="player.png"></Image>
 
                 </StackLayout>
 
 
 
-                <StackLayout Orientation="Vertical" Spacing="30">
+                <StackLayout
+                     HorizontalOptions="Center"
+                    Orientation="Vertical" Spacing="30">
                    
                     <Label 
        
                        
-            Text="Article"
+             Text="{x:Static Resource:AppResource.res2}"
+                    x:Name="label2" 
                         FontSize="20"
                         FontFamily="Regular" FontAttributes="Bold"
-                           TextColor="Black" Padding="20,0,0,0"
+                           TextColor="Black" 
                     
         />
                     <Image 
-                        Margin="0,0,250,0"
+                       
                         HeightRequest="100"
-                        WidthRequest="50"
+                        WidthRequest="100"
                         Source="article.png"></Image>
 
 

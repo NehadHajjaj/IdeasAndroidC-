@@ -117,6 +117,378 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ad1" xml:space="preserve">
+    <value>Engineering</value>
+  </data>
+  <data name="ad2" xml:space="preserve">
+    <value>Technological</value>
+  </data>
+  <data name="ad3" xml:space="preserve">
+    <value>Medical</value>
+  </data>
+  <data name="ad4" xml:space="preserve">
+    <value>Houseware</value>
+  </data>
+  <data name="ad5" xml:space="preserve">
+    <value>Enviromental</value>
+  </data>
+  <data name="ad6" xml:space="preserve">
+    <value>Transporlation</value>
+  </data>
+  <data name="ad7" xml:space="preserve">
+    <value>Machinelearning</value>
+  </data>
+  <data name="ad8" xml:space="preserve">
+    <value>InforSecurity</value>
+  </data>
+  <data name="adviser" xml:space="preserve">
+    <value>Consultants</value>
+  </data>
+  <data name="btnres" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="btns" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="btnsave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnsend" xml:space="preserve">
+    <value>send</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value>Coureses</value>
+  </data>
+  <data name="c1" xml:space="preserve">
+    <value>Course1</value>
+  </data>
+  <data name="c2" xml:space="preserve">
+    <value>Course2</value>
+  </data>
+  <data name="c3" xml:space="preserve">
+    <value>Course3</value>
+  </data>
+  <data name="c4" xml:space="preserve">
+    <value>Course4</value>
+  </data>
+  <data name="change1" xml:space="preserve">
+    <value>Change Email</value>
+  </data>
+  <data name="change2" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="con1" xml:space="preserve">
+    <value>General discussions</value>
+  </data>
+  <data name="con2" xml:space="preserve">
+    <value>Consultants</value>
+  </data>
+  <data name="cons" xml:space="preserve">
+    <value>Consulting</value>
+  </data>
+  <data name="diss" xml:space="preserve">
+    <value>your discussion</value>
+  </data>
+  <data name="em1" xml:space="preserve">
+    <value>your Email</value>
+  </data>
+  <data name="em2" xml:space="preserve">
+    <value>New Email</value>
+  </data>
+  <data name="em3" xml:space="preserve">
+    <value>Confirm Email</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="eve1" xml:space="preserve">
+    <value>Event1</value>
+  </data>
+  <data name="eve2" xml:space="preserve">
+    <value>Event2</value>
+  </data>
+  <data name="f1" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="f2" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="f3" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="f4" xml:space="preserve">
+    <value>ConfirmPassword</value>
+  </data>
+  <data name="faq1" xml:space="preserve">
+    <value>What is Science Innovation club used for?</value>
+  </data>
+  <data name="faq10" xml:space="preserve">
+    <value>How can I contact the adviser?</value>
+  </data>
+  <data name="faq11" xml:space="preserve">
+    <value>- From Consulting button .</value>
+  </data>
+  <data name="faq12" xml:space="preserve">
+    <value>Where Can I share  my Idea ?</value>
+  </data>
+  <data name="faq13" xml:space="preserve">
+    <value>- There is a button in the home page says</value>
+  </data>
+  <data name="faq14" xml:space="preserve">
+    <value>(Do you have an Invention)</value>
+  </data>
+  <data name="faq15" xml:space="preserve">
+    <value>Can I contact the group members?</value>
+  </data>
+  <data name="faq16" xml:space="preserve">
+    <value>-Yes you can.</value>
+  </data>
+  <data name="faq17" xml:space="preserve">
+    <value>How to Sign up?</value>
+  </data>
+  <data name="faq18" xml:space="preserve">
+    <value>Sign up - fill your information - Verification -fill</value>
+  </data>
+  <data name="faq19" xml:space="preserve">
+    <value>the Application form.</value>
+  </data>
+  <data name="faq2" xml:space="preserve">
+    <value>- Protect your Idea and Invention.</value>
+  </data>
+  <data name="faq3" xml:space="preserve">
+    <value>- Helps you to develop your Idea.</value>
+  </data>
+  <data name="faq4" xml:space="preserve">
+    <value>Is it free?</value>
+  </data>
+  <data name="faq5" xml:space="preserve">
+    <value>- Yes, it is free</value>
+  </data>
+  <data name="faq6" xml:space="preserve">
+    <value>Is is specifical for PNU student only?</value>
+  </data>
+  <data name="faq7" xml:space="preserve">
+    <value>- Yes, maybe in future well be for evryone.</value>
+  </data>
+  <data name="faq8" xml:space="preserve">
+    <value>Is it IOS, Android Software or both?</value>
+  </data>
+  <data name="faq9" xml:space="preserve">
+    <value>- Both</value>
+  </data>
+  <data name="gen" xml:space="preserve">
+    <value>General discussion</value>
+  </data>
+  <data name="gen1" xml:space="preserve">
+    <value>(with club members)</value>
+  </data>
+  <data name="gen2" xml:space="preserve">
+    <value>Reema</value>
+  </data>
+  <data name="gen3" xml:space="preserve">
+    <value>any post you suggest</value>
+  </data>
+  <data name="gen4" xml:space="preserve">
+    <value>Bodur</value>
+  </data>
+  <data name="gen5" xml:space="preserve">
+    <value>join me to learn C#</value>
+  </data>
+  <data name="h1" xml:space="preserve">
+    <value>Do you have an invetaion?</value>
+  </data>
+  <data name="h2" xml:space="preserve">
+    <value>Inventions</value>
+  </data>
+  <data name="h3" xml:space="preserve">
+    <value>Do you need an Idea ?</value>
+  </data>
+  <data name="h4" xml:space="preserve">
+    <value>IdeaBank</value>
+  </data>
+  <data name="i1" xml:space="preserve">
+    <value>complete</value>
+  </data>
+  <data name="i2" xml:space="preserve">
+    <value>under development</value>
+  </data>
+  <data name="idea" xml:space="preserve">
+    <value>Idea Bank</value>
+  </data>
+  <data name="idea1" xml:space="preserve">
+    <value>Engineering Innovation</value>
+  </data>
+  <data name="idea2" xml:space="preserve">
+    <value>Technological Innovation</value>
+  </data>
+  <data name="idea3" xml:space="preserve">
+    <value>Medical Innovation</value>
+  </data>
+  <data name="idea4" xml:space="preserve">
+    <value>Houseware Innovation</value>
+  </data>
+  <data name="idea5" xml:space="preserve">
+    <value>Enviromental Innovation</value>
+  </data>
+  <data name="idea6" xml:space="preserve">
+    <value>Transporlation Innovation</value>
+  </data>
+  <data name="idea7" xml:space="preserve">
+    <value>Machinelearning Innovation</value>
+  </data>
+  <data name="idea8" xml:space="preserve">
+    <value>Information Security Innovation</value>
+  </data>
+  <data name="idea9" xml:space="preserve">
+    <value>Cloud Computing inventions</value>
+  </data>
+  <data name="inv" xml:space="preserve">
+    <value>Inventions</value>
+  </data>
+  <data name="inv1" xml:space="preserve">
+    <value>name of invention</value>
+  </data>
+  <data name="inv2" xml:space="preserve">
+    <value>Scientific classification:</value>
+  </data>
+  <data name="inv3" xml:space="preserve">
+    <value>scientific classification</value>
+  </data>
+  <data name="inv4" xml:space="preserve">
+    <value>Idea Type:</value>
+  </data>
+  <data name="inv5" xml:space="preserve">
+    <value>select a type</value>
+  </data>
+  <data name="inv6" xml:space="preserve">
+    <value>state invention:</value>
+  </data>
+  <data name="inv7" xml:space="preserve">
+    <value>select a state</value>
+  </data>
+  <data name="inv8" xml:space="preserve">
+    <value>Talk about your invention</value>
+  </data>
+  <data name="m1" xml:space="preserve">
+    <value>User Profile</value>
+  </data>
+  <data name="m10" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="m2" xml:space="preserve">
+    <value>Courses</value>
+  </data>
+  <data name="m3" xml:space="preserve">
+    <value>Workshops</value>
+  </data>
+  <data name="m4" xml:space="preserve">
+    <value>New&amp;Event</value>
+  </data>
+  <data name="m5" xml:space="preserve">
+    <value>Consulting</value>
+  </data>
+  <data name="m6" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="m7" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="m8" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="m9" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="mobile" xml:space="preserve">
+    <value>Mobile:</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="new1" xml:space="preserve">
+    <value>News1</value>
+  </data>
+  <data name="new2" xml:space="preserve">
+    <value>News2</value>
+  </data>
+  <data name="news" xml:space="preserve">
+    <value>News&amp;Events</value>
+  </data>
+  <data name="pass1" xml:space="preserve">
+    <value>your password</value>
+  </data>
+  <data name="pass2" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="pass3" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="pri" xml:space="preserve">
+    <value>Private discussion</value>
+  </data>
+  <data name="pri1" xml:space="preserve">
+    <value>(with Consultant)</value>
+  </data>
+  <data name="pri2" xml:space="preserve">
+    <value>Dr.</value>
+  </data>
+  <data name="pri3" xml:space="preserve">
+    <value>Contact me by email</value>
+  </data>
+  <data name="pro1" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="pro2" xml:space="preserve">
+    <value>My ideas and inventions</value>
+  </data>
+  <data name="pro3" xml:space="preserve">
+    <value>My discussion</value>
+  </data>
+  <data name="pro4" xml:space="preserve">
+    <value>change Email</value>
+  </data>
+  <data name="pro5" xml:space="preserve">
+    <value>change Password</value>
+  </data>
+  <data name="res" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="res1" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="res2" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="s1" xml:space="preserve">
+    <value>Engineering inventions</value>
+  </data>
+  <data name="s2" xml:space="preserve">
+    <value>Technological inventions</value>
+  </data>
+  <data name="s3" xml:space="preserve">
+    <value>Medical inventions</value>
+  </data>
+  <data name="s4" xml:space="preserve">
+    <value>HouseWare inventions</value>
+  </data>
+  <data name="s5" xml:space="preserve">
+    <value>Environmental inventions</value>
+  </data>
+  <data name="s6" xml:space="preserve">
+    <value>Transportation inventions</value>
+  </data>
+  <data name="s7" xml:space="preserve">
+    <value>MachineLearning inventions</value>
+  </data>
+  <data name="s8" xml:space="preserve">
+    <value>InformationSecurity inventions</value>
+  </data>
+  <data name="StrCont" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="StrF" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
   <data name="String1" xml:space="preserve">
     <value>We welcome dreamers and open doors for them</value>
   </data>
@@ -160,14 +532,13 @@
     <value>Nationality:</value>
   </data>
   <data name="String22" xml:space="preserve">
-    <value>Country of birth:</value>
+    <value>Country Birth</value>
   </data>
   <data name="String23" xml:space="preserve">
-    <value>Mobile Number:</value>
+    <value>Mobile num</value>
   </data>
   <data name="String24" xml:space="preserve">
-    <value>Academic 
-or professional
+    <value>Academic /professional
 Qualification:</value>
   </data>
   <data name="String25" xml:space="preserve">
@@ -194,6 +565,9 @@ Qualification:</value>
   <data name="String31" xml:space="preserve">
     <value>Male</value>
   </data>
+  <data name="String36" xml:space="preserve">
+    <value />
+  </data>
   <data name="String4" xml:space="preserve">
     <value>Welcome to SlClub</value>
   </data>
@@ -211,5 +585,29 @@ Qualification:</value>
   </data>
   <data name="String9" xml:space="preserve">
     <value>Sign Up</value>
+  </data>
+  <data name="t1" xml:space="preserve">
+    <value>inventions</value>
+  </data>
+  <data name="t2" xml:space="preserve">
+    <value>solve the problem</value>
+  </data>
+  <data name="t3" xml:space="preserve">
+    <value>creative idea</value>
+  </data>
+  <data name="w" xml:space="preserve">
+    <value>WorkShops</value>
+  </data>
+  <data name="w1" xml:space="preserve">
+    <value>WorkShop1</value>
+  </data>
+  <data name="w2" xml:space="preserve">
+    <value>WorkShop2</value>
+  </data>
+  <data name="w3" xml:space="preserve">
+    <value>WorkShop3</value>
+  </data>
+  <data name="w4" xml:space="preserve">
+    <value>WorkShop4</value>
   </data>
 </root>

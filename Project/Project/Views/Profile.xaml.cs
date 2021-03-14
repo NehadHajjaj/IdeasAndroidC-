@@ -24,7 +24,13 @@ namespace Project.Views
 
            
         InitializeComponent();
+           
             NavigationPage.SetHasNavigationBar(this, false);
+            label1.Text = AppResource.pro1;
+            label2.Text = AppResource.pro2;
+            label3.Text = AppResource.pro3;
+            label4.Text = AppResource.pro4;
+            label5.Text = AppResource.pro5;
             FetchData();
         }
       
@@ -34,7 +40,7 @@ namespace Project.Views
         }
         private void changepass(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new ChangeEmail());
+            Navigation.PushModalAsync(new ChangePassword());
         }
         private void mydiss(object sender, EventArgs e)
         {
@@ -46,16 +52,11 @@ namespace Project.Views
         }
         void FetchData()
         {
-            name.Text = "Name:" + Settings.Username;
-            email.Text = "Email:" + Settings.Email;
+            name.Text = AppResource.name +" "+ Settings.Username;
+            email.Text = AppResource.email + " " +Settings.Email;
 
-            mobile.Text = "PhoneNumber " + Settings.Mobile;
-            /// var client = new HttpClient();
-            ///  client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Settings.AccessToken);
-            //  var json = await client.GetStringAsync(Constants.BaseApiAddress + "api/ideas");
-
-            //var ideas = JsonConvert.DeserializeObject<List<Idea>>(json);
-            // inventions.Text = ideas;
+            mobile.Text = AppResource.mobile +" " +Settings.Mobile;
+           
         }
         public void OnImageNameTapped(object sender, EventArgs args)
         {

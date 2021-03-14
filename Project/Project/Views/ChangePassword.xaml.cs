@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Helper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,12 @@ namespace Project.Views
         public ChangePassword()
         {
             InitializeComponent();
+            label.Text = AppResource.change2;
+            entry1.Placeholder = AppResource.pass1;
+            entry2.Placeholder = AppResource.pass2;
+            entry3.Placeholder = AppResource.pass3;
+            btn1.Text =AppResource.btnsave;
+            btn2.Text = AppResource.btnres;
         }
         public void OnImageNameTapped(object sender, EventArgs args)
         {

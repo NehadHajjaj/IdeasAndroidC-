@@ -40,8 +40,9 @@
                              FontSize="17"  
                              HeightRequest="50"  
                     BackgroundColor="#EFEFEF"
-                      x:Name="label11"  
-                             Placeholder="Email .."
+                     
+                               Placeholder="{x:Static Resource:AppResource.f2}"
+                    x:Name="p2" 
                              Text="{Binding Username}"
                              PlaceholderColor="#A1A1A1"
                              TextColor="Black"  
@@ -65,8 +66,8 @@
                     Text="{Binding Password}" 
                 
                       BackgroundColor="#EFEFEF"
-                             Placeholder="Password" 
-                      x:Name="label12"  
+                             Placeholder="{x:Static Resource:AppResource.f3}"
+                    x:Name="p3"   
                              PlaceholderColor="#A1A1A1"
                              TextColor="Black"  
                              FontAttributes="Bold"  

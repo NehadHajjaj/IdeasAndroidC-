@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Helper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,12 @@ namespace Project.Views
         public ConsDiss()
         {
             InitializeComponent();
+            label.Text = AppResource.pri;
+            label1.Text = AppResource.pri1;
+            label2.Text = AppResource.pri2;
+            label3.Text = AppResource.pri3;
+            disslabel.Text = AppResource.diss;
+            btn.Text = AppResource.btnsend;
         }
         public void OnImageNameTapped(object sender, EventArgs args)
         {

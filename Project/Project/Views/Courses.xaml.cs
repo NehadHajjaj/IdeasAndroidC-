@@ -19,6 +19,7 @@ namespace Project.Views
         public Courses()
         {
             InitializeComponent();
+            label.Text = AppResource.c;
             NavigationPage.SetHasNavigationBar(this, false);
             GetCourse();
 
@@ -61,6 +62,14 @@ namespace Project.Views
                     course2.Text = cour2.Title;
                     course3.Text = cour3.Title;
                     course4.Text = cour4.Title;
+
+                    course1.Text = AppResource.c1;
+                    course2.Text = AppResource.c2;
+                    course3.Text = AppResource.c3;
+                    course4.Text = AppResource.c4;
+
+
+
 
                     pic1.Source = cour.ImagePath;
                     pic2.Source = cour2.ImagePath;

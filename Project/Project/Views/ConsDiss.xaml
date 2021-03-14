@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:Controls="clr-namespace:Project.Helper" xmlns:Models="clr-namespace:Project.ViewModel"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Controls="clr-namespace:Project.Helper"
+                xmlns:Resource="clr-namespace:Project.Helper"  
+             xmlns:Models="clr-namespace:Project.ViewModel"
              x:Class="Project.Views.ConsDiss">
 
     <ContentPage.BindingContext>
@@ -70,14 +73,16 @@
                 <Label 
         Grid.Row="0" Grid.Column="0" 
                         HorizontalOptions="Center"
-        Text="Private discussion"
+       Text="{x:Static Resource:AppResource.pri}"
+                    x:Name="label"
                     FontSize="25" 
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
         />
                 <Label 
         Grid.Row="1" Grid.Column="0" 
-        Text="(with Consultant)"
+     Text="{x:Static Resource:AppResource.pri1}"
+                    x:Name="label1"
                          HorizontalOptions="Center"
                     FontSize="25" 
                         FontFamily="Regular" FontAttributes="Bold"
@@ -108,13 +113,15 @@
                     <Label 
         Grid.Row="0" Grid.Column="0" 
                   Padding="10,10,0,0"    
-        Text="Dr."
+        Text="{x:Static Resource:AppResource.pri2}"
+                    x:Name="label2"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
         />
                     <Label 
         Grid.Row="1" Grid.Column="0" 
-        Text="Contact me by email "
+       Text="{x:Static Resource:AppResource.pri3}"
+                    x:Name="label3"
                          Padding="10,0,0,0"    
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
@@ -136,7 +143,8 @@
                 <Label 
        Padding="0,30,0,0"
                         HorizontalOptions="Center"
-        Text="your discussion"
+       Text="{x:Static Resource:AppResource.diss}"
+                    x:Name="disslabel"
 
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
@@ -173,13 +181,13 @@
                         WidthRequest="100"
                         HeightRequest="40"
                         BorderWidth="1"
-                            
-                x:Name="ShopIDSubmit2"
+              
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                 BackgroundColor="#CDCDCD"
         Command="{Binding Send}"
-        Text="send"
+   Text="{x:Static Resource:AppResource.btnsend}"
+                    x:Name="btn"
 
                          HorizontalOptions="Center"
                         FontFamily="Regular" FontAttributes="Bold"

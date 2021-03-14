@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Helper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,9 @@ namespace Project.Views
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+            label.Text = AppResource.cons;
+            label1.Text = AppResource.con1;
+            label2.Text = AppResource.con2;
         }
         public void OnImageNameTapped(object sender, EventArgs args)
         {

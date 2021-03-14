@@ -117,6 +117,378 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ad1" xml:space="preserve">
+    <value>الهندسة</value>
+  </data>
+  <data name="ad2" xml:space="preserve">
+    <value>التقنية</value>
+  </data>
+  <data name="ad3" xml:space="preserve">
+    <value>طبي</value>
+  </data>
+  <data name="ad4" xml:space="preserve">
+    <value>أدوات منزلية</value>
+  </data>
+  <data name="ad5" xml:space="preserve">
+    <value>بيئة</value>
+  </data>
+  <data name="ad6" xml:space="preserve">
+    <value>وسائل النقل</value>
+  </data>
+  <data name="ad7" xml:space="preserve">
+    <value>لغة الآله</value>
+  </data>
+  <data name="ad8" xml:space="preserve">
+    <value>أمن المعلومات</value>
+  </data>
+  <data name="adviser" xml:space="preserve">
+    <value>الاستشاريين</value>
+  </data>
+  <data name="btnres" xml:space="preserve">
+    <value>إعادة تعيين</value>
+  </data>
+  <data name="btns" xml:space="preserve">
+    <value>إرسال</value>
+  </data>
+  <data name="btnsave" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="btnsend" xml:space="preserve">
+    <value>إرسال</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value>الدورات</value>
+  </data>
+  <data name="c1" xml:space="preserve">
+    <value>دورة1</value>
+  </data>
+  <data name="c2" xml:space="preserve">
+    <value>دروة2</value>
+  </data>
+  <data name="c3" xml:space="preserve">
+    <value>دورة2</value>
+  </data>
+  <data name="c4" xml:space="preserve">
+    <value>دورة4</value>
+  </data>
+  <data name="change1" xml:space="preserve">
+    <value>تغير البريد الإكتروني</value>
+  </data>
+  <data name="change2" xml:space="preserve">
+    <value>إعدادات كلمة المرور</value>
+  </data>
+  <data name="con1" xml:space="preserve">
+    <value>مناقشة عامة</value>
+  </data>
+  <data name="con2" xml:space="preserve">
+    <value>استشاريون</value>
+  </data>
+  <data name="cons" xml:space="preserve">
+    <value>مستشار</value>
+  </data>
+  <data name="diss" xml:space="preserve">
+    <value>اكتب مناقشتك هُنا</value>
+  </data>
+  <data name="em1" xml:space="preserve">
+    <value>بريدك الإلكتروني</value>
+  </data>
+  <data name="em2" xml:space="preserve">
+    <value>عنوان البريد الإلكتروني الجديد</value>
+  </data>
+  <data name="em3" xml:space="preserve">
+    <value>بريدك الإلكتروني</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>البريد الالكتروني : </value>
+  </data>
+  <data name="eve1" xml:space="preserve">
+    <value>حدث1</value>
+  </data>
+  <data name="eve2" xml:space="preserve">
+    <value>حدث2</value>
+  </data>
+  <data name="f1" xml:space="preserve">
+    <value>الاسم </value>
+  </data>
+  <data name="f2" xml:space="preserve">
+    <value>البريد الاكتروني</value>
+  </data>
+  <data name="f3" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="f4" xml:space="preserve">
+    <value>تاكيد كلمة المرور</value>
+  </data>
+  <data name="faq1" xml:space="preserve">
+    <value>في ماذا يستخدم نادي الابتكار العلمي</value>
+  </data>
+  <data name="faq10" xml:space="preserve">
+    <value>كيف يمكنني التواصل مع المستشار؟</value>
+  </data>
+  <data name="faq11" xml:space="preserve">
+    <value>- عن طريق زر الاستشارات</value>
+  </data>
+  <data name="faq12" xml:space="preserve">
+    <value>كيف يمكنني مشاركة فكرتي؟</value>
+  </data>
+  <data name="faq13" xml:space="preserve">
+    <value>- هناك زر في الصفحة الرئيسية بعنوان "</value>
+  </data>
+  <data name="faq14" xml:space="preserve">
+    <value>"هل لديك اختراع؟</value>
+  </data>
+  <data name="faq15" xml:space="preserve">
+    <value>هل يمكنني التواصل مع أعضاء النادي؟</value>
+  </data>
+  <data name="faq16" xml:space="preserve">
+    <value>- نعم يمكنك ذلك.</value>
+  </data>
+  <data name="faq17" xml:space="preserve">
+    <value>كيف أنشئ حساب؟</value>
+  </data>
+  <data name="faq18" xml:space="preserve">
+    <value>- سجل الان - (إنشاء حساب) املأ معلوماتك - التحقق - املأ     .</value>
+  </data>
+  <data name="faq19" xml:space="preserve">
+    <value>استمارة التقديم .</value>
+  </data>
+  <data name="faq2" xml:space="preserve">
+    <value>- حماية فكرتك واختراعك.</value>
+  </data>
+  <data name="faq3" xml:space="preserve">
+    <value>- يساعدك على تطوير فكرتك.</value>
+  </data>
+  <data name="faq4" xml:space="preserve">
+    <value>هل النادي مجاني؟</value>
+  </data>
+  <data name="faq5" xml:space="preserve">
+    <value>- نعم .</value>
+  </data>
+  <data name="faq6" xml:space="preserve">
+    <value>هل النادي مخصص لطالبات جامعة الأميرة نورة بنت عبدالرحمن؟</value>
+  </data>
+  <data name="faq7" xml:space="preserve">
+    <value>- نعم ، ممكن في المستقبل يكون للجميع .</value>
+  </data>
+  <data name="faq8" xml:space="preserve">
+    <value>هل هو IOS أم Android أم كليهما ؟</value>
+  </data>
+  <data name="faq9" xml:space="preserve">
+    <value>- كليهما</value>
+  </data>
+  <data name="gen" xml:space="preserve">
+    <value>مناقشة عامة</value>
+  </data>
+  <data name="gen1" xml:space="preserve">
+    <value>(بمشاركة أعضاء النادي)</value>
+  </data>
+  <data name="gen2" xml:space="preserve">
+    <value>ريما</value>
+  </data>
+  <data name="gen3" xml:space="preserve">
+    <value>اي اقتراح توده</value>
+  </data>
+  <data name="gen4" xml:space="preserve">
+    <value>بدور</value>
+  </data>
+  <data name="gen5" xml:space="preserve">
+    <value>تواصل معي لتعلم c#</value>
+  </data>
+  <data name="h1" xml:space="preserve">
+    <value>هل لديك أختراع أو إبتكار تريد نشره وحفظه؟</value>
+  </data>
+  <data name="h2" xml:space="preserve">
+    <value>الإختراعات</value>
+  </data>
+  <data name="h3" xml:space="preserve">
+    <value>هل تحتاج الى فكرة ؟</value>
+  </data>
+  <data name="h4" xml:space="preserve">
+    <value>بنك الأفكار</value>
+  </data>
+  <data name="i1" xml:space="preserve">
+    <value>مكتمل</value>
+  </data>
+  <data name="i2" xml:space="preserve">
+    <value>تحت التطوير</value>
+  </data>
+  <data name="idea" xml:space="preserve">
+    <value>بنك الأفكار</value>
+  </data>
+  <data name="idea1" xml:space="preserve">
+    <value>اختراعات هندسية</value>
+  </data>
+  <data name="idea2" xml:space="preserve">
+    <value>اختراعات تقنية</value>
+  </data>
+  <data name="idea3" xml:space="preserve">
+    <value>اختراعات طبية</value>
+  </data>
+  <data name="idea4" xml:space="preserve">
+    <value>اختراعات منزلية</value>
+  </data>
+  <data name="idea5" xml:space="preserve">
+    <value>اختراعات بيئية</value>
+  </data>
+  <data name="idea6" xml:space="preserve">
+    <value>اختراعات التنقل</value>
+  </data>
+  <data name="idea7" xml:space="preserve">
+    <value>اختراعات التعليم الالي</value>
+  </data>
+  <data name="idea8" xml:space="preserve">
+    <value>اختراعات أمن المعلومات</value>
+  </data>
+  <data name="idea9" xml:space="preserve">
+    <value>اختراعات الحوسبة السحابية</value>
+  </data>
+  <data name="inv" xml:space="preserve">
+    <value>الافكار والاختراعات</value>
+  </data>
+  <data name="inv1" xml:space="preserve">
+    <value>اسم الاختراع</value>
+  </data>
+  <data name="inv2" xml:space="preserve">
+    <value>التصنيف العلمي</value>
+  </data>
+  <data name="inv3" xml:space="preserve">
+    <value>التصنيف العلمي</value>
+  </data>
+  <data name="inv4" xml:space="preserve">
+    <value>نوع الفكرة</value>
+  </data>
+  <data name="inv5" xml:space="preserve">
+    <value>اختار نوع الفكرة</value>
+  </data>
+  <data name="inv6" xml:space="preserve">
+    <value>حالة الفكرة</value>
+  </data>
+  <data name="inv7" xml:space="preserve">
+    <value>اختار حالة الفكرة</value>
+  </data>
+  <data name="inv8" xml:space="preserve">
+    <value>تحدث عن اختراعك</value>
+  </data>
+  <data name="m1" xml:space="preserve">
+    <value>حساب المستخدم</value>
+  </data>
+  <data name="m10" xml:space="preserve">
+    <value>مرحبا</value>
+  </data>
+  <data name="m2" xml:space="preserve">
+    <value>الدورات</value>
+  </data>
+  <data name="m3" xml:space="preserve">
+    <value>ورش العمل</value>
+  </data>
+  <data name="m4" xml:space="preserve">
+    <value>الأخبار والأحداث</value>
+  </data>
+  <data name="m5" xml:space="preserve">
+    <value>أخذ إستشارة</value>
+  </data>
+  <data name="m6" xml:space="preserve">
+    <value>الاسئلة الشائعة</value>
+  </data>
+  <data name="m7" xml:space="preserve">
+    <value>المصادر</value>
+  </data>
+  <data name="m8" xml:space="preserve">
+    <value>تواصل معنا</value>
+  </data>
+  <data name="m9" xml:space="preserve">
+    <value>تسجيل خروج</value>
+  </data>
+  <data name="mobile" xml:space="preserve">
+    <value>رقم الجوال :</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>الاسم :</value>
+  </data>
+  <data name="new1" xml:space="preserve">
+    <value>جديد1</value>
+  </data>
+  <data name="new2" xml:space="preserve">
+    <value>جديد2</value>
+  </data>
+  <data name="news" xml:space="preserve">
+    <value>الاخبار والاحداث</value>
+  </data>
+  <data name="pass1" xml:space="preserve">
+    <value>كلمة المرور الحالية</value>
+  </data>
+  <data name="pass2" xml:space="preserve">
+    <value>كلمة المرور الجديدة</value>
+  </data>
+  <data name="pass3" xml:space="preserve">
+    <value>تأكيد كلمة المرور</value>
+  </data>
+  <data name="pri" xml:space="preserve">
+    <value>مناقشة خاصة</value>
+  </data>
+  <data name="pri1" xml:space="preserve">
+    <value>(بمشاركة الاستشاريين)</value>
+  </data>
+  <data name="pri2" xml:space="preserve">
+    <value>الدكتور</value>
+  </data>
+  <data name="pri3" xml:space="preserve">
+    <value>تواصل معي من خلال البريد الالكتروني</value>
+  </data>
+  <data name="pro1" xml:space="preserve">
+    <value>حساب خاص</value>
+  </data>
+  <data name="pro2" xml:space="preserve">
+    <value>أفكاري واختراعاتي</value>
+  </data>
+  <data name="pro3" xml:space="preserve">
+    <value>مناقشتي</value>
+  </data>
+  <data name="pro4" xml:space="preserve">
+    <value>تغيير البريد الالكتروني</value>
+  </data>
+  <data name="pro5" xml:space="preserve">
+    <value>تغير الرقم السري</value>
+  </data>
+  <data name="res" xml:space="preserve">
+    <value>المصادر</value>
+  </data>
+  <data name="res1" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="res2" xml:space="preserve">
+    <value>مقال</value>
+  </data>
+  <data name="s1" xml:space="preserve">
+    <value>الاختراعات الهندسية</value>
+  </data>
+  <data name="s2" xml:space="preserve">
+    <value>الاختراعات التكنولوجية</value>
+  </data>
+  <data name="s3" xml:space="preserve">
+    <value>الاختراعات الطبية</value>
+  </data>
+  <data name="s4" xml:space="preserve">
+    <value>اختراعات ادوات المنزل</value>
+  </data>
+  <data name="s5" xml:space="preserve">
+    <value>الاختراعات البيئية </value>
+  </data>
+  <data name="s6" xml:space="preserve">
+    <value>اختراعات ادوات النقل</value>
+  </data>
+  <data name="s7" xml:space="preserve">
+    <value>اختراعات التعلم الالي</value>
+  </data>
+  <data name="s8" xml:space="preserve">
+    <value>اختراعات أمن المعلومات</value>
+  </data>
+  <data name="StrCont" xml:space="preserve">
+    <value>تواصل معنا</value>
+  </data>
+  <data name="StrF" xml:space="preserve">
+    <value>الاسئلة الشائعة</value>
+  </data>
   <data name="String1" xml:space="preserve">
     <value>نرحّب بالحالمين ونفتح لهم الأبواب</value>
   </data>
@@ -166,8 +538,7 @@
     <value>رقم الجوال:</value>
   </data>
   <data name="String24" xml:space="preserve">
-    <value>مؤهلات الأكادمية 
-والمهنية(أختياري):</value>
+    <value>مؤهلات الأكادمية/المهنية:</value>
   </data>
   <data name="String25" xml:space="preserve">
     <value>مطلوب قبول سياسات النادي</value>
@@ -210,5 +581,29 @@
   </data>
   <data name="String9" xml:space="preserve">
     <value>سجل الان</value>
+  </data>
+  <data name="t1" xml:space="preserve">
+    <value>الاختراعات</value>
+  </data>
+  <data name="t2" xml:space="preserve">
+    <value>حل المشكلة</value>
+  </data>
+  <data name="t3" xml:space="preserve">
+    <value>افكار ابداعية</value>
+  </data>
+  <data name="w" xml:space="preserve">
+    <value>ورش العمل</value>
+  </data>
+  <data name="w1" xml:space="preserve">
+    <value>ورشة عمل 1</value>
+  </data>
+  <data name="w2" xml:space="preserve">
+    <value>ورشة اعمل 2</value>
+  </data>
+  <data name="w3" xml:space="preserve">
+    <value>ورشة عمل 3</value>
+  </data>
+  <data name="w4" xml:space="preserve">
+    <value>ورشةعمل 4</value>
   </data>
 </root>

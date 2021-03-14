@@ -61,6 +61,1122 @@ namespace Project.Helper {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Engineering.
+        /// </summary>
+        public static string ad1 {
+            get {
+                return ResourceManager.GetString("ad1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Technological.
+        /// </summary>
+        public static string ad2 {
+            get {
+                return ResourceManager.GetString("ad2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Medical.
+        /// </summary>
+        public static string ad3 {
+            get {
+                return ResourceManager.GetString("ad3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Houseware.
+        /// </summary>
+        public static string ad4 {
+            get {
+                return ResourceManager.GetString("ad4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enviromental.
+        /// </summary>
+        public static string ad5 {
+            get {
+                return ResourceManager.GetString("ad5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Transporlation.
+        /// </summary>
+        public static string ad6 {
+            get {
+                return ResourceManager.GetString("ad6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Machinelearning.
+        /// </summary>
+        public static string ad7 {
+            get {
+                return ResourceManager.GetString("ad7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to InforSecurity.
+        /// </summary>
+        public static string ad8 {
+            get {
+                return ResourceManager.GetString("ad8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Consultants.
+        /// </summary>
+        public static string adviser {
+            get {
+                return ResourceManager.GetString("adviser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reset.
+        /// </summary>
+        public static string btnres {
+            get {
+                return ResourceManager.GetString("btnres", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Submit.
+        /// </summary>
+        public static string btns {
+            get {
+                return ResourceManager.GetString("btns", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        public static string btnsave {
+            get {
+                return ResourceManager.GetString("btnsave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to send.
+        /// </summary>
+        public static string btnsend {
+            get {
+                return ResourceManager.GetString("btnsend", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Coureses.
+        /// </summary>
+        public static string c {
+            get {
+                return ResourceManager.GetString("c", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Course1.
+        /// </summary>
+        public static string c1 {
+            get {
+                return ResourceManager.GetString("c1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Course2.
+        /// </summary>
+        public static string c2 {
+            get {
+                return ResourceManager.GetString("c2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Course3.
+        /// </summary>
+        public static string c3 {
+            get {
+                return ResourceManager.GetString("c3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Course4.
+        /// </summary>
+        public static string c4 {
+            get {
+                return ResourceManager.GetString("c4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Change Email.
+        /// </summary>
+        public static string change1 {
+            get {
+                return ResourceManager.GetString("change1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Change Password.
+        /// </summary>
+        public static string change2 {
+            get {
+                return ResourceManager.GetString("change2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to General discussions.
+        /// </summary>
+        public static string con1 {
+            get {
+                return ResourceManager.GetString("con1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Consultants.
+        /// </summary>
+        public static string con2 {
+            get {
+                return ResourceManager.GetString("con2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Consulting.
+        /// </summary>
+        public static string cons {
+            get {
+                return ResourceManager.GetString("cons", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to your discussion.
+        /// </summary>
+        public static string diss {
+            get {
+                return ResourceManager.GetString("diss", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to your Email.
+        /// </summary>
+        public static string em1 {
+            get {
+                return ResourceManager.GetString("em1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New Email.
+        /// </summary>
+        public static string em2 {
+            get {
+                return ResourceManager.GetString("em2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confirm Email.
+        /// </summary>
+        public static string em3 {
+            get {
+                return ResourceManager.GetString("em3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email:.
+        /// </summary>
+        public static string email {
+            get {
+                return ResourceManager.GetString("email", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Event1.
+        /// </summary>
+        public static string eve1 {
+            get {
+                return ResourceManager.GetString("eve1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Event2.
+        /// </summary>
+        public static string eve2 {
+            get {
+                return ResourceManager.GetString("eve2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        public static string f1 {
+            get {
+                return ResourceManager.GetString("f1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email.
+        /// </summary>
+        public static string f2 {
+            get {
+                return ResourceManager.GetString("f2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password.
+        /// </summary>
+        public static string f3 {
+            get {
+                return ResourceManager.GetString("f3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ConfirmPassword.
+        /// </summary>
+        public static string f4 {
+            get {
+                return ResourceManager.GetString("f4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to What is Science Innovation club used for?.
+        /// </summary>
+        public static string faq1 {
+            get {
+                return ResourceManager.GetString("faq1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to How can I contact the adviser?.
+        /// </summary>
+        public static string faq10 {
+            get {
+                return ResourceManager.GetString("faq10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to - From Consulting button ..
+        /// </summary>
+        public static string faq11 {
+            get {
+                return ResourceManager.GetString("faq11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Where Can I share  my Idea ?.
+        /// </summary>
+        public static string faq12 {
+            get {
+                return ResourceManager.GetString("faq12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to - There is a button in the home page says.
+        /// </summary>
+        public static string faq13 {
+            get {
+                return ResourceManager.GetString("faq13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Do you have an Invention).
+        /// </summary>
+        public static string faq14 {
+            get {
+                return ResourceManager.GetString("faq14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Can I contact the group members?.
+        /// </summary>
+        public static string faq15 {
+            get {
+                return ResourceManager.GetString("faq15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -Yes you can..
+        /// </summary>
+        public static string faq16 {
+            get {
+                return ResourceManager.GetString("faq16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to How to Sign up?.
+        /// </summary>
+        public static string faq17 {
+            get {
+                return ResourceManager.GetString("faq17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sign up - fill your information - Verification -fill.
+        /// </summary>
+        public static string faq18 {
+            get {
+                return ResourceManager.GetString("faq18", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to the Application form..
+        /// </summary>
+        public static string faq19 {
+            get {
+                return ResourceManager.GetString("faq19", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to - Protect your Idea and Invention..
+        /// </summary>
+        public static string faq2 {
+            get {
+                return ResourceManager.GetString("faq2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to - Helps you to develop your Idea..
+        /// </summary>
+        public static string faq3 {
+            get {
+                return ResourceManager.GetString("faq3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Is it free?.
+        /// </summary>
+        public static string faq4 {
+            get {
+                return ResourceManager.GetString("faq4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to - Yes, it is free.
+        /// </summary>
+        public static string faq5 {
+            get {
+                return ResourceManager.GetString("faq5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Is is specifical for PNU student only?.
+        /// </summary>
+        public static string faq6 {
+            get {
+                return ResourceManager.GetString("faq6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to - Yes, maybe in future well be for evryone..
+        /// </summary>
+        public static string faq7 {
+            get {
+                return ResourceManager.GetString("faq7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Is it IOS, Android Software or both?.
+        /// </summary>
+        public static string faq8 {
+            get {
+                return ResourceManager.GetString("faq8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to - Both.
+        /// </summary>
+        public static string faq9 {
+            get {
+                return ResourceManager.GetString("faq9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to General discussion.
+        /// </summary>
+        public static string gen {
+            get {
+                return ResourceManager.GetString("gen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (with club members).
+        /// </summary>
+        public static string gen1 {
+            get {
+                return ResourceManager.GetString("gen1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reema.
+        /// </summary>
+        public static string gen2 {
+            get {
+                return ResourceManager.GetString("gen2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to any post you suggest.
+        /// </summary>
+        public static string gen3 {
+            get {
+                return ResourceManager.GetString("gen3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bodur.
+        /// </summary>
+        public static string gen4 {
+            get {
+                return ResourceManager.GetString("gen4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to join me to learn C#.
+        /// </summary>
+        public static string gen5 {
+            get {
+                return ResourceManager.GetString("gen5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do you have an invetaion?.
+        /// </summary>
+        public static string h1 {
+            get {
+                return ResourceManager.GetString("h1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Inventions.
+        /// </summary>
+        public static string h2 {
+            get {
+                return ResourceManager.GetString("h2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do you need an Idea ?.
+        /// </summary>
+        public static string h3 {
+            get {
+                return ResourceManager.GetString("h3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to IdeaBank.
+        /// </summary>
+        public static string h4 {
+            get {
+                return ResourceManager.GetString("h4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to complete.
+        /// </summary>
+        public static string i1 {
+            get {
+                return ResourceManager.GetString("i1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to under development.
+        /// </summary>
+        public static string i2 {
+            get {
+                return ResourceManager.GetString("i2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Idea Bank.
+        /// </summary>
+        public static string idea {
+            get {
+                return ResourceManager.GetString("idea", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Engineering Innovation.
+        /// </summary>
+        public static string idea1 {
+            get {
+                return ResourceManager.GetString("idea1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Technological Innovation.
+        /// </summary>
+        public static string idea2 {
+            get {
+                return ResourceManager.GetString("idea2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Medical Innovation.
+        /// </summary>
+        public static string idea3 {
+            get {
+                return ResourceManager.GetString("idea3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Houseware Innovation.
+        /// </summary>
+        public static string idea4 {
+            get {
+                return ResourceManager.GetString("idea4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enviromental Innovation.
+        /// </summary>
+        public static string idea5 {
+            get {
+                return ResourceManager.GetString("idea5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Transporlation Innovation.
+        /// </summary>
+        public static string idea6 {
+            get {
+                return ResourceManager.GetString("idea6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Machinelearning Innovation.
+        /// </summary>
+        public static string idea7 {
+            get {
+                return ResourceManager.GetString("idea7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Information Security Innovation.
+        /// </summary>
+        public static string idea8 {
+            get {
+                return ResourceManager.GetString("idea8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cloud Computing inventions.
+        /// </summary>
+        public static string idea9 {
+            get {
+                return ResourceManager.GetString("idea9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Inventions.
+        /// </summary>
+        public static string inv {
+            get {
+                return ResourceManager.GetString("inv", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to name of invention.
+        /// </summary>
+        public static string inv1 {
+            get {
+                return ResourceManager.GetString("inv1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scientific classification:.
+        /// </summary>
+        public static string inv2 {
+            get {
+                return ResourceManager.GetString("inv2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to scientific classification.
+        /// </summary>
+        public static string inv3 {
+            get {
+                return ResourceManager.GetString("inv3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Idea Type:.
+        /// </summary>
+        public static string inv4 {
+            get {
+                return ResourceManager.GetString("inv4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to select a type.
+        /// </summary>
+        public static string inv5 {
+            get {
+                return ResourceManager.GetString("inv5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to state invention:.
+        /// </summary>
+        public static string inv6 {
+            get {
+                return ResourceManager.GetString("inv6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to select a state.
+        /// </summary>
+        public static string inv7 {
+            get {
+                return ResourceManager.GetString("inv7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Talk about your invention.
+        /// </summary>
+        public static string inv8 {
+            get {
+                return ResourceManager.GetString("inv8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to User Profile.
+        /// </summary>
+        public static string m1 {
+            get {
+                return ResourceManager.GetString("m1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome.
+        /// </summary>
+        public static string m10 {
+            get {
+                return ResourceManager.GetString("m10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Courses.
+        /// </summary>
+        public static string m2 {
+            get {
+                return ResourceManager.GetString("m2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Workshops.
+        /// </summary>
+        public static string m3 {
+            get {
+                return ResourceManager.GetString("m3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New&amp;Event.
+        /// </summary>
+        public static string m4 {
+            get {
+                return ResourceManager.GetString("m4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Consulting.
+        /// </summary>
+        public static string m5 {
+            get {
+                return ResourceManager.GetString("m5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to FAQ.
+        /// </summary>
+        public static string m6 {
+            get {
+                return ResourceManager.GetString("m6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Resources.
+        /// </summary>
+        public static string m7 {
+            get {
+                return ResourceManager.GetString("m7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contact.
+        /// </summary>
+        public static string m8 {
+            get {
+                return ResourceManager.GetString("m8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Log Out.
+        /// </summary>
+        public static string m9 {
+            get {
+                return ResourceManager.GetString("m9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mobile:.
+        /// </summary>
+        public static string mobile {
+            get {
+                return ResourceManager.GetString("mobile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name:.
+        /// </summary>
+        public static string name {
+            get {
+                return ResourceManager.GetString("name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to News1.
+        /// </summary>
+        public static string new1 {
+            get {
+                return ResourceManager.GetString("new1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to News2.
+        /// </summary>
+        public static string new2 {
+            get {
+                return ResourceManager.GetString("new2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to News&amp;Events.
+        /// </summary>
+        public static string news {
+            get {
+                return ResourceManager.GetString("news", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to your password.
+        /// </summary>
+        public static string pass1 {
+            get {
+                return ResourceManager.GetString("pass1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New Password.
+        /// </summary>
+        public static string pass2 {
+            get {
+                return ResourceManager.GetString("pass2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confirm Password.
+        /// </summary>
+        public static string pass3 {
+            get {
+                return ResourceManager.GetString("pass3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Private discussion.
+        /// </summary>
+        public static string pri {
+            get {
+                return ResourceManager.GetString("pri", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (with Consultant).
+        /// </summary>
+        public static string pri1 {
+            get {
+                return ResourceManager.GetString("pri1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dr..
+        /// </summary>
+        public static string pri2 {
+            get {
+                return ResourceManager.GetString("pri2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contact me by email.
+        /// </summary>
+        public static string pri3 {
+            get {
+                return ResourceManager.GetString("pri3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Privacy.
+        /// </summary>
+        public static string pro1 {
+            get {
+                return ResourceManager.GetString("pro1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to My ideas and inventions.
+        /// </summary>
+        public static string pro2 {
+            get {
+                return ResourceManager.GetString("pro2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to My discussion.
+        /// </summary>
+        public static string pro3 {
+            get {
+                return ResourceManager.GetString("pro3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to change Email.
+        /// </summary>
+        public static string pro4 {
+            get {
+                return ResourceManager.GetString("pro4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to change Password.
+        /// </summary>
+        public static string pro5 {
+            get {
+                return ResourceManager.GetString("pro5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Resources.
+        /// </summary>
+        public static string res {
+            get {
+                return ResourceManager.GetString("res", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Title.
+        /// </summary>
+        public static string res1 {
+            get {
+                return ResourceManager.GetString("res1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Article.
+        /// </summary>
+        public static string res2 {
+            get {
+                return ResourceManager.GetString("res2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Engineering inventions.
+        /// </summary>
+        public static string s1 {
+            get {
+                return ResourceManager.GetString("s1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Technological inventions.
+        /// </summary>
+        public static string s2 {
+            get {
+                return ResourceManager.GetString("s2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Medical inventions.
+        /// </summary>
+        public static string s3 {
+            get {
+                return ResourceManager.GetString("s3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to HouseWare inventions.
+        /// </summary>
+        public static string s4 {
+            get {
+                return ResourceManager.GetString("s4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Environmental inventions.
+        /// </summary>
+        public static string s5 {
+            get {
+                return ResourceManager.GetString("s5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Transportation inventions.
+        /// </summary>
+        public static string s6 {
+            get {
+                return ResourceManager.GetString("s6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MachineLearning inventions.
+        /// </summary>
+        public static string s7 {
+            get {
+                return ResourceManager.GetString("s7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to InformationSecurity inventions.
+        /// </summary>
+        public static string s8 {
+            get {
+                return ResourceManager.GetString("s8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contact.
+        /// </summary>
+        public static string StrCont {
+            get {
+                return ResourceManager.GetString("StrCont", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to FAQ.
+        /// </summary>
+        public static string StrF {
+            get {
+                return ResourceManager.GetString("StrF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to We welcome dreamers and open doors for them.
         /// </summary>
         public static string String1 {
@@ -187,7 +1303,7 @@ namespace Project.Helper {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Country of birth:.
+        ///   Looks up a localized string similar to Country Birth.
         /// </summary>
         public static string String22 {
             get {
@@ -196,7 +1312,7 @@ namespace Project.Helper {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mobile Number:.
+        ///   Looks up a localized string similar to Mobile num.
         /// </summary>
         public static string String23 {
             get {
@@ -205,8 +1321,7 @@ namespace Project.Helper {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Academic 
-        ///or professional
+        ///   Looks up a localized string similar to Academic /professional
         ///Qualification:.
         /// </summary>
         public static string String24 {
@@ -288,6 +1403,15 @@ namespace Project.Helper {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string String36 {
+            get {
+                return ResourceManager.GetString("String36", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Welcome to SlClub.
         /// </summary>
         public static string String4 {
@@ -338,6 +1462,78 @@ namespace Project.Helper {
         public static string String9 {
             get {
                 return ResourceManager.GetString("String9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to inventions.
+        /// </summary>
+        public static string t1 {
+            get {
+                return ResourceManager.GetString("t1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to solve the problem.
+        /// </summary>
+        public static string t2 {
+            get {
+                return ResourceManager.GetString("t2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to creative idea.
+        /// </summary>
+        public static string t3 {
+            get {
+                return ResourceManager.GetString("t3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to WorkShops.
+        /// </summary>
+        public static string w {
+            get {
+                return ResourceManager.GetString("w", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to WorkShop1.
+        /// </summary>
+        public static string w1 {
+            get {
+                return ResourceManager.GetString("w1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to WorkShop2.
+        /// </summary>
+        public static string w2 {
+            get {
+                return ResourceManager.GetString("w2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to WorkShop3.
+        /// </summary>
+        public static string w3 {
+            get {
+                return ResourceManager.GetString("w3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to WorkShop4.
+        /// </summary>
+        public static string w4 {
+            get {
+                return ResourceManager.GetString("w4", resourceCulture);
             }
         }
     }

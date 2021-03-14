@@ -2,7 +2,7 @@
     <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             x:Class="Project.Views.ChangeEmail"
-
+    xmlns:Resource="clr-namespace:Project.Helper"  
                xmlns:Controls="clr-namespace:Project.Helper"
                  xmlns:Models="clr-namespace:Project.ViewModel"
              Visual="Material"
@@ -13,7 +13,7 @@
         <Models:ChangeEmailViewModel/>
     </ContentPage.BindingContext>
 
-    <ContentPage.Content>
+    <ContentPage.Content >
             <StackLayout   BackgroundColor="White" Padding="0,0,0,150">
 
                 <StackLayout
@@ -48,7 +48,10 @@
                     </Grid>
 
                 </StackLayout>
-                <Label Text="Change Email" FontSize="Title"  HorizontalOptions="Center"
+                <Label 
+                      Text="{x:Static Resource:AppResource.change1}"
+                    x:Name="label"
+                    FontSize="Title"  HorizontalOptions="Center"
                        Margin="0,0,0,50" />
 
 
@@ -74,9 +77,11 @@
                              FontSize="17"  
                              HeightRequest="50"  
                     BackgroundColor="#89AC8E"
-                    x:Name="nameEntry"
-                             Placeholder="your Email"
+                  
+                            
                              Text="{Binding OldEmail}"
+                       Placeholder="{x:Static Resource:AppResource.em1}"
+                    x:Name="entry1"
                              PlaceholderColor="#000000"
                              TextColor="Black"  
                              FontAttributes="Bold"/>
@@ -96,7 +101,8 @@
                              HeightRequest="50"  
                     BackgroundColor="#89AC8E"
                     
-                             Placeholder="New Email"
+                             Placeholder="{x:Static Resource:AppResource.em2}"
+                    x:Name="entry2"
                              Text="{Binding NewEmail}"
                              PlaceholderColor="#000000"
                              TextColor="Black"  
@@ -123,12 +129,13 @@
                            MaxLength="50"
                              FontSize="17"  
                              HeightRequest="50" 
-                        x:Name="confirm"
+                   
                     Text="{Binding ConfirmEmail}" 
                        
                    
                       BackgroundColor="#89AC8E"
-                             Placeholder="confirm Email"  
+                             Placeholder="{x:Static Resource:AppResource.em3}"
+                    x:Name="entry3"
                              PlaceholderColor="#000000"
                              TextColor="Black"  
                              FontAttributes="Bold"  
@@ -158,13 +165,15 @@
                         HeightRequest="50"
                         BorderWidth="1"
                             
-                x:Name="ShopIDSubmit1"
+               
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                BackgroundColor="#CDCDCD"
                          
                      Command="{Binding Save}"
-                        Text="Save" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                          Text="{x:Static Resource:AppResource.btnsave}"
+                    x:Name="btn1"
+                       FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
                         </Grid>
@@ -177,13 +186,15 @@
                         HeightRequest="50"
                         BorderWidth="1"
                             
-                x:Name="ShopIDSubmit2"
+              
                         TextColor="Black"
                     BorderColor="#D9D9D9"
                 BackgroundColor="#CDCDCD"
                          
                           Command="{Binding Reset}"
-                        Text="Reset" FontFamily="Regular" FontAttributes="Bold" Padding="0">
+                        Text="{x:Static Resource:AppResource.btnres}"
+                    x:Name="btn2"
+                                    FontFamily="Regular" FontAttributes="Bold" Padding="0">
                             </Button>
 
                         </Grid>

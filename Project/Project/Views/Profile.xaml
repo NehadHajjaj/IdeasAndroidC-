@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
     <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-         x:Class="Project.Views.Profile">
+         x:Class="Project.Views.Profile"
+                  xmlns:Resource="clr-namespace:Project.Helper"  >
 
     <ContentPage.Content>
         <StackLayout  Orientation="Vertical"  BackgroundColor="White">
@@ -47,7 +48,8 @@
 
 
             <StackLayout
-                    Orientation="Vertical" Spacing="35" >
+                    Orientation="Vertical" Spacing="35" 
+               >
                 <StackLayout 
                    
                     Orientation="Horizontal" Spacing="30" Padding="0">
@@ -55,33 +57,43 @@
                         WidthRequest="150"
                         Source="prof.png" Margin="50,15,0,0"></Image>
                     <StackLayout  Orientation="Horizontal">
-               
-                    <Label  Text="Privacy" Margin="0" FontSize="15"  Padding="0,90,0,0"></Label>
+
+                        <Label   Text="{x:Static Resource:AppResource.pro1}"
+                    x:Name="label1"  
+                                 Margin="0" FontSize="15"  Padding="0,90,0,0"></Label>
                     <Image  WidthRequest="30"
                         Source="lock.png" Margin="0,20,0,0"></Image>
                 </StackLayout>
             </StackLayout>
-                <StackLayout Orientation="Vertical" Spacing="10" Margin="0,0,100,0">
+                <StackLayout
+                  
+                    Orientation="Vertical" Spacing="10" Margin="0,0,100,0">
                     <Grid HeightRequest="80"
                   HorizontalOptions="Center"
                       WidthRequest="210">
                         <Label 
+                             Text="{x:Static Resource:AppResource.name}"
+                   
                             x:Name="name"
                              TextColor="Black"
+                           
                             BackgroundColor="#D9D9D9"/>
                     </Grid>
                     <Grid HeightRequest="80"
                   HorizontalOptions="Center"
                       WidthRequest="210">
                         <Label 
+                             Text="{x:Static Resource:AppResource.email}"
                             x:Name="email"
                              TextColor="Black"
+                            
                             BackgroundColor="#D9D9D9"/>
                     </Grid>
                     <Grid HeightRequest="80"
                   HorizontalOptions="Center"
                       WidthRequest="210">
                         <Label 
+                           Text="{x:Static Resource:AppResource.mobile}" 
                             TextColor="Black"
                             x:Name="mobile"
                             BackgroundColor="#D9D9D9"/>
@@ -90,35 +102,40 @@
                 </StackLayout>
                 <StackLayout
                   
-                    Orientation="Vertical" Spacing="15
+                    Orientation="Vertical" Spacing="10
                     " Padding="0,0,50,0" Margin="0,0,0,50">
                     <StackLayout 
-                       
-                        WidthRequest="350"
+                      FlowDirection="{x:Static Device.FlowDirection}"
+                        HeightRequest="80"
+                        WidthRequest="100"
                         Orientation="Horizontal"  Spacing="50"   Margin="50,0,0,0">
-                    <Label Text="My ideas and inventions"
+                        <Label Text="{x:Static Resource:AppResource.pro2}"
+                    x:Name="label2" 
                            Margin="0" TextDecorations="Underline" FontSize="15" FontAttributes="Bold">
                          <Label.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="myidea"/>
                             </Label.GestureRecognizers>
                     </Label>
 
-                    <Label Text="My discussion"   TextDecorations="Underline" FontSize="15" FontAttributes="Bold">
+                        <Label Text="{x:Static Resource:AppResource.pro3}"
+                    x:Name="label3"   TextDecorations="Underline" FontSize="15" FontAttributes="Bold">
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="mydiss"/>
                         </Label.GestureRecognizers>
                     </Label>
                     </StackLayout>
                     <StackLayout 
-                      
-                        Orientation="Horizontal" Spacing="100"   Margin="50,0,0,0">
-                        <Label Text="change Email"
+                      FlowDirection="{x:Static Device.FlowDirection}"
+                        Orientation="Horizontal" Spacing="50"   Margin="50,0,0,0">
+                        <Label Text="{x:Static Resource:AppResource.pro4}"
+                    x:Name="label4" 
                                TextDecorations="Underline" FontSize="15" FontAttributes="Bold" >
                             <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="changeEmail"/>
                             </Label.GestureRecognizers>
                         </Label>
-                        <Label Text="change Password"
+                        <Label Text="{x:Static Resource:AppResource.pro5}"
+                    x:Name="label5" 
                                TextDecorations="Underline"  FontSize="15" FontAttributes="Bold">
                             <Label.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="changepass"/>

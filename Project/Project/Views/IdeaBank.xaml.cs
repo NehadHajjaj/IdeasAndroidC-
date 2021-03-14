@@ -1,4 +1,5 @@
-﻿using Project.Views.IdeaPages;
+﻿using Project.Helper;
+using Project.Views.IdeaPages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,16 @@ namespace Project.Views
         public IdeaBank()
         {
             InitializeComponent();
+            label.Text = AppResource.idea;
+            label1.Text = AppResource.idea1;
+            label2.Text = AppResource.idea2;
+            label3.Text = AppResource.idea3;
+            label4.Text = AppResource.idea4;
+            label5.Text = AppResource.idea5;
+            label6.Text = AppResource.idea6;
+            label7.Text = AppResource.idea7;
+            label8.Text = AppResource.idea8;
+            label9.Text = AppResource.idea9;
         }
         public void OnImageNameTapped(object sender, EventArgs args)
         {

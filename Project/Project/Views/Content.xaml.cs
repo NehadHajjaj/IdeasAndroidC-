@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Project.Helper;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -16,6 +16,7 @@ namespace Project.Views
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+            label1.Text = AppResource.StrCont;
         }
         public void OnImageNameTapped(object sender, EventArgs args)
         {

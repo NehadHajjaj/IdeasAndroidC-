@@ -4,7 +4,7 @@
              x:Class="Project.Views.Form"
       xmlns:Resource="clr-namespace:Project.Helper"  
              xmlns:Controls="clr-namespace:Project.Helper"
-             xmlns:Models="clr-namespace:Project.ViewModel">
+             xmlns:Models="clr-namespace:Project.ViewModel ">
     <ContentPage.BindingContext>
         <Models:UserInfoViewModel/>
     </ContentPage.BindingContext>
@@ -57,15 +57,15 @@
 
 
             <StackLayout Orientation="Vertical" 
-                      
+                       FlowDirection="{x:Static Device.FlowDirection}"
                         Spacing="10"
                         >
-                <StackLayout Orientation="Horizontal" Spacing="25">
+                <StackLayout Orientation="Horizontal" Spacing="5">
                     <Label  Text="{x:Static Resource:AppResource.String28}"
                     x:Name="label28"
                            VerticalOptions="Center"
-                           FontSize="13"
-                           Margin="30,0,0,0"
+                           FontSize="15"
+                           Margin="30,0"
                               />
                     <Grid 
                       
@@ -87,12 +87,12 @@
 
                     </Grid>
                 </StackLayout>
-                <StackLayout Orientation="Horizontal" Spacing="25">
+                <StackLayout Orientation="Horizontal" Spacing="5">
                     <Label  Text="{x:Static Resource:AppResource.String29}"
                     x:Name="label29"
                            VerticalOptions="Center"
-                           FontSize="13"
-                           Margin="30,0,0,0"
+                           FontSize="15"
+                           Margin="30,0"
                               />
                     <Grid 
                       
@@ -114,16 +114,18 @@
 
                     </Grid>
                 </StackLayout>
-                <StackLayout Orientation="Horizontal" Spacing="25">
+                <StackLayout Orientation="Horizontal" Spacing="10">
                     <Label  Text="{x:Static Resource:AppResource.String19}"
                     x:Name="label19"
                            VerticalOptions="Center"
-                           FontSize="13"
-                           Margin="30,0,0,0"
+                           FontSize="15"
+                          Margin="30,0"
                               />
                     <Grid 
+                        
                       
-                  HorizontalOptions="Center" Margin="50,0,0,0"
+                  HorizontalOptions="Center" Margin="45,0"
+                        
                    
                   >
 
@@ -142,18 +144,19 @@
                   >
                         <RadioButton
                             IsChecked="{Binding male}"
+                             FontSize="13"
                         Content ="{x:Static Resource:AppResource.String31}"
                     x:Name="label31">
 
                         </RadioButton>
                     </Grid>
                 </StackLayout>
-                <StackLayout Orientation="Horizontal" Spacing="25">
+                <StackLayout Orientation="Horizontal" Spacing="1">
                     <Label  Text="{x:Static Resource:AppResource.String20}"
                     x:Name="label20"
                            VerticalOptions="Center"
-                           FontSize="13"
-                           Margin="30,0,0,0"
+                           FontSize="15"
+                          Margin="30,0"
                               />
                     <Grid 
                       
@@ -163,7 +166,7 @@
                   >
 
 
-                        <Frame Padding="10,-10,-10,-10" OutlineColor="#C8C8C8" CornerRadius="3"
+                        <Frame Padding="10,-5,-5,-5" OutlineColor="#C8C8C8" CornerRadius="3"
 	                         HasShadow="True">
                             <DatePicker
                                 
@@ -180,12 +183,12 @@
                 </StackLayout>
 
 
-                <StackLayout Orientation="Horizontal" Spacing="25">
+                <StackLayout Orientation="Horizontal" Spacing="10">
                     <Label  Text="{x:Static Resource:AppResource.String21}"
                     x:Name="label21"
                            VerticalOptions="Center"
-                           FontSize="13"
-                           Margin="30,0,0,0"
+                           FontSize="15"
+                           Margin="30,0"
                               />
                     <Grid 
                       
@@ -195,7 +198,8 @@
                   >
 
 
-                        <Frame Padding="10,-10,-10,-10" OutlineColor="#C8C8C8" CornerRadius="3"
+                        <Frame Padding="10,-5,-5,-10" 
+                               OutlineColor="#C8C8C8" CornerRadius="3"
 	                         HasShadow="true">
 
 
@@ -207,12 +211,12 @@
 
                     </Grid>
                 </StackLayout>
-                <StackLayout Orientation="Horizontal" Spacing="10">
+                <StackLayout Orientation="Horizontal" Spacing="5">
                     <Label  Text="{x:Static Resource:AppResource.String22}"
                     x:Name="label22"
                            VerticalOptions="Center"
-                           FontSize="13"
-                           Margin="28,0,0,0"
+                           FontSize="15"
+                           Margin="30,0"
                               />
                     <Grid 
                       
@@ -235,12 +239,12 @@
 
                     </Grid>
                 </StackLayout>
-                <StackLayout Orientation="Horizontal" Spacing="10">
+                <StackLayout Orientation="Horizontal" Spacing="5">
                     <Label  Text="{x:Static Resource:AppResource.String23}"
                     x:Name="label23"
                            VerticalOptions="Center"
-                           FontSize="13"
-                           Margin="30,0,0,0"
+                           FontSize="15"
+                           Margin="30,0"
                               />
                     <Grid 
                       
@@ -263,21 +267,23 @@
 
                     </Grid>
                 </StackLayout>
-              
-                <StackLayout Orientation="Horizontal" Spacing="30">
+
+                <StackLayout Orientation="Horizontal" Spacing="1">
                     <StackLayout 
-                      
+                     
                   HorizontalOptions="Center"
-                   WidthRequest="100"
+                   WidthRequest="150"
+                        
                         HeightRequest="30"
+                        Margin="1,0,0,0"
                   >
                         <Label
                        
                         Text="{x:Static Resource:AppResource.String24}"
                     x:Name="label24"
                            VerticalOptions="Center"
-                           FontSize="13"
-                           Margin="28,0,0,0"
+                           FontSize="11"
+                           Margin="30,0"
                               />
 
                     </StackLayout>
@@ -294,31 +300,37 @@
 
 
                             <Controls:XEditor  
-                               MaxLength="30"
-                                  Text="{Binding AcademicQualification}"   
+                               MaxLength="20"
+                                  Text="{Binding AcademicQualification}"
+                               
                                 BackgroundColor="Transparent" TextColor="Black" />
                         </Frame>
 
                     </Grid>
                 </StackLayout>
-                <StackLayout Orientation="Horizontal" Margin="0,20,0,0" Padding="70,0,0,0" >
+                <StackLayout
+                    Orientation="Horizontal"
+                    Margin="0,20,70,0"
+                    Padding="70,0,0,0" >
                     <Label  Text="{x:Static Resource:AppResource.String25}"
                     x:Name="label25"
                            VerticalOptions="Center"
-                           FontSize="15"
+                           FontSize="13"
                           
                               />
 
                 </StackLayout>
-                <StackLayout Orientation="Horizontal" >
+                <StackLayout 
+                 
+                    Orientation="Horizontal"  >
 
                     <CheckBox 
-                         Margin="50,3,0,0"
+                         Margin="50,0"
                         IsChecked="{Binding term}" />
 
-                    <Grid 
+                    <Grid  
                       
-                  HorizontalOptions="Center"
+                  HorizontalOptions="Center" Margin="0" Padding="0"
                     
                   >
 
@@ -333,13 +345,17 @@
                 </StackLayout>
 
 
-                <StackLayout Orientation="Horizontal"
+                <StackLayout
+                  
+                    Orientation="Horizontal"
                         HorizontalOptions="Center"
-                         Margin="0,0,0,30">
+                     HeightRequest="150"
+                     Margin="0,0,0,20"
+                       >
 
-                    <Grid HeightRequest="210"
+                    <Grid HeightRequest="150"
                   HorizontalOptions="Center"
-                      WidthRequest="110" Padding="0,20,0,0"
+                      WidthRequest="110" Padding="0" 
                   >
                         <Button BorderRadius="5"
                        

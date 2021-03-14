@@ -79,23 +79,23 @@ namespace Project.ViewModel
 			try
 			{
 				idealist = new ObservableCollection<Idea>();
-				idealist.Add(new Idea { ScientificClassification = 1, Des = "Engineering inventions" });
-				idealist.Add(new Idea { ScientificClassification = 2, Des = "Technological inventions" });
-				idealist.Add(new Idea { ScientificClassification = 3, Des = "Medical inventions" });
-				idealist.Add(new Idea { ScientificClassification = 4, Des = "HouseWare inventions" });
-				idealist.Add(new Idea { ScientificClassification = 5, Des = "Environmental inventions" });
-				idealist.Add(new Idea { ScientificClassification = 6, Des = "Transportation inventions" });
-				idealist.Add(new Idea { ScientificClassification = 7, Des = "MachineLearning inventions " });
-				idealist.Add(new Idea { ScientificClassification = 8, Des = "InformationSecurity inventions" });
+				idealist.Add(new Idea { ScientificClassification = 1, Des = AppResource.s1 });
+				idealist.Add(new Idea { ScientificClassification = 2, Des = AppResource.s2 });
+				idealist.Add(new Idea { ScientificClassification = 3, Des = AppResource.s3 });
+				idealist.Add(new Idea { ScientificClassification = 4, Des = AppResource.s4 });
+				idealist.Add(new Idea { ScientificClassification = 5, Des = AppResource.s5 });
+				idealist.Add(new Idea { ScientificClassification = 6, Des = AppResource.s6 });
+				idealist.Add(new Idea { ScientificClassification = 7, Des = AppResource.s7 });
+				idealist.Add(new Idea { ScientificClassification = 8, Des = AppResource.s8 });
 
 				idealtype = new ObservableCollection<Idea>();
-				idealtype.Add(new Idea { IdeaType = 1, type = "inventions" });
-				idealtype.Add(new Idea { IdeaType = 2, type = "solve the problem" });
-				idealtype.Add(new Idea { IdeaType = 3, type = "creative idea" });
+				idealtype.Add(new Idea { IdeaType = 1, type = AppResource.t1 });
+				idealtype.Add(new Idea { IdeaType = 2, type = AppResource.t2 });
+				idealtype.Add(new Idea { IdeaType = 3, type = AppResource.t3 });
 
 				idealstate = new ObservableCollection<Idea>();
-				idealstate.Add(new Idea { IdeaState = 1, state = "complete" });
-				idealstate.Add(new Idea { IdeaState = 2, state = "under development" });
+				idealstate.Add(new Idea { IdeaState = 1, state = AppResource.i1});
+				idealstate.Add(new Idea { IdeaState = 2, state = AppResource.i2 });
 
 				Submit = new Command<string>((arg) => OpenPage(arg));
 				Reset = new Command<string>((arg) => OpenPage2(arg));

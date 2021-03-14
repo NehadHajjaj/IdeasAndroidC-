@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Project.Views.Faq">
+             x:Class="Project.Views.Faq"
+               xmlns:Resource="clr-namespace:Project.Helper" >
     <ContentPage.Content>
         <StackLayout  Orientation="Vertical"  BackgroundColor="White">
 
@@ -54,7 +55,9 @@
                    
                         
                   >
-                <Label  Text="FAQ" FontSize="25"  HorizontalOptions="Center"
+                <Label  Text="{x:Static Resource:AppResource.StrF}"
+                          x:Name="label"
+                        FontSize="25"  HorizontalOptions="Center"
                    FontAttributes="Bold" />
             </Grid>
             <StackLayout
@@ -79,20 +82,23 @@
                     <Label 
         Grid.Row="0" Grid.Column="0" 
                         HorizontalOptions="Center"
-        Text="What is Science Innovation club used for?"
+        Text="{x:Static Resource:AppResource.faq1}"
+                          x:Name="label1"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
         />
                     <Label 
         Grid.Row="1" Grid.Column="0" 
-        Text="- Protect your Idea and Invention."
+        Text="{x:Static Resource:AppResource.faq2}"
+                          x:Name="label2"
                          HorizontalOptions="Center"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
         />
                     <Label 
         Grid.Row="2" Grid.Column="0" 
-        Text="- Helps you to develop your Idea."
+        Text="{x:Static Resource:AppResource.faq3}"
+                          x:Name="label3"
                          HorizontalOptions="Center"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
@@ -117,13 +123,15 @@
                     <Label 
         Grid.Row="0" Grid.Column="0" 
                         HorizontalOptions="Center"
-        Text="Is it free? "
+        Text="{x:Static Resource:AppResource.faq4}"
+                          x:Name="label4"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
         />
                     <Label 
         Grid.Row="1" Grid.Column="0" 
-        Text="- Yes, it is free"
+        Text="{x:Static Resource:AppResource.faq5}"
+                          x:Name="label5"
                          HorizontalOptions="Center"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
@@ -154,13 +162,15 @@
                     <Label 
         Grid.Row="0" Grid.Column="0" 
                         HorizontalOptions="Center"
-        Text="Is is specifical for PNU student only? "
+         Text="{x:Static Resource:AppResource.faq6}"
+                          x:Name="label6"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
         />
                     <Label 
         Grid.Row="1" Grid.Column="0" 
-        Text="- Yes, maybe in future well be for evryone."
+     Text="{x:Static Resource:AppResource.faq7}"
+                          x:Name="label7"
                          HorizontalOptions="Center"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
@@ -187,7 +197,8 @@
                     <Label 
         Grid.Row="0" Grid.Column="0" 
                         HorizontalOptions="Center"
-        Text="Is it IOS, Android Software or both? "
+       Text="{x:Static Resource:AppResource.faq8}"
+                          x:Name="label8"
 
 
 
@@ -196,7 +207,8 @@
         />
                     <Label 
         Grid.Row="1" Grid.Column="0" 
-        Text="- Both"
+       Text="{x:Static Resource:AppResource.faq9}"
+                          x:Name="label9"
                          HorizontalOptions="Center"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
@@ -227,7 +239,8 @@
                     <Label 
         Grid.Row="0" Grid.Column="0" 
                         HorizontalOptions="Center"
-        Text="How can I contact the adviser? "
+        Text="{x:Static Resource:AppResource.faq10}"
+                          x:Name="label10"
 
 
 
@@ -236,7 +249,8 @@
         />
                     <Label 
         Grid.Row="1" Grid.Column="0" 
-        Text="- From Consulting button ."
+        Text="{x:Static Resource:AppResource.faq11}"
+                          x:Name="label11"
                          HorizontalOptions="Center"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
@@ -262,7 +276,8 @@
                     <Label 
         Grid.Row="0" Grid.Column="0" 
                         HorizontalOptions="Center"
-        Text=" Where Can I share  my Idea ?"
+        Text="{x:Static Resource:AppResource.faq12}"
+                          x:Name="label12"
  
 
                         FontFamily="Regular" FontAttributes="Bold"
@@ -270,14 +285,16 @@
         />
                     <Label 
         Grid.Row="1" Grid.Column="0" 
-        Text="- There is a button in the home page says"
+        Text="{x:Static Resource:AppResource.faq13}"
+                          x:Name="label13"
                          HorizontalOptions="Center"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
         />
                     <Label 
         Grid.Row="2" Grid.Column="0" 
-        Text="(Do you have an Invention)"
+        Text="{x:Static Resource:AppResource.faq14}"
+                          x:Name="label14"
                          HorizontalOptions="Center"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
@@ -308,7 +325,8 @@
                     <Label 
         Grid.Row="0" Grid.Column="0" 
                         HorizontalOptions="Center"
-        Text="Can I contact the group members?"
+         Text="{x:Static Resource:AppResource.faq15}"
+                          x:Name="label15"
 
 
                       FontFamily="Regular" FontAttributes="Bold"
@@ -316,7 +334,8 @@
         />
                     <Label 
         Grid.Row="1" Grid.Column="0" 
-        Text="-Yes you can."
+      Text="{x:Static Resource:AppResource.faq16}"
+                          x:Name="label16"
                          HorizontalOptions="Center"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
@@ -342,22 +361,24 @@
                     <Label 
         Grid.Row="0" Grid.Column="0" 
                         HorizontalOptions="Center"
-        Text="How to Sign up? "
+        Text="{x:Static Resource:AppResource.faq17}"
+                          x:Name="label17"
 
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
         />
                     <Label 
         Grid.Row="1" Grid.Column="0" 
-        Text="Sign up - fill your information - Verification -fill
-"
+       Text="{x:Static Resource:AppResource.faq18}"
+                          x:Name="label18"
                          HorizontalOptions="Center"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
         />
                     <Label 
         Grid.Row="2" Grid.Column="0" 
-        Text=" the Application form."
+       Text="{x:Static Resource:AppResource.faq19}"
+                          x:Name="label19"
                          HorizontalOptions="Center"
                         FontFamily="Regular" FontAttributes="Bold"
                            TextColor="Black"
