@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Helper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,8 @@ namespace Project.Views.IdeaPages
         public TransportionInvention()
         {
             InitializeComponent();
+           
+            label6.Text = AppResource.idea6;
         }
         private void ShopIDSubmit1_Clicked(object sender, EventArgs e)
         {

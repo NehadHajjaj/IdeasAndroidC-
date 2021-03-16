@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:Resource="clr-namespace:Project.Helper"  
              x:Class="Project.Views.TechnoInventions">
     <ContentPage.Content>
         <StackLayout  Orientation="Vertical"  BackgroundColor="White">
@@ -20,7 +21,14 @@
                               
                      Aspect="AspectFit"
                            
-                          ></Image>
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
 
                 </Grid>
                 <Grid 
@@ -43,7 +51,8 @@
                  Margin="0"
                         
                   >
-                <Label  Text="Technological inventions" FontSize="25"  HorizontalOptions="Center"
+                <Label     Text="{x:Static Resource:AppResource.idea2}"
+                    x:Name="label2"  FontSize="25"  HorizontalOptions="Center"
                    FontAttributes="Bold" />
             </Grid>
             <StackLayout

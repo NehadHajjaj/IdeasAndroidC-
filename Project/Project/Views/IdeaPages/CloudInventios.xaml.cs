@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Helper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,8 @@ namespace Project.Views.IdeaPages
         public CloudInventios()
         {
             InitializeComponent();
+            
+            label9.Text = AppResource.idea9;
         }
 
         private void ShopIDSubmit3_Clicked(object sender, EventArgs e)

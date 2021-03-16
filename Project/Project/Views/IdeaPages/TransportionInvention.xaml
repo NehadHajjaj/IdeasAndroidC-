@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:Resource="clr-namespace:Project.Helper"  
              x:Class="Project.Views.IdeaPages.TransportionInvention">
     <ContentPage.Content>
         <StackLayout  Orientation="Vertical"  BackgroundColor="White">
@@ -20,7 +21,14 @@
                               
                      Aspect="AspectFit"
                            
-                          ></Image>
+                          >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                
+                NumberOfTapsRequired="1" 
+                    Tapped="OnImageNameTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
 
                 </Grid>
                 <Grid 
@@ -41,7 +49,8 @@
                       WidthRequest="350"
                       Margin="20,40,0,0"
                   >
-                <Label  Text="Transportation Invention " FontSize="30"  HorizontalOptions="Center"
+                <Label   Text="{x:Static Resource:AppResource.idea6}"
+                    x:Name="label6"  FontSize="30"  HorizontalOptions="Center"
                    FontAttributes="Bold" />
             </Grid>
             <StackLayout

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Helper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,8 @@ namespace Project.Views.IdeaPages
         public MachineLearn()
         {
             InitializeComponent();
+            
+            label7.Text = AppResource.idea7;
         }
         public void OnImageNameTapped(object sender, EventArgs args)
         {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Helper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,7 @@ namespace Project.Views.IdeaPages
         public EnvironmentalInventions()
         {
             InitializeComponent();
+            label5.Text = AppResource.idea5;
         }
         public void OnImageNameTapped(object sender, EventArgs args)
         {

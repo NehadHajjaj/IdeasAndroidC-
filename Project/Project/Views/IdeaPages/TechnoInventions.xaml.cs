@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Helper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,11 @@ namespace Project.Views
         public TechnoInventions()
         {
             InitializeComponent();
-        }
+            label2.Text = AppResource.idea2;
+           
+
+       
+    }
         private void ShopIDSubmit1_Clicked(object sender, EventArgs e)
         {
             Navigation.PushModalAsync(new Tech1());
