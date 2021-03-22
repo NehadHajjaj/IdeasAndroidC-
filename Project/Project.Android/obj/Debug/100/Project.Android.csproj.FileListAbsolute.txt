@@ -1250,3 +1250,5 @@ C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\stamp\_C
 C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\stamp\_GenerateJavaStubs.stamp
 C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\res\drawable\apple.png
+C:\Users\Noor\Documents\ProjectFE\Project\Project.Android\obj\Debug\100\res\drawable\logo.png

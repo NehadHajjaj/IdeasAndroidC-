@@ -90,9 +90,46 @@
                     
 
                 </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="40">
+                    <Image 
+                        Margin="80,0,0,0"
+                        HeightRequest="50"
+                        WidthRequest="50"
+                        Source="gmail.png"></Image>
+                    <Label 
+       
+                        HorizontalOptions="Center"
+        Text="SIclub@gmail.com"
+                        FontSize="20"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black" Padding="0,15,0,0"
+                    
+        />
+
+
+                </StackLayout>
+
+ <StackLayout Orientation="Horizontal" Spacing="40">
+                    <Image 
+                        Margin="80,0,0,0"
+                        HeightRequest="50"
+                        WidthRequest="50"
+                        Source="gmail.png"></Image>
+                    <Label 
+       
+                        HorizontalOptions="Center"
+        Text="SIclub@gmail.com"
+                        FontSize="20"
+                        FontFamily="Regular" FontAttributes="Bold"
+                           TextColor="Black" Padding="0,15,0,0"
+                    
+        />
+                    
+
+                </StackLayout>
               
-      
-    
+
+
                 <StackLayout Orientation="Horizontal" Spacing="40">
                     <Image 
                         Margin="80,0,0,0"
